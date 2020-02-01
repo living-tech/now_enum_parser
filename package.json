@@ -1,14 +1,22 @@
 {
   "name": "now_enum_parser",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "repository": "ssh://git@project.revoneo.com:2224/active/living-tech/now_enum_parser.git",
   "author": "s-kazuki <sugiyama.kazuki.26x@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "start:dev": "tsc --watch",
+    "lint": "tslint -p tsconfig.json -c tslint.json"
   },
   "devDependencies": {
+    "prettier": "^1.19.1",
+    "tslint": "^6.0.0",
     "typescript": "^3.7.5"
   }
 }

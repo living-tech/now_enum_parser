@@ -1,7 +1,7 @@
 interface Translation {
-  [key: string]: string
+  [key: string]: string;
 }
 
 export interface Translations {
-  [key: string]: Translation
+  [key: string]: Translation;
 }
