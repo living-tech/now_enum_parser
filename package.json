@@ -6,7 +6,7 @@
   "author": "s-kazuki <sugiyama.kazuki.26x@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc"
   },
   "devDependencies": {
     "typescript": "^3.7.5"
