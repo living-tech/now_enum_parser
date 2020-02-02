@@ -19,6 +19,11 @@ export {
   certificateTypeEncoder,
 } from './certificate_type';
 export {
+  ChargeType,
+  chargeTypeDecoder,
+  chargeTypeEncoder,
+} from './charge_type';
+export {
   Classification,
   classificationDecoder,
   classificationEncoder,
