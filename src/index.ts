@@ -1,4 +1,9 @@
 export {
+  BuildingChargeType,
+  buildingChargeTypeDecoder,
+  buildingChargeTypeEncoder,
+} from './building_charge_type';
+export {
   BuildingStructure,
   buildingStructureDecoder,
   buildingStructureEncoder,
@@ -18,11 +23,6 @@ export {
   certificateTypeDecoder,
   certificateTypeEncoder,
 } from './certificate_type';
-export {
-  ChargeType,
-  chargeTypeDecoder,
-  chargeTypeEncoder,
-} from './charge_type';
 export {
   Classification,
   classificationDecoder,
@@ -56,3 +56,8 @@ export {
   registrationStatusDecoder,
   registrationStatusEncoder,
 } from './registration_status';
+export {
+  RoomTypeChargeType,
+  roomTypeChargeTypeDecoder,
+  roomTypeChargeTypeEncoder,
+} from './room_type_charge_type';

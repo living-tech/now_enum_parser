@@ -5,12 +5,11 @@ import {
   generateDecoder,
 } from './lib/generators';
 
-export enum ChargeType {
-  YET,
-  // 旅館業
-  // シェアハウス
-  // 住宅宿泊施設
-  // 賃貸
+export enum BuildingChargeType {
+  HOTEL, // 旅館業
+  SHARE_HOUSE, // シェアハウス
+  MINPAKU, // 住宅宿泊施設
+  RENTAL_PROPERTY, // 賃貸
 }
 
 // Edit contexts
@@ -23,7 +22,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const chargeTypeEncoder = generateEncoder<ChargeType>(translations);
-export const chargeTypeDecoder = generateDecoder<ChargeType>(
+export const buildingChargeTypeEncoder = generateEncoder<BuildingChargeType>(
+  translations,
+);
+export const buildingChargeTypeDecoder = generateDecoder<BuildingChargeType>(
   reverseTranslations,
 );

@@ -1,8 +1,8 @@
+export { BuildingChargeType, buildingChargeTypeDecoder, buildingChargeTypeEncoder, } from './building_charge_type';
 export { BuildingStructure, buildingStructureDecoder, buildingStructureEncoder, } from './building_structure';
 export { CertificateImageType, certificateImageTypeDecoder, certificateImageTypeEncoder, } from './certificate_image_type';
 export { CertificateRejectReason, certificateRejectReasonDecoder, certificateRejectReasonEncoder, } from './certificate_reject_reason';
 export { CertificateType, certificateTypeDecoder, certificateTypeEncoder, } from './certificate_type';
-export { ChargeType, chargeTypeDecoder, chargeTypeEncoder, } from './charge_type';
 export { Classification, classificationDecoder, classificationEncoder, } from './classification';
 export { Gender, genderDecoder, genderEncoder } from './gender';
 export { Occupation, occupationDecoder, occupationEncoder } from './occupation';
@@ -12,3 +12,4 @@ export { TrustdockAmlCheckStatus, trustdockAmlCheckStatusDecoder, trustdockAmlCh
 export { TrustdockVerificationResult, trustdockVerificationResultDecoder, trustdockVerificationResultEncoder, } from './trustdock_verification_result';
 export { TrustdockVerificationStatus, trustdockVerificationStatusDecoder, trustdockVerificationStatusEncoder, } from './trustdock_verification_status';
 export { RegistrationStatus, registrationStatusDecoder, registrationStatusEncoder, } from './registration_status';
+export { RoomTypeChargeType, roomTypeChargeTypeDecoder, roomTypeChargeTypeEncoder, } from './room_type_charge_type';
