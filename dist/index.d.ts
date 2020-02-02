@@ -2,6 +2,7 @@ export { BuildingStructure, buildingStructureDecoder, buildingStructureEncoder, 
 export { CertificateImageType, certificateImageTypeDecoder, certificateImageTypeEncoder, } from './certificate_image_type';
 export { CertificateRejectReason, certificateRejectReasonDecoder, certificateRejectReasonEncoder, } from './certificate_reject_reason';
 export { CertificateType, certificateTypeDecoder, certificateTypeEncoder, } from './certificate_type';
+export { ChargeType, chargeTypeDecoder, chargeTypeEncoder, } from './charge_type';
 export { Classification, classificationDecoder, classificationEncoder, } from './classification';
 export { Gender, genderDecoder, genderEncoder } from './gender';
 export { Occupation, occupationDecoder, occupationEncoder } from './occupation';
