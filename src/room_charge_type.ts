@@ -5,7 +5,7 @@ import {
   generateDecoder,
 } from './lib/generators';
 
-export enum RoomTypeChargeType {
+export enum RoomChargeType {
   BY_ROOM, // ルームチャージ型
   BY_PERSON, // 一人単価型
   NONE, // 区分なし
@@ -21,9 +21,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const roomTypeChargeTypeEncoder = generateEncoder<RoomTypeChargeType>(
+export const roomChargeTypeEncoder = generateEncoder<RoomChargeType>(
   translations,
 );
-export const roomTypeChargeTypeDecoder = generateDecoder<RoomTypeChargeType>(
+export const roomChargeTypeDecoder = generateDecoder<RoomChargeType>(
   reverseTranslations,
 );

@@ -12,4 +12,4 @@ export { TrustdockAmlCheckStatus, trustdockAmlCheckStatusDecoder, trustdockAmlCh
 export { TrustdockVerificationResult, trustdockVerificationResultDecoder, trustdockVerificationResultEncoder, } from './trustdock_verification_result';
 export { TrustdockVerificationStatus, trustdockVerificationStatusDecoder, trustdockVerificationStatusEncoder, } from './trustdock_verification_status';
 export { RegistrationStatus, registrationStatusDecoder, registrationStatusEncoder, } from './registration_status';
-export { RoomTypeChargeType, roomTypeChargeTypeDecoder, roomTypeChargeTypeEncoder, } from './room_type_charge_type';
+export { RoomChargeType, roomChargeTypeDecoder, roomChargeTypeEncoder, } from './room_charge_type';

@@ -57,7 +57,7 @@ export {
   registrationStatusEncoder,
 } from './registration_status';
 export {
-  RoomTypeChargeType,
-  roomTypeChargeTypeDecoder,
-  roomTypeChargeTypeEncoder,
-} from './room_type_charge_type';
+  RoomChargeType,
+  roomChargeTypeDecoder,
+  roomChargeTypeEncoder,
+} from './room_charge_type';
