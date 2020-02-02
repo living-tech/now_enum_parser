@@ -12,15 +12,15 @@ var Gender;
 // Edit contexts
 var translations = {
     ja: (_a = {},
-        _a[Gender.MALE] = "男性",
-        _a[Gender.FEMALE] = "女性",
-        _a[Gender.OTHER] = "その他",
+        _a[Gender.MALE] = '男性',
+        _a[Gender.FEMALE] = '女性',
+        _a[Gender.OTHER] = 'その他',
         _a),
     en: (_b = {},
-        _b[Gender.MALE] = "male",
-        _b[Gender.FEMALE] = "female",
-        _b[Gender.OTHER] = "other",
-        _b)
+        _b[Gender.MALE] = 'male',
+        _b[Gender.FEMALE] = 'female',
+        _b[Gender.OTHER] = 'other',
+        _b),
 };
 // DO NOT EDIT
 var reverseTranslations = generators_1.generateReverseTranslations(translations);
