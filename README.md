@@ -1,4 +1,4 @@
-# now_enum_parser
+# now-enum-parser
 
 > define enums and parsers for now project
 
@@ -14,7 +14,7 @@ import {
   Gender,
   genderEncoder,
   genderDecoder,
-} from 'now_enum_parser';
+} from 'now-enum-parser';
 
 const lang = Language.JAPANESE;
 
