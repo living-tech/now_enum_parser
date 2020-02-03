@@ -5,5 +5,5 @@ export declare enum TrustdockVerificationStatus {
     IN_PROGRESS = 3,
     CONFIRMED = 4
 }
-export declare const trustdockVerificationStatusEncoder: (raw: TrustdockVerificationStatus, lang: string) => string;
-export declare const trustdockVerificationStatusDecoder: (text: string, lang: string) => TrustdockVerificationStatus;
+export declare const trustdockVerificationStatusEncoder: (raw: TrustdockVerificationStatus, lang: import(".").Language) => string;
+export declare const trustdockVerificationStatusDecoder: (text: string, lang: import(".").Language) => TrustdockVerificationStatus;

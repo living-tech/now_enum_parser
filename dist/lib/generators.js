@@ -13,11 +13,29 @@ exports.generateReverseTranslations = function (translations) {
 };
 exports.generateEncoder = function (translations) {
     return function (raw, lang) {
+        if (typeof raw !== 'number') {
+            throw new Error('Invalid enum.');
+        }
+        if (!translations[lang]) {
+            throw new Error('No language.');
+        }
+        if (!translations[lang][raw]) {
+            throw new Error('No translation');
+        }
         return translations[lang][raw];
     };
 };
 exports.generateDecoder = function (reverseTranslations) {
     return function (text, lang) {
+        if (typeof text !== 'string') {
+            throw new Error('Invalid text.');
+        }
+        if (!reverseTranslations[lang]) {
+            throw new Error('No language');
+        }
+        if (!reverseTranslations[lang][text]) {
+            throw new Error('No translation');
+        }
         return Number(reverseTranslations[lang][text]);
     };
 };

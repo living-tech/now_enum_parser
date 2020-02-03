@@ -4,5 +4,5 @@ export declare enum BuildingChargeType {
     MINPAKU = 2,
     RENTAL_PROPERTY = 3
 }
-export declare const buildingChargeTypeEncoder: (raw: BuildingChargeType, lang: string) => string;
-export declare const buildingChargeTypeDecoder: (text: string, lang: string) => BuildingChargeType;
+export declare const buildingChargeTypeEncoder: (raw: BuildingChargeType, lang: import(".").Language) => string;
+export declare const buildingChargeTypeDecoder: (text: string, lang: import(".").Language) => BuildingChargeType;

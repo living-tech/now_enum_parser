@@ -7,9 +7,31 @@
 
 ## Usage
 ```
-import { Gender, genderEncoder, genderDecoder } from 'now_enum_parser';
+import {
+  Language,
+  languageEncoder,
+  languageDecoder,
+  Gender,
+  genderEncoder,
+  genderDecoder,
+} from 'now_enum_parser';
 
-const lang = "ja";
+const lang = Language.JAPANESE;
+
+console.log(Language.JAPANESE)
+// => 0
+
+console.log(languageEncoder(Language.JAPANESE))
+// => "日本語"
+
+console.log(languageEncoder(Language.ENGLISH))
+// => "English"
+
+console.log(languageDecoder("日本語"))
+// => 0
+
+console.log(languageDecoder("日本語") === Language.JAPANESE)
+// => true
 
 console.log(Gender.MAN)
 // => 0

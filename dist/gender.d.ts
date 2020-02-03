@@ -3,5 +3,5 @@ export declare enum Gender {
     FEMALE = 1,
     OTHER = 2
 }
-export declare const genderEncoder: (raw: Gender, lang: string) => string;
-export declare const genderDecoder: (text: string, lang: string) => Gender;
+export declare const genderEncoder: (raw: Gender, lang: import(".").Language) => string;
+export declare const genderDecoder: (text: string, lang: import(".").Language) => Gender;

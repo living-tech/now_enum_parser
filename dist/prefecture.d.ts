@@ -47,5 +47,5 @@ export declare enum Prefecture {
     KAGOSHIMA = 45,
     OKINAWA = 46
 }
-export declare const prefectureEncoder: (raw: Prefecture, lang: string) => string;
-export declare const prefectureDecoder: (text: string, lang: string) => Prefecture;
+export declare const prefectureEncoder: (raw: Prefecture, lang: import(".").Language) => string;
+export declare const prefectureDecoder: (text: string, lang: import(".").Language) => Prefecture;

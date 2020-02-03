@@ -4,5 +4,5 @@ export declare enum RegistrationStatus {
     APPROVED = 2,
     REJECTED = 3
 }
-export declare const registrationStatusEncoder: (raw: RegistrationStatus, lang: string) => string;
-export declare const registrationStatusDecoder: (text: string, lang: string) => RegistrationStatus;
+export declare const registrationStatusEncoder: (raw: RegistrationStatus, lang: import(".").Language) => string;
+export declare const registrationStatusDecoder: (text: string, lang: import(".").Language) => RegistrationStatus;

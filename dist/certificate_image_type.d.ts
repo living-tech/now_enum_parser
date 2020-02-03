@@ -7,5 +7,5 @@ export declare enum CertificateImageType {
     HOTEL_BUSINESS_LICENSE = 5,
     NATIONAL_STRATEGIC_SPECIAL_ZONE = 6
 }
-export declare const certificateImageTypeEncoder: (raw: CertificateImageType, lang: string) => string;
-export declare const certificateImageTypeDecoder: (text: string, lang: string) => CertificateImageType;
+export declare const certificateImageTypeEncoder: (raw: CertificateImageType, lang: import(".").Language) => string;
+export declare const certificateImageTypeDecoder: (text: string, lang: import(".").Language) => CertificateImageType;

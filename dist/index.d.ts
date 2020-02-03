@@ -1,3 +1,4 @@
+export { Language, languageEncoder, languageDecoder } from './lib/language';
 export { BuildingChargeType, buildingChargeTypeDecoder, buildingChargeTypeEncoder, } from './building_charge_type';
 export { BuildingStructure, buildingStructureDecoder, buildingStructureEncoder, } from './building_structure';
 export { CertificateImageType, certificateImageTypeDecoder, certificateImageTypeEncoder, } from './certificate_image_type';

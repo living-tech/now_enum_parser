@@ -3,5 +3,5 @@ interface Translation {
 }
 
 export interface Translations {
-  [key: string]: Translation;
+  [lang: string]: Translation;
 }

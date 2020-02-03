@@ -1,10 +1,11 @@
+import { Language } from './language';
 import { Translations } from './interfaces';
 
 export const generateReverseTranslations = (
   translations: Translations,
 ): Translations => {
   const reverseTranslations: Translations = {};
-  Object.keys(translations).forEach(lang => {
+  Object.keys(translations).forEach((lang: string) => {
     const translation = translations[lang];
     reverseTranslations[lang] = {};
     Object.keys(translation).forEach(enumKey => {
@@ -16,16 +17,34 @@ export const generateReverseTranslations = (
 
 export const generateEncoder = <T>(
   translations: Translations,
-): ((raw: T, lang: string) => string) => {
-  return (raw: T, lang: string): string => {
-    return translations[lang][(raw as unknown) as number];
+): ((raw: T, lang: Language) => string) => {
+  return (raw: T, lang: Language): string => {
+    if (typeof raw !== 'number') {
+      throw new Error('Invalid enum.');
+    }
+    if (!translations[lang]) {
+      throw new Error('No language.');
+    }
+    if (!translations[lang][raw]) {
+      throw new Error('No translation');
+    }
+    return translations[lang][raw];
   };
 };
 
 export const generateDecoder = <T>(
   reverseTranslations: Translations,
-): ((text: string, lang: string) => T) => {
-  return (text: string, lang: string): T => {
+): ((text: string, lang: Language) => T) => {
+  return (text: string, lang: Language): T => {
+    if (typeof text !== 'string') {
+      throw new Error('Invalid text.');
+    }
+    if (!reverseTranslations[lang]) {
+      throw new Error('No language');
+    }
+    if (!reverseTranslations[lang][text]) {
+      throw new Error('No translation');
+    }
     return (Number(reverseTranslations[lang][text]) as unknown) as T;
   };
 };

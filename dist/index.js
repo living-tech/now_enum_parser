@@ -1,5 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+var language_1 = require("./lib/language");
+exports.Language = language_1.Language;
+exports.languageEncoder = language_1.languageEncoder;
+exports.languageDecoder = language_1.languageDecoder;
 var building_charge_type_1 = require("./building_charge_type");
 exports.BuildingChargeType = building_charge_type_1.BuildingChargeType;
 exports.buildingChargeTypeDecoder = building_charge_type_1.buildingChargeTypeDecoder;

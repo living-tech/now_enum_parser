@@ -1,3 +1,5 @@
+export { Language, languageEncoder, languageDecoder } from './lib/language';
+
 export {
   BuildingChargeType,
   buildingChargeTypeDecoder,

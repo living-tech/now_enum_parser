@@ -13,5 +13,5 @@ export declare enum Occupation {
     OTHER = 11,
     NONE = 12
 }
-export declare const occupationEncoder: (raw: Occupation, lang: string) => string;
-export declare const occupationDecoder: (text: string, lang: string) => Occupation;
+export declare const occupationEncoder: (raw: Occupation, lang: import(".").Language) => string;
+export declare const occupationDecoder: (text: string, lang: import(".").Language) => Occupation;

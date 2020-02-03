@@ -4,5 +4,5 @@ export declare enum BuildingStructure {
     RC = 2,
     SRC = 3
 }
-export declare const buildingStructureEncoder: (raw: BuildingStructure, lang: string) => string;
-export declare const buildingStructureDecoder: (text: string, lang: string) => BuildingStructure;
+export declare const buildingStructureEncoder: (raw: BuildingStructure, lang: import(".").Language) => string;
+export declare const buildingStructureDecoder: (text: string, lang: import(".").Language) => BuildingStructure;
