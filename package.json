@@ -1,5 +1,5 @@
 {
-  "name": "now_enum_parser",
+  "name": "now-enum-parser",
   "version": "1.0.0",
   "main": "dist/index.js",
   "files": [
@@ -7,7 +7,6 @@
   ],
   "repository": "ssh://git@project.revoneo.com:2224/active/living-tech/now_enum_parser.git",
   "author": "s-kazuki <sugiyama.kazuki.26x@gmail.com>",
-  "license": "MIT",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
