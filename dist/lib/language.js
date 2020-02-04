@@ -2,14 +2,14 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var Language;
 (function (Language) {
-    Language["JAPANESE"] = "ja";
-    Language["ENGLISH"] = "en";
+    Language["ja"] = "ja";
+    Language["en"] = "en";
 })(Language = exports.Language || (exports.Language = {}));
 exports.languageEncoder = function (lang) {
     switch (lang) {
-        case Language.JAPANESE:
+        case Language.ja:
             return '日本語';
-        case Language.ENGLISH:
+        case Language.en:
             return 'English';
         default:
             throw new Error('Invalid language');
@@ -18,9 +18,9 @@ exports.languageEncoder = function (lang) {
 exports.languageDecoder = function (lang) {
     switch (lang) {
         case '日本語':
-            return Language.JAPANESE;
+            return Language.ja;
         case 'English':
-            return Language.ENGLISH;
+            return Language.en;
         default:
             throw new Error('Invalid language');
     }
