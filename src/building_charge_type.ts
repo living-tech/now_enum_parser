@@ -6,10 +6,10 @@ import {
 } from './lib/generators';
 
 export enum BuildingChargeType {
-  HOTEL, // 旅館業
-  SHARE_HOUSE, // シェアハウス
-  MINPAKU, // 住宅宿泊施設
-  RENTAL_PROPERTY, // 賃貸
+  Hotel = 'Hotel', // 旅館業
+  ShareHouse = 'ShareHouse', // シェアハウス
+  Minpaku = 'Minpaku', // 住宅宿泊施設
+  RentalProperty = 'RentalProperty', // 賃貸
 }
 
 // Edit contexts

@@ -3,9 +3,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var generators_1 = require("./lib/generators");
 var RoomChargeType;
 (function (RoomChargeType) {
-    RoomChargeType[RoomChargeType["BY_ROOM"] = 0] = "BY_ROOM";
-    RoomChargeType[RoomChargeType["BY_PERSON"] = 1] = "BY_PERSON";
-    RoomChargeType[RoomChargeType["NONE"] = 2] = "NONE";
+    RoomChargeType["ByRoom"] = "ByRoom";
+    RoomChargeType["ByPerson"] = "ByPerson";
+    RoomChargeType["None"] = "None";
 })(RoomChargeType = exports.RoomChargeType || (exports.RoomChargeType = {}));
 // Edit contexts
 var translations = {

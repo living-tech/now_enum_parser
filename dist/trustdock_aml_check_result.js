@@ -4,8 +4,8 @@ var generators_1 = require("./lib/generators");
 // Edit enum name and contents
 var TrustdockAmlCheckResult;
 (function (TrustdockAmlCheckResult) {
-    TrustdockAmlCheckResult[TrustdockAmlCheckResult["TO_BE_CONFIRMED"] = 0] = "TO_BE_CONFIRMED";
-    TrustdockAmlCheckResult[TrustdockAmlCheckResult["APPROVED"] = 1] = "APPROVED";
+    TrustdockAmlCheckResult["ToBeConfirmed"] = "ToBeConfirmed";
+    TrustdockAmlCheckResult["Approved"] = "Approved";
 })(TrustdockAmlCheckResult = exports.TrustdockAmlCheckResult || (exports.TrustdockAmlCheckResult = {}));
 // Edit contexts
 var translations = {

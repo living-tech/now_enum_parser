@@ -7,10 +7,10 @@ import {
 
 // Edit enum name and contents
 export enum BuildingStructure {
-  WOOD, // 木造
-  STEEL, // 鉄骨造
-  RC, // 鉄筋コンクリート造
-  SRC, // 鉄筋鉄骨コンクリート造
+  Wood = 'Wood', // 木造
+  Stell = 'Stell', // 鉄骨造
+  Rc = 'Rc', // 鉄筋コンクリート造
+  Src = 'Src', // 鉄筋鉄骨コンクリート造
 }
 
 // Edit contexts

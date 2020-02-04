@@ -4,9 +4,9 @@ var generators_1 = require("./lib/generators");
 // Edit enum name and contents
 var Classification;
 (function (Classification) {
-    Classification[Classification["USER"] = 0] = "USER";
-    Classification[Classification["OWNER"] = 1] = "OWNER";
-    Classification[Classification["ADMIN"] = 2] = "ADMIN";
+    Classification["User"] = "User";
+    Classification["Owner"] = "Owner";
+    Classification["Admin"] = "Admin";
 })(Classification = exports.Classification || (exports.Classification = {}));
 // Edit contexts
 var translations = {

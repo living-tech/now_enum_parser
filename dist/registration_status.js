@@ -4,10 +4,10 @@ var generators_1 = require("./lib/generators");
 // Edit enum name and contents
 var RegistrationStatus;
 (function (RegistrationStatus) {
-    RegistrationStatus[RegistrationStatus["NOT_YET"] = 0] = "NOT_YET";
-    RegistrationStatus[RegistrationStatus["IN_PROGRESS"] = 1] = "IN_PROGRESS";
-    RegistrationStatus[RegistrationStatus["APPROVED"] = 2] = "APPROVED";
-    RegistrationStatus[RegistrationStatus["REJECTED"] = 3] = "REJECTED";
+    RegistrationStatus["NotYet"] = "NotYet";
+    RegistrationStatus["InProgress"] = "InProgess";
+    RegistrationStatus["Approved"] = "Approved";
+    RegistrationStatus["Rejected"] = "Rejected";
 })(RegistrationStatus = exports.RegistrationStatus || (exports.RegistrationStatus = {}));
 // Edit contexts
 var translations = {

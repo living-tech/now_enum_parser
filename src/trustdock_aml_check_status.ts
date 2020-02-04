@@ -7,8 +7,8 @@ import {
 
 // Edit enum name and contents
 export enum TrustdockAmlCheckStatus {
-  ACCEPTED, // 受付済
-  CONFIRMED, // 確認済
+  Accpted = 'Accepted', // 受付済
+  Confirmed = 'Confirmed', // 確認済
 }
 
 // Edit contexts

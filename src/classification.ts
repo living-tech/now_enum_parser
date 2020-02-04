@@ -7,9 +7,9 @@ import {
 
 // Edit enum name and contents
 export enum Classification {
-  USER,
-  OWNER,
-  ADMIN,
+  User = 'User',
+  Owner = 'Owner',
+  Admin = 'Admin',
 }
 
 // Edit contexts

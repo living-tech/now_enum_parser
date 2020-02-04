@@ -6,9 +6,9 @@ import {
 } from './lib/generators';
 
 export enum RoomChargeType {
-  BY_ROOM, // ルームチャージ型
-  BY_PERSON, // 一人単価型
-  NONE, // 区分なし
+  ByRoom = 'ByRoom', // ルームチャージ型
+  ByPerson = 'ByPerson', // 一人単価型
+  None = 'None', // 区分なし
 }
 
 // Edit contexts

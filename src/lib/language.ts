@@ -1,13 +1,13 @@
 export enum Language {
-  ja = 'ja',
-  en = 'en',
+  Ja = 'ja',
+  En = 'en',
 }
 
 export const languageEncoder = (lang: Language): string => {
   switch (lang) {
-    case Language.ja:
+    case Language.Ja:
       return '日本語';
-    case Language.en:
+    case Language.En:
       return 'English';
     default:
       throw new Error('Invalid language');
@@ -17,9 +17,9 @@ export const languageEncoder = (lang: Language): string => {
 export const languageDecoder = (lang: string): Language => {
   switch (lang) {
     case '日本語':
-      return Language.ja;
+      return Language.Ja;
     case 'English':
-      return Language.en;
+      return Language.En;
     default:
       throw new Error('Invalid language');
   }

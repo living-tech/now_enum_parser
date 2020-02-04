@@ -16,33 +16,33 @@ import {
   genderDecoder,
 } from 'now-enum-parser';
 
-const lang = Language.ja;
+const lang = Language.Ja;
 
-console.log(Language.ja)
+console.log(Language.Ja)
 // => "ja"
 
-console.log(languageEncoder(Language.ja))
+console.log(languageEncoder(Language.Ja))
 // => "日本語"
 
-console.log(languageEncoder(Language.en))
+console.log(languageEncoder(Language.En))
 // => "English"
 
 console.log(languageDecoder("日本語"))
 // => "ja"
 
-console.log(languageDecoder("日本語") === Language.ja)
+console.log(languageDecoder("日本語") === Language.Ja)
 // => true
 
-console.log(Gender.MAN)
-// => 0
+console.log(Gender.Male)
+// => "Male"
 
-console.log(genderEncoder(Gender.MAN, lang))
+console.log(genderEncoder(Gender.Male, lang))
 // => "男性"
 
 console.log(genderDecoder("男性", lang))
-// => 0
+// => "Male"
 
-console.log(genderDecoder("男性", lang) === Gender.MAN)
+console.log(genderDecoder("男性", lang) === Gender.Male)
 // => true
 ```
 

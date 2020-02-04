@@ -7,11 +7,11 @@ import {
 
 // Edit enum name and contents
 export enum TrustdockVerificationStatus {
-  ACCEPTED, // 受入済
-  PLAN_SELECTED, // プラン選択済
-  DOCUMENT_RECEIVED, // 書類受領済
-  IN_PROGRESS, // 進捗中
-  CONFIRMED, // 確認済
+  Accepted = 'Accepted', // 受入済
+  PlanSelected = 'PlanSelected', // プラン選択済
+  DocumentReceived = 'DocumentReceived', // 書類受領済
+  InProgress = 'InProgress', // 進捗中
+  Confirmed = 'Confirmed', // 確認済
 }
 
 // Edit contexts

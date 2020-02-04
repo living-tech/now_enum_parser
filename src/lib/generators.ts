@@ -9,7 +9,7 @@ export const generateReverseTranslations = (
     const translation = translations[lang];
     reverseTranslations[lang] = {};
     Object.keys(translation).forEach(enumKey => {
-      reverseTranslations[lang][translations[lang][Number(enumKey)]] = enumKey;
+      reverseTranslations[lang][translations[lang][enumKey]] = enumKey;
     });
   });
   return reverseTranslations;
@@ -19,7 +19,7 @@ export const generateEncoder = <T>(
   translations: Translations,
 ): ((raw: T, lang: Language) => string) => {
   return (raw: T, lang: Language): string => {
-    if (typeof raw !== 'number') {
+    if (typeof raw !== 'string') {
       throw new Error('Invalid enum.');
     }
     if (!translations[lang]) {
@@ -45,6 +45,6 @@ export const generateDecoder = <T>(
     if (!reverseTranslations[lang][text]) {
       throw new Error('No translation');
     }
-    return (Number(reverseTranslations[lang][text]) as unknown) as T;
+    return (reverseTranslations[lang][text] as unknown) as T;
   };
 };

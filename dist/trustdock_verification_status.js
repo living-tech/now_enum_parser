@@ -4,11 +4,11 @@ var generators_1 = require("./lib/generators");
 // Edit enum name and contents
 var TrustdockVerificationStatus;
 (function (TrustdockVerificationStatus) {
-    TrustdockVerificationStatus[TrustdockVerificationStatus["ACCEPTED"] = 0] = "ACCEPTED";
-    TrustdockVerificationStatus[TrustdockVerificationStatus["PLAN_SELECTED"] = 1] = "PLAN_SELECTED";
-    TrustdockVerificationStatus[TrustdockVerificationStatus["DOCUMENT_RECEIVED"] = 2] = "DOCUMENT_RECEIVED";
-    TrustdockVerificationStatus[TrustdockVerificationStatus["IN_PROGRESS"] = 3] = "IN_PROGRESS";
-    TrustdockVerificationStatus[TrustdockVerificationStatus["CONFIRMED"] = 4] = "CONFIRMED";
+    TrustdockVerificationStatus["Accepted"] = "Accepted";
+    TrustdockVerificationStatus["PlanSelected"] = "PlanSelected";
+    TrustdockVerificationStatus["DocumentReceived"] = "DocumentReceived";
+    TrustdockVerificationStatus["InProgress"] = "InProgress";
+    TrustdockVerificationStatus["Confirmed"] = "Confirmed";
 })(TrustdockVerificationStatus = exports.TrustdockVerificationStatus || (exports.TrustdockVerificationStatus = {}));
 // Edit contexts
 var translations = {

@@ -3,10 +3,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var generators_1 = require("./lib/generators");
 var BuildingChargeType;
 (function (BuildingChargeType) {
-    BuildingChargeType[BuildingChargeType["HOTEL"] = 0] = "HOTEL";
-    BuildingChargeType[BuildingChargeType["SHARE_HOUSE"] = 1] = "SHARE_HOUSE";
-    BuildingChargeType[BuildingChargeType["MINPAKU"] = 2] = "MINPAKU";
-    BuildingChargeType[BuildingChargeType["RENTAL_PROPERTY"] = 3] = "RENTAL_PROPERTY";
+    BuildingChargeType["Hotel"] = "Hotel";
+    BuildingChargeType["ShareHouse"] = "ShareHouse";
+    BuildingChargeType["Minpaku"] = "Minpaku";
+    BuildingChargeType["RentalProperty"] = "RentalProperty";
 })(BuildingChargeType = exports.BuildingChargeType || (exports.BuildingChargeType = {}));
 // Edit contexts
 var translations = {

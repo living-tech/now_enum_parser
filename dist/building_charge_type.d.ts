@@ -1,8 +1,8 @@
 export declare enum BuildingChargeType {
-    HOTEL = 0,
-    SHARE_HOUSE = 1,
-    MINPAKU = 2,
-    RENTAL_PROPERTY = 3
+    Hotel = "Hotel",
+    ShareHouse = "ShareHouse",
+    Minpaku = "Minpaku",
+    RentalProperty = "RentalProperty"
 }
 export declare const buildingChargeTypeEncoder: (raw: BuildingChargeType, lang: import(".").Language) => string;
 export declare const buildingChargeTypeDecoder: (text: string, lang: import(".").Language) => BuildingChargeType;
