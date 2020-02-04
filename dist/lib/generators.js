@@ -6,14 +6,14 @@ exports.generateReverseTranslations = function (translations) {
         var translation = translations[lang];
         reverseTranslations[lang] = {};
         Object.keys(translation).forEach(function (enumKey) {
-            reverseTranslations[lang][translations[lang][Number(enumKey)]] = enumKey;
+            reverseTranslations[lang][translations[lang][enumKey]] = enumKey;
         });
     });
     return reverseTranslations;
 };
 exports.generateEncoder = function (translations) {
     return function (raw, lang) {
-        if (typeof raw !== 'number') {
+        if (typeof raw !== 'string') {
             throw new Error('Invalid enum.');
         }
         if (!translations[lang]) {
@@ -36,7 +36,7 @@ exports.generateDecoder = function (reverseTranslations) {
         if (!reverseTranslations[lang][text]) {
             throw new Error('No translation');
         }
-        return Number(reverseTranslations[lang][text]);
+        return reverseTranslations[lang][text];
     };
 };
 //# sourceMappingURL=generators.js.map

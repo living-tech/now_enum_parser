@@ -4,10 +4,10 @@ var generators_1 = require("./lib/generators");
 // Edit enum name and contents
 var BuildingStructure;
 (function (BuildingStructure) {
-    BuildingStructure[BuildingStructure["WOOD"] = 0] = "WOOD";
-    BuildingStructure[BuildingStructure["STEEL"] = 1] = "STEEL";
-    BuildingStructure[BuildingStructure["RC"] = 2] = "RC";
-    BuildingStructure[BuildingStructure["SRC"] = 3] = "SRC";
+    BuildingStructure["Wood"] = "Wood";
+    BuildingStructure["Stell"] = "Stell";
+    BuildingStructure["Rc"] = "Rc";
+    BuildingStructure["Src"] = "Src";
 })(BuildingStructure = exports.BuildingStructure || (exports.BuildingStructure = {}));
 // Edit contexts
 var translations = {

@@ -7,19 +7,19 @@ import {
 
 // Edit enum name and contents
 export enum Occupation {
-  SPECIALIST, // 専門的･技術的職
-  CLERICAL, // 事務職
-  SALES, // 販売職
-  SERVICE, // サービス職
-  SECURITY, // 保安職
-  MANUFACTURING, // 生産工程職
-  TRANSPORT, // 輸送・機械運転職
-  CONSTRUCTION, // 建設・採掘職
-  CARRYING, // 運搬・清掃・包装等職
-  AGRICULTURE, // 農林漁業職
-  ADMINISTRATIVE, // 管理職
-  OTHER, // その他
-  NONE, // なし
+  Specialist = 'Specialist', // 専門的･技術的職
+  Clerical = 'Clerical', // 事務職
+  Sales = 'Sales', // 販売職
+  Service = 'Service', // サービス職
+  Security = 'Security', // 保安職
+  Manufacturing = 'Manufacturing', // 生産工程職
+  Transport = 'Transport', // 輸送・機械運転職
+  Construction = 'Construction', // 建設・採掘職
+  Carrying = 'Carrying', // 運搬・清掃・包装等職
+  Agriculture = 'Agriculture', // 農林漁業職
+  Administrative = 'Administrative', // 管理職
+  Other = 'Other', // その他
+  None = 'None', // なし
 }
 
 // Edit contexts

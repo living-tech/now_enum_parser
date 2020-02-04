@@ -7,9 +7,9 @@ import {
 
 // Edit enum name and contents
 export enum CertificateType {
-  MINPAKU, // 住宅宿泊事業法
-  HOTEL, // 旅館業法
-  NATIONAL_STRATEGIC_SPECIAL_ZONE, // 国家戦略特別区域法
+  Minpaku = 'Minpaku', // 住宅宿泊事業法
+  Hotel = 'Hotel', // 旅館業法
+  NationalStrategicSpecialZone = 'NationalStrategicSpecialZone', // 国家戦略特別区域法
 }
 
 // Edit contexts

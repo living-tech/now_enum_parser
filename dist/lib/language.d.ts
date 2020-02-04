@@ -1,6 +1,6 @@
 export declare enum Language {
-    ja = "ja",
-    en = "en"
+    Ja = "ja",
+    En = "en"
 }
 export declare const languageEncoder: (lang: Language) => string;
 export declare const languageDecoder: (lang: string) => Language;

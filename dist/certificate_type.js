@@ -4,9 +4,9 @@ var generators_1 = require("./lib/generators");
 // Edit enum name and contents
 var CertificateType;
 (function (CertificateType) {
-    CertificateType[CertificateType["MINPAKU"] = 0] = "MINPAKU";
-    CertificateType[CertificateType["HOTEL"] = 1] = "HOTEL";
-    CertificateType[CertificateType["NATIONAL_STRATEGIC_SPECIAL_ZONE"] = 2] = "NATIONAL_STRATEGIC_SPECIAL_ZONE";
+    CertificateType["Minpaku"] = "Minpaku";
+    CertificateType["Hotel"] = "Hotel";
+    CertificateType["NationalStrategicSpecialZone"] = "NationalStrategicSpecialZone";
 })(CertificateType = exports.CertificateType || (exports.CertificateType = {}));
 // Edit contexts
 var translations = {

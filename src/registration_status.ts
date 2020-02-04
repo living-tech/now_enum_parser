@@ -7,10 +7,10 @@ import {
 
 // Edit enum name and contents
 export enum RegistrationStatus {
-  NOT_YET, // 未承認
-  IN_PROGRESS, // 承認待
-  APPROVED, // 承認済
-  REJECTED, // 却下
+  NotYet = 'NotYet', // 未承認
+  InProgress = 'InProgess', // 承認待
+  Approved = 'Approved', // 承認済
+  Rejected = 'Rejected', // 却下
 }
 
 // Edit contexts

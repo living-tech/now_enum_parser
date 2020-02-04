@@ -7,22 +7,22 @@ import {
 
 // Edit enum name and contents
 export enum Gender {
-  MALE,
-  FEMALE,
-  OTHER,
+  Male = 'Male',
+  Female = 'Female',
+  Other = 'Other',
 }
 
 // Edit contexts
 const translations: Translations = {
   ja: {
-    [Gender.MALE]: '男性',
-    [Gender.FEMALE]: '女性',
-    [Gender.OTHER]: 'その他',
+    [Gender.Male]: '男性',
+    [Gender.Female]: '女性',
+    [Gender.Other]: 'その他',
   },
   en: {
-    [Gender.MALE]: 'male',
-    [Gender.FEMALE]: 'female',
-    [Gender.OTHER]: 'other',
+    [Gender.Male]: 'male',
+    [Gender.Female]: 'female',
+    [Gender.Other]: 'other',
   },
 };
 

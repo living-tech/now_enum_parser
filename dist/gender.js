@@ -5,21 +5,21 @@ var generators_1 = require("./lib/generators");
 // Edit enum name and contents
 var Gender;
 (function (Gender) {
-    Gender[Gender["MALE"] = 0] = "MALE";
-    Gender[Gender["FEMALE"] = 1] = "FEMALE";
-    Gender[Gender["OTHER"] = 2] = "OTHER";
+    Gender["Male"] = "Male";
+    Gender["Female"] = "Female";
+    Gender["Other"] = "Other";
 })(Gender = exports.Gender || (exports.Gender = {}));
 // Edit contexts
 var translations = {
     ja: (_a = {},
-        _a[Gender.MALE] = '男性',
-        _a[Gender.FEMALE] = '女性',
-        _a[Gender.OTHER] = 'その他',
+        _a[Gender.Male] = '男性',
+        _a[Gender.Female] = '女性',
+        _a[Gender.Other] = 'その他',
         _a),
     en: (_b = {},
-        _b[Gender.MALE] = 'male',
-        _b[Gender.FEMALE] = 'female',
-        _b[Gender.OTHER] = 'other',
+        _b[Gender.Male] = 'male',
+        _b[Gender.Female] = 'female',
+        _b[Gender.Other] = 'other',
         _b),
 };
 // DO NOT EDIT

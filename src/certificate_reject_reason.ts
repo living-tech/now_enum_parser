@@ -7,7 +7,12 @@ import {
 
 // Edit enum name and contents
 export enum CertificateRejectReason {
-  OTHER, // その他
+  NotDesignated = 'NotDesignated', // 指定された公的書類ではない
+  Unclearness = 'Unclearness', // 不鮮明のため読み取れない
+  HidenessOrDamage = 'HidenessOrDamage', // 隠れ・破損などのため読み取れない
+  NoRegistrationNumber = 'NoRegistrationNumber', // 許可番号が見つからない
+  WrongInfo = 'WrongInfo', // 届出情報に誤りがある
+  Other = 'Other', // その他
 }
 
 // Edit contexts

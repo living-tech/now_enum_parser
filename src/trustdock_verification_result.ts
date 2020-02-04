@@ -7,8 +7,8 @@ import {
 
 // Edit enum name and contents
 export enum TrustdockVerificationResult {
-  REJECTED, // 却下
-  APPROVED, // 承認済
+  Rejected = 'Rejected', // 却下
+  Approved = 'Approved', // 承認済
 }
 
 // Edit contexts

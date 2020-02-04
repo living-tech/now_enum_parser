@@ -1,17 +1,17 @@
 export declare enum Occupation {
-    SPECIALIST = 0,
-    CLERICAL = 1,
-    SALES = 2,
-    SERVICE = 3,
-    SECURITY = 4,
-    MANUFACTURING = 5,
-    TRANSPORT = 6,
-    CONSTRUCTION = 7,
-    CARRYING = 8,
-    AGRICULTURE = 9,
-    ADMINISTRATIVE = 10,
-    OTHER = 11,
-    NONE = 12
+    Specialist = "Specialist",
+    Clerical = "Clerical",
+    Sales = "Sales",
+    Service = "Service",
+    Security = "Security",
+    Manufacturing = "Manufacturing",
+    Transport = "Transport",
+    Construction = "Construction",
+    Carrying = "Carrying",
+    Agriculture = "Agriculture",
+    Administrative = "Administrative",
+    Other = "Other",
+    None = "None"
 }
 export declare const occupationEncoder: (raw: Occupation, lang: import(".").Language) => string;
 export declare const occupationDecoder: (text: string, lang: import(".").Language) => Occupation;
