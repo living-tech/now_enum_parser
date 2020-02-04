@@ -28,7 +28,7 @@ console.log(languageEncoder(Language.en))
 // => "English"
 
 console.log(languageDecoder("日本語"))
-// => 0
+// => "ja"
 
 console.log(languageDecoder("日本語") === Language.ja)
 // => true
