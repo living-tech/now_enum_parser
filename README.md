@@ -16,21 +16,21 @@ import {
   genderDecoder,
 } from 'now-enum-parser';
 
-const lang = Language.Ja;
+const lang = Language.ja;
 
-console.log(Language.Ja)
+console.log(Language.ja)
 // => "ja"
 
-console.log(languageEncoder(Language.Ja))
+console.log(languageEncoder(Language.ja))
 // => "日本語"
 
-console.log(languageEncoder(Language.En))
+console.log(languageEncoder(Language.en))
 // => "English"
 
 console.log(languageDecoder("日本語"))
 // => "ja"
 
-console.log(languageDecoder("日本語") === Language.Ja)
+console.log(languageDecoder("日本語") === Language.ja)
 // => true
 
 console.log(Gender.Male)
