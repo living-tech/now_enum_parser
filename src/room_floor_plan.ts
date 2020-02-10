@@ -32,9 +32,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const roomFloorTypeEncoder = generateEncoder<RoomFloorType>(
+export const roomFloorPlanEncoder = generateEncoder<RoomFloorPlan>(
   translations,
 );
-export const roomFloorTypeDecoder = generateDecoder<RoomFloorType>(
+export const roomFloorPlanDecoder = generateDecoder<RoomFloorPlan>(
   reverseTranslations,
 );
