@@ -70,6 +70,6 @@ export {
 } from './room_classification';
 export {
   RoomFloorPlan,
-  roomFloorTypeDecoder,
-  roomFloorTypeEncoder,
+  roomFloorPlanDecoder,
+  roomFloorPlanEncoder,
 } from './room_floor_plan';
