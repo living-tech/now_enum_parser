@@ -63,3 +63,13 @@ export {
   roomChargeTypeDecoder,
   roomChargeTypeEncoder,
 } from './room_charge_type';
+export {
+  RoomClassification,
+  roomClassificationDecoder,
+  roomClassificationEncoder,
+} from './room_classification';
+export {
+  RoomFloorPlan,
+  roomFloorTypeDecoder,
+  roomFloorTypeEncoder,
+} from './room_floor_plan';
