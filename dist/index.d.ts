@@ -16,3 +16,4 @@ export { RegistrationStatus, registrationStatusDecoder, registrationStatusEncode
 export { RoomChargeType, roomChargeTypeDecoder, roomChargeTypeEncoder, } from './room_charge_type';
 export { RoomClassification, roomClassificationDecoder, roomClassificationEncoder, } from './room_classification';
 export { RoomFloorPlan, roomFloorPlanDecoder, roomFloorPlanEncoder, } from './room_floor_plan';
+export { DiscountType, discountTypeDecoder, discountTypeEncoder, } from './discount_type';
