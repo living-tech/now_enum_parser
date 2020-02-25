@@ -73,3 +73,8 @@ export {
   roomFloorPlanDecoder,
   roomFloorPlanEncoder,
 } from './room_floor_plan';
+export {
+  DiscountType,
+  discountTypeDecoder,
+  discountTypeEncoder,
+} from './discount_type';
