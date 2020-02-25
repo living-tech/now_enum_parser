@@ -78,3 +78,8 @@ export {
   discountTypeDecoder,
   discountTypeEncoder,
 } from './discount_type';
+export {
+  ReserveStatus,
+  reserveStatusDecoder,
+  reserveStatusEncoder,
+} from './reserve_status';
