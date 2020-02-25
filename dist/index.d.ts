@@ -17,3 +17,4 @@ export { RoomChargeType, roomChargeTypeDecoder, roomChargeTypeEncoder, } from '.
 export { RoomClassification, roomClassificationDecoder, roomClassificationEncoder, } from './room_classification';
 export { RoomFloorPlan, roomFloorPlanDecoder, roomFloorPlanEncoder, } from './room_floor_plan';
 export { DiscountType, discountTypeDecoder, discountTypeEncoder, } from './discount_type';
+export { ReserveStatus, reserveStatusDecoder, reserveStatusEncoder, } from './reserve_status';
