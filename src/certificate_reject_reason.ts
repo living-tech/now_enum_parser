@@ -17,8 +17,23 @@ export enum CertificateRejectReason {
 
 // Edit contexts
 const translations: Translations = {
-  ja: {},
-  en: {},
+  ja: {
+    [CertificateRejectReason.NotDesignated]: '指定された公的書類ではない',
+    [CertificateRejectReason.Unclearness]: '不鮮明のため読み取れない',
+    [CertificateRejectReason.HidenessOrDamage]:
+      '隠れ・破損などのため読み取れない',
+    [CertificateRejectReason.NoRegistrationNumber]: '許可番号が見つからない',
+    [CertificateRejectReason.WrongInfo]: '届出情報に誤りがある',
+    [CertificateRejectReason.Other]: 'その他',
+  },
+  en: {
+    [CertificateRejectReason.NotDesignated]: 'Not Designated',
+    [CertificateRejectReason.Unclearness]: 'Unclearness',
+    [CertificateRejectReason.HidenessOrDamage]: 'Hideness or Damage',
+    [CertificateRejectReason.NoRegistrationNumber]: 'No Registration Number',
+    [CertificateRejectReason.WrongInfo]: 'Wrong Information',
+    [CertificateRejectReason.Other]: 'Other',
+  },
 };
 
 // DO NOT EDIT
