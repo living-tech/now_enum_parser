@@ -14,8 +14,17 @@ export enum CertificateType {
 
 // Edit contexts
 const translations: Translations = {
-  ja: {},
-  en: {},
+  ja: {
+    [CertificateType.Minpaku]: '住宅宿泊事業法',
+    [CertificateType.Hotel]: '旅館業法',
+    [CertificateType.NationalStrategicSpecialZone]: '国家戦略特別区域法',
+  },
+  en: {
+    [CertificateType.Minpaku]: 'Minpaku Business Law',
+    [CertificateType.Hotel]: 'Hotel Business Law',
+    [CertificateType.NationalStrategicSpecialZone]:
+      'National Strategic Special Zone Law',
+  },
 };
 
 // DO NOT EDIT
