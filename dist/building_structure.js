@@ -1,4 +1,5 @@
 "use strict";
+var _a, _b;
 Object.defineProperty(exports, "__esModule", { value: true });
 var generators_1 = require("./lib/generators");
 // Edit enum name and contents
@@ -11,8 +12,18 @@ var BuildingStructure;
 })(BuildingStructure = exports.BuildingStructure || (exports.BuildingStructure = {}));
 // Edit contexts
 var translations = {
-    ja: {},
-    en: {},
+    ja: (_a = {},
+        _a[BuildingStructure.Wood] = '木造',
+        _a[BuildingStructure.Stell] = '鉄骨造',
+        _a[BuildingStructure.Rc] = '鉄筋コンクリート造',
+        _a[BuildingStructure.Src] = '鉄筋鉄骨コンクリート造',
+        _a),
+    en: (_b = {},
+        _b[BuildingStructure.Wood] = 'Wood',
+        _b[BuildingStructure.Stell] = 'Steel',
+        _b[BuildingStructure.Rc] = 'Reinforced Concrete',
+        _b[BuildingStructure.Src] = 'Steel Reinforced Concrete',
+        _b),
 };
 // DO NOT EDIT
 var reverseTranslations = generators_1.generateReverseTranslations(translations);

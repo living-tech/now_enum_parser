@@ -15,8 +15,18 @@ export enum BuildingStructure {
 
 // Edit contexts
 const translations: Translations = {
-  ja: {},
-  en: {},
+  ja: {
+    [BuildingStructure.Wood]: '木造',
+    [BuildingStructure.Stell]: '鉄骨造',
+    [BuildingStructure.Rc]: '鉄筋コンクリート造',
+    [BuildingStructure.Src]: '鉄筋鉄骨コンクリート造',
+  },
+  en: {
+    [BuildingStructure.Wood]: 'Wood',
+    [BuildingStructure.Stell]: 'Steel',
+    [BuildingStructure.Rc]: 'Reinforced Concrete',
+    [BuildingStructure.Src]: 'Steel Reinforced Concrete',
+  },
 };
 
 // DO NOT EDIT
