@@ -35,18 +35,18 @@ const translations: Translations = {
       '国家戦略特区法の認定書',
   },
   en: {
-    [CertificateImageType.Minpaku]: "Minpaku business license's copy",
+    [CertificateImageType.Minpaku]: "Minpaku Business License's Copy",
     [CertificateImageType.RegistrationNumber]:
-      "Notificated registration number's copy",
+      "Notificated Registration Number's Copy",
     [CertificateImageType.MunicipalityAcceptedMail]:
-      'Screenshot of accepted mail from municipality',
+      'Screenshot of Accepted Mail from Municipality',
     [CertificateImageType.MinpakuManagementSystem]:
-      'Screenshot of minpaku management system',
+      'Screenshot of Minpaku Management System',
     [CertificateImageType.MinpakuAcceptedMail]:
-      'Screenshot of minpaku management system notification mail',
-    [CertificateImageType.HotelBusinessLicense]: "Hotel business's license",
+      'Screenshot of Minpaku Management System Notification Mail',
+    [CertificateImageType.HotelBusinessLicense]: "Hotel Business's License",
     [CertificateImageType.NationalStrategicSpecialZone]:
-      "National strategic special zone law's certificate",
+      "National Strategic Special Zone Law's Certificate",
   },
 };
 
