@@ -21,8 +21,33 @@ export enum CertificateImageType {
 
 // Edit contexts
 const translations: Translations = {
-  ja: {},
-  en: {},
+  ja: {
+    [CertificateImageType.Minpaku]: '住宅宿泊事業法の標本の写し',
+    [CertificateImageType.RegistrationNumber]: '届出番号通知書の写し',
+    [CertificateImageType.MunicipalityAcceptedMail]:
+      '自治体からの届出受理メールのスクリーンショット',
+    [CertificateImageType.MinpakuManagementSystem]:
+      '民泊制度運営システムのスクリーンショット',
+    [CertificateImageType.MinpakuAcceptedMail]:
+      '民泊制度運営システムからの届出受理メールのスクリーンショット',
+    [CertificateImageType.HotelBusinessLicense]: '旅館業の営業許可証',
+    [CertificateImageType.NationalStrategicSpecialZone]:
+      '国家戦略特区法の認定書',
+  },
+  en: {
+    [CertificateImageType.Minpaku]: "Minpaku business license's copy",
+    [CertificateImageType.RegistrationNumber]:
+      "Notificated registration number's copy",
+    [CertificateImageType.MunicipalityAcceptedMail]:
+      'Screenshot of accepted mail from municipality',
+    [CertificateImageType.MinpakuManagementSystem]:
+      'Screenshot of minpaku management system',
+    [CertificateImageType.MinpakuAcceptedMail]:
+      'Screenshot of minpaku management system notification mail',
+    [CertificateImageType.HotelBusinessLicense]: "Hotel business's license",
+    [CertificateImageType.NationalStrategicSpecialZone]:
+      "National strategic special zone law's certificate",
+  },
 };
 
 // DO NOT EDIT
