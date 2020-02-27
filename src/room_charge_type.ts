@@ -13,8 +13,16 @@ export enum RoomChargeType {
 
 // Edit contexts
 const translations: Translations = {
-  ja: {},
-  en: {},
+  ja: {
+    [RoomChargeType.ByRoom]: 'ルームチャージ型',
+    [RoomChargeType.ByPerson]: '一人単価型',
+    [RoomChargeType.None]: '区分なし',
+  },
+  en: {
+    [RoomChargeType.ByRoom]: 'Price by Room',
+    [RoomChargeType.ByPerson]: 'Price by Number of Person',
+    [RoomChargeType.None]: 'None',
+  },
 };
 
 // DO NOT EDIT

@@ -8,15 +8,25 @@ import {
 // Edit enum name and contents
 export enum RegistrationStatus {
   NotYet = 'NotYet', // 未承認
-  InProgress = 'InProgess', // 承認待
+  InProgress = 'InProgress', // 承認待
   Approved = 'Approved', // 承認済
   Rejected = 'Rejected', // 却下
 }
 
 // Edit contexts
 const translations: Translations = {
-  ja: {},
-  en: {},
+  ja: {
+    [RegistrationStatus.NotYet]: '未承認',
+    [RegistrationStatus.InProgress]: '承認待',
+    [RegistrationStatus.Approved]: '承認済',
+    [RegistrationStatus.Rejected]: '却下',
+  },
+  en: {
+    [RegistrationStatus.NotYet]: 'Not Yet',
+    [RegistrationStatus.InProgress]: 'In Progress',
+    [RegistrationStatus.Approved]: 'Approved',
+    [RegistrationStatus.Rejected]: 'Rejected',
+  },
 };
 
 // DO NOT EDIT

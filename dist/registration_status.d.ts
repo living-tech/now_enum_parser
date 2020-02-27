@@ -1,6 +1,6 @@
 export declare enum RegistrationStatus {
     NotYet = "NotYet",
-    InProgress = "InProgess",
+    InProgress = "InProgress",
     Approved = "Approved",
     Rejected = "Rejected"
 }
