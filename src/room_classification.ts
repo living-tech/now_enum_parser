@@ -13,8 +13,14 @@ export enum RoomClassification {
 
 // Edit contexts
 const translations: Translations = {
-  ja: {},
-  en: {},
+  ja: {
+    [RoomClassification.Private]: '個室',
+    [RoomClassification.Share]: '共有',
+  },
+  en: {
+    [RoomClassification.Private]: 'Private',
+    [RoomClassification.Share]: 'Share',
+  },
 };
 
 // DO NOT EDIT
