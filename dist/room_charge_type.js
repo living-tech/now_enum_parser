@@ -1,4 +1,5 @@
 "use strict";
+var _a, _b;
 Object.defineProperty(exports, "__esModule", { value: true });
 var generators_1 = require("./lib/generators");
 var RoomChargeType;
@@ -9,8 +10,16 @@ var RoomChargeType;
 })(RoomChargeType = exports.RoomChargeType || (exports.RoomChargeType = {}));
 // Edit contexts
 var translations = {
-    ja: {},
-    en: {},
+    ja: (_a = {},
+        _a[RoomChargeType.ByRoom] = 'ルームチャージ型',
+        _a[RoomChargeType.ByPerson] = '一人単価型',
+        _a[RoomChargeType.None] = '区分なし',
+        _a),
+    en: (_b = {},
+        _b[RoomChargeType.ByRoom] = 'Price by Room',
+        _b[RoomChargeType.ByPerson] = 'Price by Number of Person',
+        _b[RoomChargeType.None] = 'None',
+        _b),
 };
 // DO NOT EDIT
 var reverseTranslations = generators_1.generateReverseTranslations(translations);
