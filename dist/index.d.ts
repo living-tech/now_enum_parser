@@ -6,6 +6,7 @@ export { CertificateRejectReason, certificateRejectReasonDecoder, certificateRej
 export { CertificateType, certificateTypeDecoder, certificateTypeEncoder, } from './certificate_type';
 export { Classification, classificationDecoder, classificationEncoder, } from './classification';
 export { Gender, genderDecoder, genderEncoder } from './gender';
+export { IdentityDocumentStatus, identityDocumentStatusDecoder, identityDocumentStatusEncoder } from "./identity_document_status";
 export { Occupation, occupationDecoder, occupationEncoder } from './occupation';
 export { Prefecture, prefectureDecoder, prefectureEncoder } from './prefecture';
 export { TrustdockAmlCheckResult, trustdockAmlCheckResultDecoder, trustdockAmlCheckResultEncoder, } from './trustdock_aml_check_result';
