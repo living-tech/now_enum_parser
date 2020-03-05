@@ -59,6 +59,11 @@ export {
   trustdockVerificationStatusEncoder,
 } from './trustdock_verification_status';
 export {
+  TrustdockVerificationType,
+  trustdockVerificationTypeDecoder,
+  trustdockVerificationTypeEncoder,
+} from './trustdock_verification_type';
+export {
   RegistrationStatus,
   registrationStatusDecoder,
   registrationStatusEncoder,
