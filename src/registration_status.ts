@@ -22,8 +22,8 @@ const translations: Translations = {
     [RegistrationStatus.Rejected]: '却下',
   },
   en: {
-    [RegistrationStatus.NotYet]: 'Not Yet',
-    [RegistrationStatus.InProgress]: 'In Progress',
+    [RegistrationStatus.NotYet]: 'Not yet',
+    [RegistrationStatus.InProgress]: 'In progress',
     [RegistrationStatus.Approved]: 'Approved',
     [RegistrationStatus.Rejected]: 'Rejected',
   },

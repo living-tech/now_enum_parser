@@ -15,8 +15,8 @@ var translations = {
         _a[DiscountType.Rate] = '比率',
         _a),
     en: (_b = {},
-        _b[DiscountType.Amount] = 'amount',
-        _b[DiscountType.Rate] = 'rate',
+        _b[DiscountType.Amount] = 'Amount',
+        _b[DiscountType.Rate] = 'Rate',
         _b),
 };
 // DO NOT EDIT

@@ -1,4 +1,5 @@
 "use strict";
+var _a, _b;
 Object.defineProperty(exports, "__esModule", { value: true });
 var generators_1 = require("./lib/generators");
 // Edit enum name and contents
@@ -9,8 +10,14 @@ var TrustdockAmlCheckResult;
 })(TrustdockAmlCheckResult = exports.TrustdockAmlCheckResult || (exports.TrustdockAmlCheckResult = {}));
 // Edit contexts
 var translations = {
-    ja: {},
-    en: {},
+    ja: (_a = {},
+        _a[TrustdockAmlCheckResult.ToBeConfirmed] = '要確認',
+        _a[TrustdockAmlCheckResult.Approved] = '承認済',
+        _a),
+    en: (_b = {},
+        _b[TrustdockAmlCheckResult.ToBeConfirmed] = 'To be confirmed',
+        _b[TrustdockAmlCheckResult.Approved] = 'Approved',
+        _b),
 };
 // DO NOT EDIT
 var reverseTranslations = generators_1.generateReverseTranslations(translations);

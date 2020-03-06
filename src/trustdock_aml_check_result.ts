@@ -13,8 +13,14 @@ export enum TrustdockAmlCheckResult {
 
 // Edit contexts
 const translations: Translations = {
-  ja: {},
-  en: {},
+  ja: {
+    [TrustdockAmlCheckResult.ToBeConfirmed]: '要確認',
+    [TrustdockAmlCheckResult.Approved]: '承認済',
+  },
+  en: {
+    [TrustdockAmlCheckResult.ToBeConfirmed]: 'To be confirmed',
+    [TrustdockAmlCheckResult.Approved]: 'Approved',
+  },
 };
 
 // DO NOT EDIT

@@ -14,8 +14,18 @@ export enum BuildingChargeType {
 
 // Edit contexts
 const translations: Translations = {
-  ja: {},
-  en: {},
+  ja: {
+    [BuildingChargeType.Hotel]: '旅館業',
+    [BuildingChargeType.ShareHouse]: 'シェアハウス',
+    [BuildingChargeType.Minpaku]: '住宅宿泊施設',
+    [BuildingChargeType.RentalProperty]: '賃貸',
+  },
+  en: {
+    [BuildingChargeType.Hotel]: 'YET',
+    [BuildingChargeType.ShareHouse]: 'YET',
+    [BuildingChargeType.Minpaku]: 'YET',
+    [BuildingChargeType.RentalProperty]: 'YET',
+  },
 };
 
 // DO NOT EDIT

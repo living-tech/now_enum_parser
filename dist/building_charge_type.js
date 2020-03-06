@@ -1,4 +1,5 @@
 "use strict";
+var _a, _b;
 Object.defineProperty(exports, "__esModule", { value: true });
 var generators_1 = require("./lib/generators");
 var BuildingChargeType;
@@ -10,8 +11,18 @@ var BuildingChargeType;
 })(BuildingChargeType = exports.BuildingChargeType || (exports.BuildingChargeType = {}));
 // Edit contexts
 var translations = {
-    ja: {},
-    en: {},
+    ja: (_a = {},
+        _a[BuildingChargeType.Hotel] = '旅館業',
+        _a[BuildingChargeType.ShareHouse] = 'シェアハウス',
+        _a[BuildingChargeType.Minpaku] = '住宅宿泊施設',
+        _a[BuildingChargeType.RentalProperty] = '賃貸',
+        _a),
+    en: (_b = {},
+        _b[BuildingChargeType.Hotel] = 'YET',
+        _b[BuildingChargeType.ShareHouse] = 'YET',
+        _b[BuildingChargeType.Minpaku] = 'YET',
+        _b[BuildingChargeType.RentalProperty] = 'YET',
+        _b),
 };
 // DO NOT EDIT
 var reverseTranslations = generators_1.generateReverseTranslations(translations);

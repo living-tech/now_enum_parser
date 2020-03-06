@@ -24,8 +24,36 @@ export enum Occupation {
 
 // Edit contexts
 const translations: Translations = {
-  ja: {},
-  en: {},
+  ja: {
+    [Occupation.Specialist]: '専門的･技術的職',
+    [Occupation.Clerical]: '事務職',
+    [Occupation.Sales]: '販売職',
+    [Occupation.Service]: 'サービス職',
+    [Occupation.Security]: '保安職',
+    [Occupation.Manufacturing]: '生産工程職',
+    [Occupation.Transport]: '輸送・機械運転職',
+    [Occupation.Construction]: '建設・採掘職',
+    [Occupation.Carrying]: '運搬・清掃・包装等職',
+    [Occupation.Agriculture]: '農林漁業職',
+    [Occupation.Administrative]: '管理職',
+    [Occupation.Other]: 'その他',
+    [Occupation.None]: 'なし',
+  },
+  en: {
+    [Occupation.Specialist]: 'Specialist',
+    [Occupation.Clerical]: 'Clerical',
+    [Occupation.Sales]: 'Sales',
+    [Occupation.Service]: 'Service',
+    [Occupation.Security]: 'Security',
+    [Occupation.Manufacturing]: 'Manufacturing',
+    [Occupation.Transport]: 'Transport',
+    [Occupation.Construction]: 'Construction',
+    [Occupation.Carrying]: 'Carrying',
+    [Occupation.Agriculture]: 'Agriculture',
+    [Occupation.Administrative]: 'Administrative',
+    [Occupation.Other]: 'Other',
+    [Occupation.None]: 'None',
+  },
 };
 
 // DO NOT EDIT

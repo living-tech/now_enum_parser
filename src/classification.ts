@@ -14,8 +14,16 @@ export enum Classification {
 
 // Edit contexts
 const translations: Translations = {
-  ja: {},
-  en: {},
+  ja: {
+    [Classification.User]: 'ユーザー',
+    [Classification.Owner]: 'オーナー',
+    [Classification.Admin]: '管理者',
+  },
+  en: {
+    [Classification.User]: 'User',
+    [Classification.Owner]: 'Owner',
+    [Classification.Admin]: 'Admin',
+  },
 };
 
 // DO NOT EDIT
