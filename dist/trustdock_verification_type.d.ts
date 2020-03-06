@@ -1,8 +1,10 @@
 export declare enum TrustdockVerificationType {
     Passport = "Passport",
     DriverLicense = "DriverLicense",
-    JukiCard = "JukiCard",
-    ZaiRyuCard = "ZaiRyuCard",
+    DrivingHistoryCertification = "DrivingHistoryCertification",
+    BasicResidentRegisterCard = "BasicResidentRegisterCard",
+    ResidencyCard = "ResidencyCard",
+    SpecialPermanentResidentCertificate = "SpecialPermanentResidentCertificate",
     MyNumberCard = "MyNumberCard"
 }
 export declare const trustdockVerificationTypeEncoder: (raw: TrustdockVerificationType, lang: import(".").Language) => string;

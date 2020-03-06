@@ -7,8 +7,10 @@ var TrustdockVerificationType;
 (function (TrustdockVerificationType) {
     TrustdockVerificationType["Passport"] = "Passport";
     TrustdockVerificationType["DriverLicense"] = "DriverLicense";
-    TrustdockVerificationType["JukiCard"] = "JukiCard";
-    TrustdockVerificationType["ZaiRyuCard"] = "ZaiRyuCard";
+    TrustdockVerificationType["DrivingHistoryCertification"] = "DrivingHistoryCertification";
+    TrustdockVerificationType["BasicResidentRegisterCard"] = "BasicResidentRegisterCard";
+    TrustdockVerificationType["ResidencyCard"] = "ResidencyCard";
+    TrustdockVerificationType["SpecialPermanentResidentCertificate"] = "SpecialPermanentResidentCertificate";
     TrustdockVerificationType["MyNumberCard"] = "MyNumberCard";
 })(TrustdockVerificationType = exports.TrustdockVerificationType || (exports.TrustdockVerificationType = {}));
 // Edit contexts
@@ -16,15 +18,19 @@ var translations = {
     ja: (_a = {},
         _a[TrustdockVerificationType.Passport] = 'パスポート',
         _a[TrustdockVerificationType.DriverLicense] = '運転免許証',
-        _a[TrustdockVerificationType.JukiCard] = '住民基本台帳カード',
-        _a[TrustdockVerificationType.ZaiRyuCard] = '在留カード',
+        _a[TrustdockVerificationType.DrivingHistoryCertification] = '運転経歴証明書',
+        _a[TrustdockVerificationType.BasicResidentRegisterCard] = '住民基本台帳カード',
+        _a[TrustdockVerificationType.ResidencyCard] = '在留カード',
+        _a[TrustdockVerificationType.SpecialPermanentResidentCertificate] = '特別永住者証明書',
         _a[TrustdockVerificationType.MyNumberCard] = 'マイナンバーカード',
         _a),
     en: (_b = {},
         _b[TrustdockVerificationType.Passport] = 'Passport',
         _b[TrustdockVerificationType.DriverLicense] = 'Driver license',
-        _b[TrustdockVerificationType.JukiCard] = '',
-        _b[TrustdockVerificationType.ZaiRyuCard] = '',
+        _b[TrustdockVerificationType.DrivingHistoryCertification] = 'Driving hisory certification',
+        _b[TrustdockVerificationType.BasicResidentRegisterCard] = 'Basic resident register card',
+        _b[TrustdockVerificationType.ResidencyCard] = 'Residency card',
+        _b[TrustdockVerificationType.SpecialPermanentResidentCertificate] = 'Special permanent resident certificate',
         _b[TrustdockVerificationType.MyNumberCard] = 'My number card',
         _b),
 };
