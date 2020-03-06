@@ -33,7 +33,7 @@ const translations: Translations = {
     [ReserveStatus.Requested]: 'Reserve requested',
     [ReserveStatus.Approved]: 'Reserve approved',
     [ReserveStatus.Rejected]: 'Reserve rejected',
-    [ReserveStatus.Occupied]: 'Now Ocupied',
+    [ReserveStatus.Occupied]: 'Now ocupied',
     [ReserveStatus.Exited]: 'Exited',
     [ReserveStatus.PreCanceled]: 'Canceled in advance',
     [ReserveStatus.MidCanceled]: 'Canceled at the middle',

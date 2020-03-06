@@ -13,8 +13,14 @@ export enum TrustdockVerificationResult {
 
 // Edit contexts
 const translations: Translations = {
-  ja: {},
-  en: {},
+  ja: {
+    [TrustdockVerificationResult.Rejected]: '却下',
+    [TrustdockVerificationResult.Approved]: '承認済',
+  },
+  en: {
+    [TrustdockVerificationResult.Rejected]: 'Rejected',
+    [TrustdockVerificationResult.Approved]: 'Approved',
+  },
 };
 
 // DO NOT EDIT

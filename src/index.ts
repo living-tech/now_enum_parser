@@ -34,8 +34,8 @@ export { Gender, genderDecoder, genderEncoder } from './gender';
 export {
   IdentityDocumentStatus,
   identityDocumentStatusDecoder,
-  identityDocumentStatusEncoder
-} from "./identity_document_status"
+  identityDocumentStatusEncoder,
+} from './identity_document_status';
 export { Occupation, occupationDecoder, occupationEncoder } from './occupation';
 export { Prefecture, prefectureDecoder, prefectureEncoder } from './prefecture';
 export {

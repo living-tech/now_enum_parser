@@ -1,4 +1,5 @@
 "use strict";
+var _a, _b;
 Object.defineProperty(exports, "__esModule", { value: true });
 var generators_1 = require("./lib/generators");
 // Edit enum name and contents
@@ -10,8 +11,16 @@ var Classification;
 })(Classification = exports.Classification || (exports.Classification = {}));
 // Edit contexts
 var translations = {
-    ja: {},
-    en: {},
+    ja: (_a = {},
+        _a[Classification.User] = 'ユーザー',
+        _a[Classification.Owner] = 'オーナー',
+        _a[Classification.Admin] = '管理者',
+        _a),
+    en: (_b = {},
+        _b[Classification.User] = 'User',
+        _b[Classification.Owner] = 'Owner',
+        _b[Classification.Admin] = 'Admin',
+        _b),
 };
 // DO NOT EDIT
 var reverseTranslations = generators_1.generateReverseTranslations(translations);

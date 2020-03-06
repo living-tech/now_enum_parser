@@ -24,16 +24,20 @@ const translations: Translations = {
     [TrustdockVerificationType.DrivingHistoryCertification]: '運転経歴証明書',
     [TrustdockVerificationType.BasicResidentRegisterCard]: '住民基本台帳カード',
     [TrustdockVerificationType.ResidencyCard]: '在留カード',
-    [TrustdockVerificationType.SpecialPermanentResidentCertificate]: '特別永住者証明書',
+    [TrustdockVerificationType.SpecialPermanentResidentCertificate]:
+      '特別永住者証明書',
     [TrustdockVerificationType.MyNumberCard]: 'マイナンバーカード',
   },
   en: {
     [TrustdockVerificationType.Passport]: 'Passport',
     [TrustdockVerificationType.DriverLicense]: 'Driver license',
-    [TrustdockVerificationType.DrivingHistoryCertification]: 'Driving hisory certification',
-    [TrustdockVerificationType.BasicResidentRegisterCard]: 'Basic resident register card',
+    [TrustdockVerificationType.DrivingHistoryCertification]:
+      'Driving hisory certification',
+    [TrustdockVerificationType.BasicResidentRegisterCard]:
+      'Basic resident register card',
     [TrustdockVerificationType.ResidencyCard]: 'Residency card',
-    [TrustdockVerificationType.SpecialPermanentResidentCertificate]: 'Special permanent resident certificate',
+    [TrustdockVerificationType.SpecialPermanentResidentCertificate]:
+      'Special permanent resident certificate',
     [TrustdockVerificationType.MyNumberCard]: 'My number card',
   },
 };

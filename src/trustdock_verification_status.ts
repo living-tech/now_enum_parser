@@ -16,8 +16,20 @@ export enum TrustdockVerificationStatus {
 
 // Edit contexts
 const translations: Translations = {
-  ja: {},
-  en: {},
+  ja: {
+    [TrustdockVerificationStatus.Accepted]: '受入済',
+    [TrustdockVerificationStatus.PlanSelected]: 'プラン選択済',
+    [TrustdockVerificationStatus.DocumentReceived]: '書類受領済',
+    [TrustdockVerificationStatus.InProgress]: '進捗中',
+    [TrustdockVerificationStatus.Confirmed]: '確認済',
+  },
+  en: {
+    [TrustdockVerificationStatus.Accepted]: 'Accepted',
+    [TrustdockVerificationStatus.PlanSelected]: 'Plan selected',
+    [TrustdockVerificationStatus.DocumentReceived]: 'Document received',
+    [TrustdockVerificationStatus.InProgress]: 'In Progress',
+    [TrustdockVerificationStatus.Confirmed]: 'Confirmed',
+  },
 };
 
 // DO NOT EDIT

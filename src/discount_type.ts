@@ -18,8 +18,8 @@ const translations: Translations = {
     [DiscountType.Rate]: '比率',
   },
   en: {
-    [DiscountType.Amount]: 'amount',
-    [DiscountType.Rate]: 'rate',
+    [DiscountType.Amount]: 'Amount',
+    [DiscountType.Rate]: 'Rate',
   },
 };
 
