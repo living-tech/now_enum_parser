@@ -4,6 +4,7 @@ var generators_1 = require("./lib/generators");
 // Edit enum name and contents
 var IdentityDocumentStatus;
 (function (IdentityDocumentStatus) {
+    IdentityDocumentStatus["NotSubmitted"] = "NotSubmitted";
     IdentityDocumentStatus["Accepted"] = "Accepted";
     IdentityDocumentStatus["PlanSelected"] = "PlanSelected";
     IdentityDocumentStatus["DocumentReceived"] = "DocumentReceived";
