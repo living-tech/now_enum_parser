@@ -9,8 +9,10 @@ import {
 export enum TrustdockVerificationType {
   Passport = 'Passport', // パスポート
   DriverLicense = 'DriverLicense', // 運転免許証
-  JukiCard = 'JukiCard', // 住民基本台帳カード
-  ZaiRyuCard = 'ZaiRyuCard', // 在留カード
+  DrivingHistoryCertification = 'DrivingHistoryCertification', // 運転経歴証明書
+  BasicResidentRegisterCard = 'BasicResidentRegisterCard', // 住民基本台帳カード
+  ResidencyCard = 'ResidencyCard', // 在留カード
+  SpecialPermanentResidentCertificate = 'SpecialPermanentResidentCertificate', // 特別永住者証明書
   MyNumberCard = 'MyNumberCard', // マイナンバーカード
 }
 
@@ -19,15 +21,19 @@ const translations: Translations = {
   ja: {
     [TrustdockVerificationType.Passport]: 'パスポート',
     [TrustdockVerificationType.DriverLicense]: '運転免許証',
-    [TrustdockVerificationType.JukiCard]: '住民基本台帳カード',
-    [TrustdockVerificationType.ZaiRyuCard]: '在留カード',
+    [TrustdockVerificationType.DrivingHistoryCertification]: '運転経歴証明書',
+    [TrustdockVerificationType.BasicResidentRegisterCard]: '住民基本台帳カード',
+    [TrustdockVerificationType.ResidencyCard]: '在留カード',
+    [TrustdockVerificationType.SpecialPermanentResidentCertificate]: '特別永住者証明書',
     [TrustdockVerificationType.MyNumberCard]: 'マイナンバーカード',
   },
   en: {
     [TrustdockVerificationType.Passport]: 'Passport',
     [TrustdockVerificationType.DriverLicense]: 'Driver license',
-    [TrustdockVerificationType.JukiCard]: '',
-    [TrustdockVerificationType.ZaiRyuCard]: '',
+    [TrustdockVerificationType.DrivingHistoryCertification]: 'Driving hisory certification',
+    [TrustdockVerificationType.BasicResidentRegisterCard]: 'Basic resident register card',
+    [TrustdockVerificationType.ResidencyCard]: 'Residency card',
+    [TrustdockVerificationType.SpecialPermanentResidentCertificate]: 'Special permanent resident certificate',
     [TrustdockVerificationType.MyNumberCard]: 'My number card',
   },
 };
