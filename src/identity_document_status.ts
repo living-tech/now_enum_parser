@@ -7,6 +7,7 @@ import {
 
 // Edit enum name and contents
 export enum IdentityDocumentStatus {
+  NotSubmitted = 'NotSubmitted', // 未提出
   Accepted = 'Accepted', // 受入済
   PlanSelected = 'PlanSelected', // プラン選択済
   DocumentReceived = 'DocumentReceived', // 書類受領済

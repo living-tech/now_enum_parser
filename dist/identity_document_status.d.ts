@@ -1,4 +1,5 @@
 export declare enum IdentityDocumentStatus {
+    NotSubmitted = "NotSubmitted",
     Accepted = "Accepted",
     PlanSelected = "PlanSelected",
     DocumentReceived = "DocumentReceived",
