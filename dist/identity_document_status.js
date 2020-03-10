@@ -18,6 +18,7 @@ var IdentityDocumentStatus;
 // Edit contexts
 var translations = {
     ja: (_a = {},
+        _a[IdentityDocumentStatus.NotSubmitted] = '未提出',
         _a[IdentityDocumentStatus.Approved] = '受入済',
         _a[IdentityDocumentStatus.PlanSelected] = 'プラン選択済',
         _a[IdentityDocumentStatus.DocumentReceived] = '書類受領済',
@@ -28,13 +29,14 @@ var translations = {
         _a[IdentityDocumentStatus.Approved] = '承認済',
         _a),
     en: (_b = {},
+        _b[IdentityDocumentStatus.NotSubmitted] = 'Not submitted',
         _b[IdentityDocumentStatus.Approved] = 'Approved',
         _b[IdentityDocumentStatus.PlanSelected] = 'Plan selected',
         _b[IdentityDocumentStatus.DocumentReceived] = 'Document received',
         _b[IdentityDocumentStatus.InProgress] = 'In progress',
         _b[IdentityDocumentStatus.Confirmed] = 'Confirmed',
         _b[IdentityDocumentStatus.Rejected] = 'Rejected',
-        _b[IdentityDocumentStatus.ToBeConfirmed] = 'To be Confirmed',
+        _b[IdentityDocumentStatus.ToBeConfirmed] = 'To be confirmed',
         _b[IdentityDocumentStatus.Approved] = 'Approved',
         _b),
 };
