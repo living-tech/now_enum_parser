@@ -39,6 +39,21 @@ export {
 export { Occupation, occupationDecoder, occupationEncoder } from './occupation';
 export { Prefecture, prefectureDecoder, prefectureEncoder } from './prefecture';
 export {
+  TransactionReserveStatus,
+  transactionReserveStatusDecoder,
+  transactionReserveStatusEncoder,
+} from './transaction_reserve_status';
+export {
+  TransactionStatus,
+  transactionStatusDecoder,
+  transactionStatusEncoder,
+} from './transaction_status';
+export {
+  TransactionType,
+  transactionTypeDecoder,
+  transactionTypeEncoder,
+} from './transaction_type';
+export {
   TrustdockAmlCheckResult,
   trustdockAmlCheckResultDecoder,
   trustdockAmlCheckResultEncoder,
