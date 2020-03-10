@@ -21,6 +21,7 @@ export enum IdentityDocumentStatus {
 // Edit contexts
 const translations: Translations = {
   ja: {
+    [IdentityDocumentStatus.NotSubmitted]: '未提出',
     [IdentityDocumentStatus.Approved]: '受入済',
     [IdentityDocumentStatus.PlanSelected]: 'プラン選択済',
     [IdentityDocumentStatus.DocumentReceived]: '書類受領済',
@@ -31,13 +32,14 @@ const translations: Translations = {
     [IdentityDocumentStatus.Approved]: '承認済',
   },
   en: {
+    [IdentityDocumentStatus.NotSubmitted]: 'Not submitted',
     [IdentityDocumentStatus.Approved]: 'Approved',
     [IdentityDocumentStatus.PlanSelected]: 'Plan selected',
     [IdentityDocumentStatus.DocumentReceived]: 'Document received',
     [IdentityDocumentStatus.InProgress]: 'In progress',
     [IdentityDocumentStatus.Confirmed]: 'Confirmed',
     [IdentityDocumentStatus.Rejected]: 'Rejected',
-    [IdentityDocumentStatus.ToBeConfirmed]: 'To be Confirmed',
+    [IdentityDocumentStatus.ToBeConfirmed]: 'To be confirmed',
     [IdentityDocumentStatus.Approved]: 'Approved',
   },
 };
