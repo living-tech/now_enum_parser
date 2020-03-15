@@ -10,6 +10,7 @@ export {
   buildingStructureDecoder,
   buildingStructureEncoder,
 } from './building_structure';
+export { CardBrand, cardBrandDecoder, cardBrandEncoder } from './card_brand';
 export {
   CertificateImageType,
   certificateImageTypeDecoder,

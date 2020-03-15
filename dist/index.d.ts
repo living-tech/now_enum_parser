@@ -1,6 +1,7 @@
 export { Language, languageEncoder, languageDecoder } from './lib/language';
 export { BuildingChargeType, buildingChargeTypeDecoder, buildingChargeTypeEncoder, } from './building_charge_type';
 export { BuildingStructure, buildingStructureDecoder, buildingStructureEncoder, } from './building_structure';
+export { CardBrand, cardBrandDecoder, cardBrandEncoder } from './card_brand';
 export { CertificateImageType, certificateImageTypeDecoder, certificateImageTypeEncoder, } from './certificate_image_type';
 export { CertificateRejectReason, certificateRejectReasonDecoder, certificateRejectReasonEncoder, } from './certificate_reject_reason';
 export { CertificateType, certificateTypeDecoder, certificateTypeEncoder, } from './certificate_type';
