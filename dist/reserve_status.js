@@ -15,10 +15,10 @@ var ReserveStatus;
 var translations = {
     ja: (_a = {},
         _a[ReserveStatus.Requested] = '予約リクエスト',
-        _a[ReserveStatus.Approved] = '予約承認済',
+        _a[ReserveStatus.Approved] = '入居前',
         _a[ReserveStatus.Occupied] = '入居中',
-        _a[ReserveStatus.Exited] = '退去済',
-        _a[ReserveStatus.Canceled] = 'キャンセル済',
+        _a[ReserveStatus.Exited] = '退去済み',
+        _a[ReserveStatus.Canceled] = 'キャンセル',
         _a),
     en: (_b = {},
         _b[ReserveStatus.Requested] = 'Reserve requested',
