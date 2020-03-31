@@ -19,9 +19,9 @@ const translations: Translations = {
     [RoomChargeType.None]: '区分なし',
   },
   en: {
-    [RoomChargeType.ByRoom]: 'Price by Room',
-    [RoomChargeType.ByPerson]: 'Price by Number of Person',
-    [RoomChargeType.None]: 'None',
+    [RoomChargeType.ByRoom]: 'Charge per Room',
+    [RoomChargeType.ByPerson]: 'Charge per Person',
+    [RoomChargeType.None]: 'No Classification',
   },
 };
 

@@ -27,12 +27,17 @@ const translations: Translations = {
     [CertificateRejectReason.Other]: 'その他',
   },
   en: {
-    [CertificateRejectReason.NotDesignated]: 'Not Designated',
-    [CertificateRejectReason.Unclearness]: 'Unclearness',
-    [CertificateRejectReason.HidenessOrDamage]: 'Hideness or Damage',
-    [CertificateRejectReason.NoRegistrationNumber]: 'No Registration Number',
-    [CertificateRejectReason.WrongInfo]: 'Wrong Information',
-    [CertificateRejectReason.Other]: 'Other',
+    [CertificateRejectReason.NotDesignated]:
+      'This is not a designated official document.',
+    [CertificateRejectReason.Unclearness]:
+      'The image is not clear and cannot be read.',
+    [CertificateRejectReason.HidenessOrDamage]:
+      'Unreadable due to concealment, damage, etc',
+    [CertificateRejectReason.NoRegistrationNumber]:
+      'The permit number is unrecognizable',
+    [CertificateRejectReason.WrongInfo]:
+      'WThere is an error in the information reported.',
+    [CertificateRejectReason.Other]: 'Other Reasons',
   },
 };
 

@@ -24,11 +24,11 @@ const translations: Translations = {
     [ReserveStatus.Canceled]: 'キャンセル',
   },
   en: {
-    [ReserveStatus.Requested]: 'Reserve requested',
-    [ReserveStatus.Approved]: 'Reserve approved',
-    [ReserveStatus.Occupied]: 'Now ocupied',
-    [ReserveStatus.Exited]: 'Exited',
-    [ReserveStatus.Canceled]: 'Canceled',
+    [ReserveStatus.Requested]: 'Booking Request',
+    [ReserveStatus.Approved]: 'Before Move In',
+    [ReserveStatus.Occupied]: 'Moving In',
+    [ReserveStatus.Exited]: 'Moved Out',
+    [ReserveStatus.Canceled]: 'Cancelled',
   },
 };
 

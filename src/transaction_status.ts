@@ -23,8 +23,8 @@ const translations: Translations = {
   },
   en: {
     [TransactionStatus.Unpaid]: 'Unpaid',
-    [TransactionStatus.CreditOK]: 'Credit OK',
-    [TransactionStatus.CreditNG]: 'Credit NG',
+    [TransactionStatus.CreditOK]: 'Pay Later Accepted',
+    [TransactionStatus.CreditNG]: 'Pay Later Not Accepted',
     [TransactionStatus.Paid]: 'Paid',
   },
 };

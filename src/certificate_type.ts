@@ -20,10 +20,10 @@ const translations: Translations = {
     [CertificateType.NationalStrategicSpecialZone]: '国家戦略特別区域法',
   },
   en: {
-    [CertificateType.Minpaku]: 'Minpaku Business Law',
-    [CertificateType.Hotel]: 'Hotel Business Law',
+    [CertificateType.Minpaku]: 'Residential Accommodation Business',
+    [CertificateType.Hotel]: 'Ryokan Business Law',
     [CertificateType.NationalStrategicSpecialZone]:
-      'National Strategic Special Zone Law',
+      'National Strategic Special Zones Act',
   },
 };
 
