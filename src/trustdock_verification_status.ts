@@ -24,9 +24,9 @@ const translations: Translations = {
     [TrustdockVerificationStatus.Confirmed]: '確認済',
   },
   en: {
-    [TrustdockVerificationStatus.Accepted]: 'Accepted',
-    [TrustdockVerificationStatus.PlanSelected]: 'Plan selected',
-    [TrustdockVerificationStatus.DocumentReceived]: 'Document received',
+    [TrustdockVerificationStatus.Accepted]: 'Received',
+    [TrustdockVerificationStatus.PlanSelected]: 'Plan Selected',
+    [TrustdockVerificationStatus.DocumentReceived]: 'Documents Received',
     [TrustdockVerificationStatus.InProgress]: 'In Progress',
     [TrustdockVerificationStatus.Confirmed]: 'Confirmed',
   },

@@ -40,7 +40,7 @@ const translations: Translations = {
     [RoomFloorPlan.MoreThanFourLDK]: '4LDK以上',
   },
   en: {
-    [RoomFloorPlan.OneRoom]: 'One Room',
+    [RoomFloorPlan.OneRoom]: 'Studio Apartment',
     [RoomFloorPlan.OneK]: '1K',
     [RoomFloorPlan.OneDK]: '1DK',
     [RoomFloorPlan.OneLDK]: '1LDK',
@@ -52,7 +52,7 @@ const translations: Translations = {
     [RoomFloorPlan.ThreeLDK]: '3LDK',
     [RoomFloorPlan.FourK]: '4K',
     [RoomFloorPlan.FourDK]: '4DK',
-    [RoomFloorPlan.MoreThanFourLDK]: '4LDK or More',
+    [RoomFloorPlan.MoreThanFourLDK]: '4LDK or more',
   },
 };
 

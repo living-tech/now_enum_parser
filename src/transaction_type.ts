@@ -20,9 +20,9 @@ const translations: Translations = {
     [TransactionType.Refund]: '払い戻し',
   },
   en: {
-    [TransactionType.Credit]: 'Credit',
+    [TransactionType.Credit]: 'Pay Later',
     [TransactionType.Payment]: 'Payment',
-    [TransactionType.Refund]: 'Refund',
+    [TransactionType.Refund]: 'Reimbursement',
   },
 };
 

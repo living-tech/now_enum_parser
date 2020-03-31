@@ -18,7 +18,7 @@ const translations: Translations = {
     [TrustdockAmlCheckResult.Approved]: '承認済',
   },
   en: {
-    [TrustdockAmlCheckResult.ToBeConfirmed]: 'To be confirmed',
+    [TrustdockAmlCheckResult.ToBeConfirmed]: 'Confirmation Required',
     [TrustdockAmlCheckResult.Approved]: 'Approved',
   },
 };

@@ -19,7 +19,7 @@ const translations: Translations = {
   },
   en: {
     [DiscountType.Amount]: 'Amount',
-    [DiscountType.Rate]: 'Rate',
+    [DiscountType.Rate]: 'Ratio',
   },
 };
 

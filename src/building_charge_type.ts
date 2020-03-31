@@ -21,10 +21,10 @@ const translations: Translations = {
     [BuildingChargeType.RentalProperty]: '賃貸',
   },
   en: {
-    [BuildingChargeType.Hotel]: 'YET',
-    [BuildingChargeType.ShareHouse]: 'YET',
-    [BuildingChargeType.Minpaku]: 'YET',
-    [BuildingChargeType.RentalProperty]: 'YET',
+    [BuildingChargeType.Hotel]: 'Hotel',
+    [BuildingChargeType.ShareHouse]: 'Share House',
+    [BuildingChargeType.Minpaku]: 'Guest House',
+    [BuildingChargeType.RentalProperty]: 'Monthly Rent',
   },
 };
 

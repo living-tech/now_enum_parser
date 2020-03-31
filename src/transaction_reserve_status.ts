@@ -24,11 +24,12 @@ const translations: Translations = {
     [TransactionReserveStatus.Overstay]: 'オーバーステイ',
   },
   en: {
-    [TransactionReserveStatus.Request]: 'Reserve request',
-    [TransactionReserveStatus.Reserve]: 'Reserve',
-    [TransactionReserveStatus.PreCancele]: 'Cancel in advance',
-    [TransactionReserveStatus.MidCancele]: 'Cancel at the middle',
-    [TransactionReserveStatus.Overstay]: 'Overstar',
+    [TransactionReserveStatus.Request]: 'Booking Request',
+    [TransactionReserveStatus.Reserve]: 'Reservation',
+    [TransactionReserveStatus.PreCancele]: 'Advance Cancellation',
+    [TransactionReserveStatus.MidCancele]:
+      'Premature Termination of a Contract',
+    [TransactionReserveStatus.Overstay]: 'Overstay',
   },
 };
 

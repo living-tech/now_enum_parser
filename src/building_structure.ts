@@ -22,10 +22,10 @@ const translations: Translations = {
     [BuildingStructure.Src]: '鉄筋鉄骨コンクリート造',
   },
   en: {
-    [BuildingStructure.Wood]: 'Wood',
-    [BuildingStructure.Stell]: 'Steel',
-    [BuildingStructure.Rc]: 'Reinforced Concrete',
-    [BuildingStructure.Src]: 'Steel Reinforced Concrete',
+    [BuildingStructure.Wood]: 'Wooden',
+    [BuildingStructure.Stell]: 'Steel Frame Construction',
+    [BuildingStructure.Rc]: 'Reinforced Concrete Construction',
+    [BuildingStructure.Src]: 'Steel-Framed Concrete Construction',
   },
 };
 

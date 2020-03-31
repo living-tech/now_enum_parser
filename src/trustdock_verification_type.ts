@@ -30,15 +30,15 @@ const translations: Translations = {
   },
   en: {
     [TrustdockVerificationType.Passport]: 'Passport',
-    [TrustdockVerificationType.DriverLicense]: 'Driver license',
+    [TrustdockVerificationType.DriverLicense]: `Driver's License`,
     [TrustdockVerificationType.DrivingHistoryCertification]:
-      'Driving hisory certification',
+      'Driving History Certificate',
     [TrustdockVerificationType.BasicResidentRegisterCard]:
-      'Basic resident register card',
-    [TrustdockVerificationType.ResidencyCard]: 'Residency card',
+      'Basic Resident Register Card',
+    [TrustdockVerificationType.ResidencyCard]: 'Residence Card',
     [TrustdockVerificationType.SpecialPermanentResidentCertificate]:
-      'Special permanent resident certificate',
-    [TrustdockVerificationType.MyNumberCard]: 'My number card',
+      'Special Permanent Resident Certificate',
+    [TrustdockVerificationType.MyNumberCard]: 'My Number Card',
   },
 };
 

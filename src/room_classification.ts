@@ -15,11 +15,11 @@ export enum RoomClassification {
 const translations: Translations = {
   ja: {
     [RoomClassification.Private]: '個室',
-    [RoomClassification.Share]: '共有',
+    [RoomClassification.Share]: '相部屋',
   },
   en: {
-    [RoomClassification.Private]: 'Private',
-    [RoomClassification.Share]: 'Share',
+    [RoomClassification.Private]: 'Private Room',
+    [RoomClassification.Share]: 'Shared Room',
   },
 };
 
