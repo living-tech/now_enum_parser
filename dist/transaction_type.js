@@ -17,9 +17,9 @@ var translations = {
         _a[TransactionType.Refund] = '払い戻し',
         _a),
     en: (_b = {},
-        _b[TransactionType.Credit] = 'Credit',
+        _b[TransactionType.Credit] = 'Pay Later',
         _b[TransactionType.Payment] = 'Payment',
-        _b[TransactionType.Refund] = 'Refund',
+        _b[TransactionType.Refund] = 'Reimbursement',
         _b),
 };
 // DO NOT EDIT

@@ -17,9 +17,9 @@ var translations = {
         _a[CertificateType.NationalStrategicSpecialZone] = '国家戦略特別区域法',
         _a),
     en: (_b = {},
-        _b[CertificateType.Minpaku] = 'Minpaku Business Law',
-        _b[CertificateType.Hotel] = 'Hotel Business Law',
-        _b[CertificateType.NationalStrategicSpecialZone] = 'National Strategic Special Zone Law',
+        _b[CertificateType.Minpaku] = 'Residential Accommodation Business',
+        _b[CertificateType.Hotel] = 'Ryokan Business Law',
+        _b[CertificateType.NationalStrategicSpecialZone] = 'National Strategic Special Zones Act',
         _b),
 };
 // DO NOT EDIT

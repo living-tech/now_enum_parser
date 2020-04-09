@@ -26,12 +26,12 @@ var translations = {
         _a),
     en: (_b = {},
         _b[TrustdockVerificationType.Passport] = 'Passport',
-        _b[TrustdockVerificationType.DriverLicense] = 'Driver license',
-        _b[TrustdockVerificationType.DrivingHistoryCertification] = 'Driving hisory certification',
-        _b[TrustdockVerificationType.BasicResidentRegisterCard] = 'Basic resident register card',
-        _b[TrustdockVerificationType.ResidencyCard] = 'Residency card',
-        _b[TrustdockVerificationType.SpecialPermanentResidentCertificate] = 'Special permanent resident certificate',
-        _b[TrustdockVerificationType.MyNumberCard] = 'My number card',
+        _b[TrustdockVerificationType.DriverLicense] = "Driver's License",
+        _b[TrustdockVerificationType.DrivingHistoryCertification] = 'Driving History Certificate',
+        _b[TrustdockVerificationType.BasicResidentRegisterCard] = 'Basic Resident Register Card',
+        _b[TrustdockVerificationType.ResidencyCard] = 'Residence Card',
+        _b[TrustdockVerificationType.SpecialPermanentResidentCertificate] = 'Special Permanent Resident Certificate',
+        _b[TrustdockVerificationType.MyNumberCard] = 'My Number Card',
         _b),
 };
 // DO NOT EDIT

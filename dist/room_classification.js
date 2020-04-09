@@ -12,11 +12,11 @@ var RoomClassification;
 var translations = {
     ja: (_a = {},
         _a[RoomClassification.Private] = '個室',
-        _a[RoomClassification.Share] = '共有',
+        _a[RoomClassification.Share] = '相部屋',
         _a),
     en: (_b = {},
-        _b[RoomClassification.Private] = 'Private',
-        _b[RoomClassification.Share] = 'Share',
+        _b[RoomClassification.Private] = 'Private Room',
+        _b[RoomClassification.Share] = 'Shared Room',
         _b),
 };
 // DO NOT EDIT

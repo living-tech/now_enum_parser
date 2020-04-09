@@ -19,10 +19,10 @@ var translations = {
         _a[RegistrationStatus.Rejected] = '却下',
         _a),
     en: (_b = {},
-        _b[RegistrationStatus.NotYet] = 'Not yet',
-        _b[RegistrationStatus.InProgress] = 'In progress',
+        _b[RegistrationStatus.NotYet] = 'Yet to be Approved',
+        _b[RegistrationStatus.InProgress] = 'Waiting for Approval',
         _b[RegistrationStatus.Approved] = 'Approved',
-        _b[RegistrationStatus.Rejected] = 'Rejected',
+        _b[RegistrationStatus.Rejected] = 'Not Approved',
         _b),
 };
 // DO NOT EDIT
