@@ -20,8 +20,8 @@ var translations = {
         _a),
     en: (_b = {},
         _b[TransactionStatus.Unpaid] = 'Unpaid',
-        _b[TransactionStatus.CreditOK] = 'Credit OK',
-        _b[TransactionStatus.CreditNG] = 'Credit NG',
+        _b[TransactionStatus.CreditOK] = 'Pay Later Accepted',
+        _b[TransactionStatus.CreditNG] = 'Pay Later Not Accepted',
         _b[TransactionStatus.Paid] = 'Paid',
         _b),
 };

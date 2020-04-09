@@ -15,7 +15,7 @@ var translations = {
         _a[TrustdockAmlCheckStatus.Confirmed] = '確認済',
         _a),
     en: (_b = {},
-        _b[TrustdockAmlCheckStatus.Accpted] = 'Accepted',
+        _b[TrustdockAmlCheckStatus.Accpted] = 'Received',
         _b[TrustdockAmlCheckStatus.Confirmed] = 'Confirmed',
         _b),
 };

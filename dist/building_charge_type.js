@@ -18,10 +18,10 @@ var translations = {
         _a[BuildingChargeType.RentalProperty] = '賃貸',
         _a),
     en: (_b = {},
-        _b[BuildingChargeType.Hotel] = 'YET',
-        _b[BuildingChargeType.ShareHouse] = 'YET',
-        _b[BuildingChargeType.Minpaku] = 'YET',
-        _b[BuildingChargeType.RentalProperty] = 'YET',
+        _b[BuildingChargeType.Hotel] = 'Hotel',
+        _b[BuildingChargeType.ShareHouse] = 'Share House',
+        _b[BuildingChargeType.Minpaku] = 'Guest House',
+        _b[BuildingChargeType.RentalProperty] = 'Monthly Rent',
         _b),
 };
 // DO NOT EDIT

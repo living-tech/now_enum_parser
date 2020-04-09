@@ -9,17 +9,17 @@ import {
 export enum RoomFloorPlan {
   OneRoom = 'OneRoom', // ワンルーム
   OneK = 'OneK', // 1K
-  OneDK = 'OneDK', // 1DK
-  OneLDK = 'OneLDK', // 1LDK
+  OneDk = 'OneDk', // 1DK
+  OneLdk = 'OneLdk', // 1LDK
   TwoK = 'TwoK', // 2K
-  TwoDK = 'TwoDK', // 2DK
-  TwoLDK = 'TwoLDK', // 2LDK
+  TwoDk = 'TwoDk', // 2DK
+  TwoLdk = 'TwoLdk', // 2LDK
   ThreeK = 'ThreeK', // 3K
-  ThreeDK = 'ThreeDK', // 3DK
-  ThreeLDK = 'ThreeLDK', // 3LDK
+  ThreeDk = 'ThreeDk', // 3DK
+  ThreeLdk = 'ThreeLdk', // 3LDK
   FourK = 'FourK', // 4K
-  FourDK = 'FourDK', // 4DK
-  MoreThanFourLDK = 'MoreThanFourLDK', // 4LDK以上
+  FourDk = 'FourDk', // 4DK
+  MoreThanFourLdk = 'MoreThanFourLdk', // 4LDK以上
 }
 
 // Edit contexts
@@ -27,32 +27,32 @@ const translations: Translations = {
   ja: {
     [RoomFloorPlan.OneRoom]: 'ワンルーム',
     [RoomFloorPlan.OneK]: '1K',
-    [RoomFloorPlan.OneDK]: '1DK',
-    [RoomFloorPlan.OneLDK]: '1LDK',
+    [RoomFloorPlan.OneDk]: '1DK',
+    [RoomFloorPlan.OneLdk]: '1LDK',
     [RoomFloorPlan.TwoK]: '2K',
-    [RoomFloorPlan.TwoDK]: '2DK',
-    [RoomFloorPlan.TwoLDK]: '2LDK',
+    [RoomFloorPlan.TwoDk]: '2DK',
+    [RoomFloorPlan.TwoLdk]: '2LDK',
     [RoomFloorPlan.ThreeK]: '3K',
-    [RoomFloorPlan.ThreeDK]: '3DK',
-    [RoomFloorPlan.ThreeLDK]: '3LDK',
+    [RoomFloorPlan.ThreeDk]: '3DK',
+    [RoomFloorPlan.ThreeLdk]: '3LDK',
     [RoomFloorPlan.FourK]: '4K',
-    [RoomFloorPlan.FourDK]: '4DK',
-    [RoomFloorPlan.MoreThanFourLDK]: '4LDK以上',
+    [RoomFloorPlan.FourDk]: '4DK',
+    [RoomFloorPlan.MoreThanFourLdk]: '4LDK以上',
   },
   en: {
     [RoomFloorPlan.OneRoom]: 'Studio Apartment',
     [RoomFloorPlan.OneK]: '1K',
-    [RoomFloorPlan.OneDK]: '1DK',
-    [RoomFloorPlan.OneLDK]: '1LDK',
+    [RoomFloorPlan.OneDk]: '1DK',
+    [RoomFloorPlan.OneLdk]: '1LDK',
     [RoomFloorPlan.TwoK]: '2K',
-    [RoomFloorPlan.TwoDK]: '2DK',
-    [RoomFloorPlan.TwoLDK]: '2LDK',
+    [RoomFloorPlan.TwoDk]: '2DK',
+    [RoomFloorPlan.TwoLdk]: '2LDK',
     [RoomFloorPlan.ThreeK]: '3K',
-    [RoomFloorPlan.ThreeDK]: '3DK',
-    [RoomFloorPlan.ThreeLDK]: '3LDK',
+    [RoomFloorPlan.ThreeDk]: '3DK',
+    [RoomFloorPlan.ThreeLdk]: '3LDK',
     [RoomFloorPlan.FourK]: '4K',
-    [RoomFloorPlan.FourDK]: '4DK',
-    [RoomFloorPlan.MoreThanFourLDK]: '4LDK or more',
+    [RoomFloorPlan.FourDk]: '4DK',
+    [RoomFloorPlan.MoreThanFourLdk]: '4LDK or more',
   },
 };
 

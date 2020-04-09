@@ -21,11 +21,11 @@ var translations = {
         _a[ReserveStatus.Canceled] = 'キャンセル',
         _a),
     en: (_b = {},
-        _b[ReserveStatus.Requested] = 'Reserve requested',
-        _b[ReserveStatus.Approved] = 'Reserve approved',
-        _b[ReserveStatus.Occupied] = 'Now ocupied',
-        _b[ReserveStatus.Exited] = 'Exited',
-        _b[ReserveStatus.Canceled] = 'Canceled',
+        _b[ReserveStatus.Requested] = 'Booking Request',
+        _b[ReserveStatus.Approved] = 'Before Move In',
+        _b[ReserveStatus.Occupied] = 'Moving In',
+        _b[ReserveStatus.Exited] = 'Moved Out',
+        _b[ReserveStatus.Canceled] = 'Cancelled',
         _b),
 };
 // DO NOT EDIT

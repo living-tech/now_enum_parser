@@ -16,9 +16,9 @@ var translations = {
         _a[RoomChargeType.None] = '区分なし',
         _a),
     en: (_b = {},
-        _b[RoomChargeType.ByRoom] = 'Price by Room',
-        _b[RoomChargeType.ByPerson] = 'Price by Number of Person',
-        _b[RoomChargeType.None] = 'None',
+        _b[RoomChargeType.ByRoom] = 'Charge per Room',
+        _b[RoomChargeType.ByPerson] = 'Charge per Person',
+        _b[RoomChargeType.None] = 'No Classification',
         _b),
 };
 // DO NOT EDIT

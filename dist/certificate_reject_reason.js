@@ -23,12 +23,12 @@ var translations = {
         _a[CertificateRejectReason.Other] = 'その他',
         _a),
     en: (_b = {},
-        _b[CertificateRejectReason.NotDesignated] = 'Not Designated',
-        _b[CertificateRejectReason.Unclearness] = 'Unclearness',
-        _b[CertificateRejectReason.HidenessOrDamage] = 'Hideness or Damage',
-        _b[CertificateRejectReason.NoRegistrationNumber] = 'No Registration Number',
-        _b[CertificateRejectReason.WrongInfo] = 'Wrong Information',
-        _b[CertificateRejectReason.Other] = 'Other',
+        _b[CertificateRejectReason.NotDesignated] = 'This is not a designated official document.',
+        _b[CertificateRejectReason.Unclearness] = 'The image is not clear and cannot be read.',
+        _b[CertificateRejectReason.HidenessOrDamage] = 'Unreadable due to concealment, damage, etc',
+        _b[CertificateRejectReason.NoRegistrationNumber] = 'The permit number is unrecognizable',
+        _b[CertificateRejectReason.WrongInfo] = 'WThere is an error in the information reported.',
+        _b[CertificateRejectReason.Other] = 'Other Reasons',
         _b),
 };
 // DO NOT EDIT

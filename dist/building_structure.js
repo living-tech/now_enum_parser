@@ -19,10 +19,10 @@ var translations = {
         _a[BuildingStructure.Src] = '鉄筋鉄骨コンクリート造',
         _a),
     en: (_b = {},
-        _b[BuildingStructure.Wood] = 'Wood',
-        _b[BuildingStructure.Stell] = 'Steel',
-        _b[BuildingStructure.Rc] = 'Reinforced Concrete',
-        _b[BuildingStructure.Src] = 'Steel Reinforced Concrete',
+        _b[BuildingStructure.Wood] = 'Wooden',
+        _b[BuildingStructure.Stell] = 'Steel Frame Construction',
+        _b[BuildingStructure.Rc] = 'Reinforced Concrete Construction',
+        _b[BuildingStructure.Src] = 'Steel-Framed Concrete Construction',
         _b),
 };
 // DO NOT EDIT

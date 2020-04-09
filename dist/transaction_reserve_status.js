@@ -21,11 +21,11 @@ var translations = {
         _a[TransactionReserveStatus.Overstay] = 'オーバーステイ',
         _a),
     en: (_b = {},
-        _b[TransactionReserveStatus.Request] = 'Reserve request',
-        _b[TransactionReserveStatus.Reserve] = 'Reserve',
-        _b[TransactionReserveStatus.PreCancele] = 'Cancel in advance',
-        _b[TransactionReserveStatus.MidCancele] = 'Cancel at the middle',
-        _b[TransactionReserveStatus.Overstay] = 'Overstar',
+        _b[TransactionReserveStatus.Request] = 'Booking Request',
+        _b[TransactionReserveStatus.Reserve] = 'Reservation',
+        _b[TransactionReserveStatus.PreCancele] = 'Advance Cancellation',
+        _b[TransactionReserveStatus.MidCancele] = 'Premature Termination of a Contract',
+        _b[TransactionReserveStatus.Overstay] = 'Overstay',
         _b),
 };
 // DO NOT EDIT

@@ -1,17 +1,17 @@
 export declare enum RoomFloorPlan {
     OneRoom = "OneRoom",
     OneK = "OneK",
-    OneDK = "OneDK",
-    OneLDK = "OneLDK",
+    OneDk = "OneDk",
+    OneLdk = "OneLdk",
     TwoK = "TwoK",
-    TwoDK = "TwoDK",
-    TwoLDK = "TwoLDK",
+    TwoDk = "TwoDk",
+    TwoLdk = "TwoLdk",
     ThreeK = "ThreeK",
-    ThreeDK = "ThreeDK",
-    ThreeLDK = "ThreeLDK",
+    ThreeDk = "ThreeDk",
+    ThreeLdk = "ThreeLdk",
     FourK = "FourK",
-    FourDK = "FourDK",
-    MoreThanFourLDK = "MoreThanFourLDK"
+    FourDk = "FourDk",
+    MoreThanFourLdk = "MoreThanFourLdk"
 }
 export declare const roomFloorPlanEncoder: (raw: RoomFloorPlan, lang: import(".").Language) => string;
 export declare const roomFloorPlanDecoder: (text: string, lang: import(".").Language) => RoomFloorPlan;
