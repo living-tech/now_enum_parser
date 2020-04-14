@@ -24,3 +24,4 @@ export { RoomClassification, roomClassificationDecoder, roomClassificationEncode
 export { RoomFloorPlan, roomFloorPlanDecoder, roomFloorPlanEncoder, } from './room_floor_plan';
 export { DiscountType, discountTypeDecoder, discountTypeEncoder, } from './discount_type';
 export { ReserveStatus, reserveStatusDecoder, reserveStatusEncoder, } from './reserve_status';
+export { MessageType, messageTypeDecoder, messageTypeEncoder, } from './message_type';
