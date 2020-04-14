@@ -109,3 +109,8 @@ export {
   reserveStatusDecoder,
   reserveStatusEncoder,
 } from './reserve_status';
+export {
+  MessageType,
+  messageTypeDecoder,
+  messageTypeEncoder,
+} from './message_type';
