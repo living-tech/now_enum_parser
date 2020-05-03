@@ -5,7 +5,7 @@ import {
   generateDecoder,
 } from './lib/generators';
 
-export enum AccountType {
+export enum BankAccountType {
   OrdinaryDeposit = 'OrdinaryDeposit', // 普通預金
   CurrentAccount = 'CurrentAccount', //当座預金
 }
@@ -13,12 +13,12 @@ export enum AccountType {
 // Edit contexts
 const translations: Translations = {
   ja: {
-    [AccountType.OrdinaryDeposit]: '普通預金',
-    [AccountType.CurrentAccount]: '当座預金',
+    [BankAccountType.OrdinaryDeposit]: '普通預金',
+    [BankAccountType.CurrentAccount]: '当座預金',
   },
   en: {
-    [AccountType.OrdinaryDeposit]: 'Ordinary Deposit',
-    [AccountType.CurrentAccount]: 'Current Account',
+    [BankAccountType.OrdinaryDeposit]: 'Ordinary Deposit',
+    [BankAccountType.CurrentAccount]: 'Current Account',
   },
 };
 
@@ -26,9 +26,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const AccountTypeEncoder = generateEncoder<AccountType>(
+export const bankAccountTypeEncoder = generateEncoder<BankAccountType>(
   translations,
 );
-export const AccountTypeDecoder = generateDecoder<AccountType>(
+export const bankAccountTypeDecoder = generateDecoder<BankAccountType>(
   reverseTranslations,
 );
