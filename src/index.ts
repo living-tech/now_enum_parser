@@ -1,6 +1,11 @@
 export { Language, languageEncoder, languageDecoder } from './lib/language';
 
 export {
+  BankAccountType,
+  bankAccountTypeDecoder,
+  bankAccountTypeEncoder,
+} from './bank_account_type';
+export {
   BuildingChargeType,
   buildingChargeTypeDecoder,
   buildingChargeTypeEncoder,
