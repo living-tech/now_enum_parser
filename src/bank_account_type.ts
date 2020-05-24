@@ -7,7 +7,7 @@ import {
 
 export enum BankAccountType {
   OrdinaryDeposit = 'OrdinaryDeposit', // 普通預金
-  CurrentAccount = 'CurrentAccount', //当座預金
+  CurrentAccount = 'CurrentAccount', // 当座預金
 }
 
 // Edit contexts
