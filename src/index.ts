@@ -42,6 +42,11 @@ export {
   identityDocumentStatusDecoder,
   identityDocumentStatusEncoder,
 } from './identity_document_status';
+export {
+  IdentityDocumentNote,
+  identityDocumentNoteDecoder,
+  identityDocumentNoteEncoder,
+} from './identity_document_note';
 export { Occupation, occupationDecoder, occupationEncoder } from './occupation';
 export { Prefecture, prefectureDecoder, prefectureEncoder } from './prefecture';
 export {
