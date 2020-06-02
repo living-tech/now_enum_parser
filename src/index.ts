@@ -15,6 +15,11 @@ export {
   buildingStructureDecoder,
   buildingStructureEncoder,
 } from './building_structure';
+export {
+  BuildingConstructedRange,
+  BuildingConstructedRangeDecoder,
+  BuildingConstructedRangeEncoder,
+} from './building_constructed_range';
 export { CardBrand, cardBrandDecoder, cardBrandEncoder } from './card_brand';
 export {
   CertificateImageType,
