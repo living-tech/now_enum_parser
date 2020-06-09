@@ -45,9 +45,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const BuildingConstructedRangeEncoder = generateEncoder<BuildingConstructedRange>(
+export const buildingConstructedRangeEncoder = generateEncoder<BuildingConstructedRange>(
   translations,
 );
-export const BuildingConstructedRangeDecoder = generateDecoder<BuildingConstructedRange>(
+export const buildingConstructedRangeDecoder = generateDecoder<BuildingConstructedRange>(
   reverseTranslations,
 );

@@ -40,6 +40,6 @@ var translations = {
 };
 var reverseTranslations = generators_1.generateReverseTranslations(translations);
 // Edit constants name
-exports.BuildingConstructedRangeEncoder = generators_1.generateEncoder(translations);
-exports.BuildingConstructedRangeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.buildingConstructedRangeEncoder = generators_1.generateEncoder(translations);
+exports.buildingConstructedRangeDecoder = generators_1.generateDecoder(reverseTranslations);
 //# sourceMappingURL=building_constructed_range.js.map

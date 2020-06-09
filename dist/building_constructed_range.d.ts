@@ -9,5 +9,5 @@ export declare enum BuildingConstructedRange {
     TwentyFiveYear = "TwentyFiveYear",
     ThirtyYear = "ThirtyYear"
 }
-export declare const BuildingConstructedRangeEncoder: (raw: BuildingConstructedRange, lang: import(".").Language) => string;
-export declare const BuildingConstructedRangeDecoder: (text: string, lang: import(".").Language) => BuildingConstructedRange;
+export declare const buildingConstructedRangeEncoder: (raw: BuildingConstructedRange, lang: import(".").Language) => string;
+export declare const buildingConstructedRangeDecoder: (text: string, lang: import(".").Language) => BuildingConstructedRange;
