@@ -17,9 +17,14 @@ export {
 } from './building_structure';
 export {
   BuildingConstructedRange,
-  BuildingConstructedRangeDecoder,
-  BuildingConstructedRangeEncoder,
+  buildingConstructedRangeDecoder,
+  buildingConstructedRangeEncoder,
 } from './building_constructed_range';
+export {
+  BusinessTypeAlias,
+  businessTypeAliasDecoder,
+  businessTypeAliasEncoder,
+} from './business_type_alias';
 export { CardBrand, cardBrandDecoder, cardBrandEncoder } from './card_brand';
 export {
   CertificateImageType,
