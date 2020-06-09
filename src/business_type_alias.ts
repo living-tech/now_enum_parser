@@ -6,11 +6,12 @@ import {
 } from './lib/generators';
 
 // Edit enum name and contents
+// DBにすでに存在する値に合わせる
 export enum BusinessTypeAlias {
-  ServiceApartment = 'ServiceApartment',
-  Hotel = 'Hotel',
-  GuestHouse = 'GuestHouse',
-  ShareHouse = 'ShareHouse',
+  ServiceApartment = 'service-apartment',
+  Hotel = 'hotel',
+  GuestHouse = 'guest-house',
+  ShareHouse = 'share-house',
 }
 
 // Edit contexts
