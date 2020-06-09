@@ -3,7 +3,6 @@ export { BankAccountType, bankAccountTypeDecoder, bankAccountTypeEncoder, } from
 export { BuildingChargeType, buildingChargeTypeDecoder, buildingChargeTypeEncoder, } from './building_charge_type';
 export { BuildingStructure, buildingStructureDecoder, buildingStructureEncoder, } from './building_structure';
 export { BuildingConstructedRange, buildingConstructedRangeDecoder, buildingConstructedRangeEncoder, } from './building_constructed_range';
-export { BusinessTypeAlias, businessTypeAliasDecoder, businessTypeAliasEncoder, } from './business_type_alias';
 export { CardBrand, cardBrandDecoder, cardBrandEncoder } from './card_brand';
 export { CertificateImageType, certificateImageTypeDecoder, certificateImageTypeEncoder, } from './certificate_image_type';
 export { CertificateRejectReason, certificateRejectReasonDecoder, certificateRejectReasonEncoder, } from './certificate_reject_reason';
