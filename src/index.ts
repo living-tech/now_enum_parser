@@ -43,6 +43,11 @@ export {
 } from './classification';
 export { Gender, genderDecoder, genderEncoder } from './gender';
 export {
+  ContactType,
+  contactTypeDecoder,
+  contactTypeEncoder,
+} from './contact_type';
+export {
   IdentityDocumentStatus,
   identityDocumentStatusDecoder,
   identityDocumentStatusEncoder,
