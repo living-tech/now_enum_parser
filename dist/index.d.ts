@@ -9,6 +9,7 @@ export { CertificateRejectReason, certificateRejectReasonDecoder, certificateRej
 export { CertificateType, certificateTypeDecoder, certificateTypeEncoder, } from './certificate_type';
 export { Classification, classificationDecoder, classificationEncoder, } from './classification';
 export { Gender, genderDecoder, genderEncoder } from './gender';
+export { ContactType, contactTypeDecoder, contactTypeEncoder, } from './contact_type';
 export { IdentityDocumentStatus, identityDocumentStatusDecoder, identityDocumentStatusEncoder, } from './identity_document_status';
 export { IdentityDocumentNote, identityDocumentNoteDecoder, identityDocumentNoteEncoder, } from './identity_document_note';
 export { Occupation, occupationDecoder, occupationEncoder } from './occupation';
