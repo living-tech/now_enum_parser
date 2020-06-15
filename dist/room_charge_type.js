@@ -1,6 +1,7 @@
 "use strict";
 var _a, _b;
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.roomChargeTypeDecoder = exports.roomChargeTypeEncoder = exports.RoomChargeType = void 0;
 var generators_1 = require("./lib/generators");
 var RoomChargeType;
 (function (RoomChargeType) {

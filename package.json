@@ -15,8 +15,8 @@
     "lint": "tslint -p tsconfig.json -c tslint.json"
   },
   "devDependencies": {
-    "prettier": "^1.19.1",
-    "tslint": "^6.0.0",
-    "typescript": "^3.7.5"
+    "prettier": "^2.0.5",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.5"
   }
 }

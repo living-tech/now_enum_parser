@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.generateDecoder = exports.generateEncoder = exports.generateReverseTranslations = void 0;
 exports.generateReverseTranslations = function (translations) {
     var reverseTranslations = {};
     Object.keys(translations).forEach(function (lang) {

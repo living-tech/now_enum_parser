@@ -1,6 +1,7 @@
 "use strict";
 var _a, _b;
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.identityDocumentStatusDecoder = exports.identityDocumentStatusEncoder = exports.IdentityDocumentStatus = void 0;
 var generators_1 = require("./lib/generators");
 // Edit enum name and contents
 var IdentityDocumentStatus;
