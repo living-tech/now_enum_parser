@@ -1,6 +1,7 @@
 "use strict";
 var _a, _b;
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.bankAccountTypeDecoder = exports.bankAccountTypeEncoder = exports.BankAccountType = void 0;
 var generators_1 = require("./lib/generators");
 var BankAccountType;
 (function (BankAccountType) {

@@ -1,6 +1,7 @@
 "use strict";
 var _a, _b;
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.messageTypeDecoder = exports.messageTypeEncoder = exports.MessageType = void 0;
 var generators_1 = require("./lib/generators");
 // Edit enum name and contents
 var MessageType;

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.languageDecoder = exports.languageEncoder = exports.Language = void 0;
 var Language;
 (function (Language) {
     Language["ja"] = "ja";

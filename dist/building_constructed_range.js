@@ -1,6 +1,7 @@
 "use strict";
 var _a, _b;
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.buildingConstructedRangeDecoder = exports.buildingConstructedRangeEncoder = exports.BuildingConstructedRange = void 0;
 var generators_1 = require("./lib/generators");
 var BuildingConstructedRange;
 (function (BuildingConstructedRange) {
