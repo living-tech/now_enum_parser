@@ -33,14 +33,19 @@ export enum IdentityDocumentNote {
 // Edit contexts
 const translations: Translations = {
   ja: {
-    [IdentityDocumentNote.AddressIsNotSpecified]: '手書きで住所が2箇所記載されており、打ち消し線がない',
+    [IdentityDocumentNote.AddressIsNotSpecified]:
+      '手書きで住所が2箇所記載されており、打ち消し線がない',
     [IdentityDocumentNote.Blurred]: '不鮮明のため読み取れない',
-    [IdentityDocumentNote.ContainsIndividualNumber]: 'マイナンバーが含まれている',
-    [IdentityDocumentNote.CopyOrScannedData]: 'カラー・白黒コピー・スキャンである',
+    [IdentityDocumentNote.ContainsIndividualNumber]:
+      'マイナンバーが含まれている',
+    [IdentityDocumentNote.CopyOrScannedData]:
+      'カラー・白黒コピー・スキャンである',
     [IdentityDocumentNote.Expired]: '有効期限が切れている',
-    [IdentityDocumentNote.FailedRandomnessCheck]: 'その場で撮影されたことの証明が不十分',
+    [IdentityDocumentNote.FailedRandomnessCheck]:
+      'その場で撮影されたことの証明が不十分',
     [IdentityDocumentNote.MismatchedData]: '確認書類と一致しない',
-    [IdentityDocumentNote.MismatchedDocument]: 'セルフィーに写っている公的身分証と公的身分証が一致しない',
+    [IdentityDocumentNote.MismatchedDocument]:
+      'セルフィーに写っている公的身分証と公的身分証が一致しない',
     [IdentityDocumentNote.MismatchedDocumentSides]: '氏名が表と裏で一致しない',
     [IdentityDocumentNote.MismatchedFace]: '顔が一致しない',
     [IdentityDocumentNote.MissingAddress]: '住所の記載ない',

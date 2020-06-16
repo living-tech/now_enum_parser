@@ -8,7 +8,7 @@ export const generateReverseTranslations = (
   Object.keys(translations).forEach((lang: string) => {
     const translation = translations[lang];
     reverseTranslations[lang] = {};
-    Object.keys(translation).forEach(enumKey => {
+    Object.keys(translation).forEach((enumKey) => {
       reverseTranslations[lang][translations[lang][enumKey]] = enumKey;
     });
   });

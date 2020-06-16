@@ -6,15 +6,15 @@ import {
 } from './lib/generators';
 
 export enum BuildingConstructedRange {
-  OneYear = 'OneYear',                 // 1年以内
-  ThreeYear = 'ThreeYear',             // 3年以内
-  FiveYear = 'FiveYear',               // 5年以内
-  SevenYear = 'SevenYear',             // 7年以内
-  TenYear = 'TenYear',                 // 10年以内
-  FifteenYear = 'FifteenYear',         // 15年以内
-  TwentyYear = 'TwentyYear',           // 20年以内
-  TwentyFiveYear = 'TwentyFiveYear',   // 25年以内
-  ThirtyYear = 'ThirtyYear',           // 30年以内
+  OneYear = 'OneYear', // 1年以内
+  ThreeYear = 'ThreeYear', // 3年以内
+  FiveYear = 'FiveYear', // 5年以内
+  SevenYear = 'SevenYear', // 7年以内
+  TenYear = 'TenYear', // 10年以内
+  FifteenYear = 'FifteenYear', // 15年以内
+  TwentyYear = 'TwentyYear', // 20年以内
+  TwentyFiveYear = 'TwentyFiveYear', // 25年以内
+  ThirtyYear = 'ThirtyYear', // 30年以内
 }
 
 const translations: Translations = {
@@ -45,9 +45,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const buildingConstructedRangeEncoder = generateEncoder<BuildingConstructedRange>(
-  translations,
-);
-export const buildingConstructedRangeDecoder = generateDecoder<BuildingConstructedRange>(
-  reverseTranslations,
-);
+export const buildingConstructedRangeEncoder = generateEncoder<
+  BuildingConstructedRange
+>(translations);
+export const buildingConstructedRangeDecoder = generateDecoder<
+  BuildingConstructedRange
+>(reverseTranslations);
