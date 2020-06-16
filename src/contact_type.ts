@@ -42,9 +42,7 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const contactTypeEncoder = generateEncoder<ContactType>(
-  translations,
-);
+export const contactTypeEncoder = generateEncoder<ContactType>(translations);
 export const contactTypeDecoder = generateDecoder<ContactType>(
   reverseTranslations,
 );

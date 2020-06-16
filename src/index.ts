@@ -60,6 +60,11 @@ export {
 export { Occupation, occupationDecoder, occupationEncoder } from './occupation';
 export { Prefecture, prefectureDecoder, prefectureEncoder } from './prefecture';
 export {
+  PayoutStatus,
+  payoutStatusDecoder,
+  payoutStatusEncoder,
+} from './payout_status';
+export {
   TransactionReserveStatus,
   transactionReserveStatusDecoder,
   transactionReserveStatusEncoder,
