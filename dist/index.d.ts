@@ -30,3 +30,4 @@ export { RoomFloorPlan, roomFloorPlanDecoder, roomFloorPlanEncoder, } from './ro
 export { DiscountType, discountTypeDecoder, discountTypeEncoder, } from './discount_type';
 export { ReserveStatus, reserveStatusDecoder, reserveStatusEncoder, } from './reserve_status';
 export { MessageType, messageTypeDecoder, messageTypeEncoder, } from './message_type';
+export { PaymentTerm, paymentTermDecoder, paymentTermEncoder, } from './payment_term';
