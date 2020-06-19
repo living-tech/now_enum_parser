@@ -139,3 +139,8 @@ export {
   messageTypeDecoder,
   messageTypeEncoder,
 } from './message_type';
+export {
+  PaymentTerm,
+  paymentTermDecoder,
+  paymentTermEncoder,
+} from './payment_term';

@@ -128,4 +128,8 @@ var message_type_1 = require("./message_type");
 Object.defineProperty(exports, "MessageType", { enumerable: true, get: function () { return message_type_1.MessageType; } });
 Object.defineProperty(exports, "messageTypeDecoder", { enumerable: true, get: function () { return message_type_1.messageTypeDecoder; } });
 Object.defineProperty(exports, "messageTypeEncoder", { enumerable: true, get: function () { return message_type_1.messageTypeEncoder; } });
+var payment_term_1 = require("./payment_term");
+Object.defineProperty(exports, "PaymentTerm", { enumerable: true, get: function () { return payment_term_1.PaymentTerm; } });
+Object.defineProperty(exports, "paymentTermDecoder", { enumerable: true, get: function () { return payment_term_1.paymentTermDecoder; } });
+Object.defineProperty(exports, "paymentTermEncoder", { enumerable: true, get: function () { return payment_term_1.paymentTermEncoder; } });
 //# sourceMappingURL=index.js.map
