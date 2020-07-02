@@ -31,4 +31,4 @@ export { DiscountType, discountTypeDecoder, discountTypeEncoder, } from './disco
 export { ReserveStatus, reserveStatusDecoder, reserveStatusEncoder, } from './reserve_status';
 export { MessageType, messageTypeDecoder, messageTypeEncoder, } from './message_type';
 export { PaymentTerm, paymentTermDecoder, paymentTermEncoder, } from './payment_term';
-export { Transportation, transportationDecoder, transportationEncoder } from './transportation';
+export { Transportation, transportationDecoder, transportationEncoder, } from './transportation';
