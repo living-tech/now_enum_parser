@@ -132,4 +132,8 @@ var payment_term_1 = require("./payment_term");
 Object.defineProperty(exports, "PaymentTerm", { enumerable: true, get: function () { return payment_term_1.PaymentTerm; } });
 Object.defineProperty(exports, "paymentTermDecoder", { enumerable: true, get: function () { return payment_term_1.paymentTermDecoder; } });
 Object.defineProperty(exports, "paymentTermEncoder", { enumerable: true, get: function () { return payment_term_1.paymentTermEncoder; } });
+var transportation_1 = require("./transportation");
+Object.defineProperty(exports, "Transportation", { enumerable: true, get: function () { return transportation_1.Transportation; } });
+Object.defineProperty(exports, "transportationDecoder", { enumerable: true, get: function () { return transportation_1.transportationDecoder; } });
+Object.defineProperty(exports, "transportationEncoder", { enumerable: true, get: function () { return transportation_1.transportationEncoder; } });
 //# sourceMappingURL=index.js.map
