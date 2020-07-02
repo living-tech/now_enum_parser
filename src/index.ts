@@ -144,3 +144,4 @@ export {
   paymentTermDecoder,
   paymentTermEncoder,
 } from './payment_term';
+export { Transportation, transportationDecoder, transportationEncoder } from './transportation';
