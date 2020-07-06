@@ -34,6 +34,7 @@ const translations: Translations = {
     [ContactType.Account]: 'Account',
     [ContactType.BeforeMoveIn]: 'Before move in',
     [ContactType.MoveIn]: 'Move in',
+    [ContactType.MoveOut]: 'Move out',
     [ContactType.Other]: 'Other',
   },
 };

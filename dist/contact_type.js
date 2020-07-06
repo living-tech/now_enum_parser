@@ -32,6 +32,7 @@ var translations = {
         _b[ContactType.Account] = 'Account',
         _b[ContactType.BeforeMoveIn] = 'Before move in',
         _b[ContactType.MoveIn] = 'Move in',
+        _b[ContactType.MoveOut] = 'Move out',
         _b[ContactType.Other] = 'Other',
         _b),
 };
