@@ -57,6 +57,16 @@ export {
   identityDocumentNoteDecoder,
   identityDocumentNoteEncoder,
 } from './identity_document_note';
+export {
+  ImageClassification,
+  imageClassificationDecoder,
+  imageClassificationEncoder,
+} from './image_classification';
+export {
+  ImageTarget,
+  imageTargetDecoder,
+  imageTargetEncoder,
+} from './image_target';
 export { Occupation, occupationDecoder, occupationEncoder } from './occupation';
 export { Prefecture, prefectureDecoder, prefectureEncoder } from './prefecture';
 export {
