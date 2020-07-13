@@ -12,6 +12,8 @@ export { Gender, genderDecoder, genderEncoder } from './gender';
 export { ContactType, contactTypeDecoder, contactTypeEncoder, } from './contact_type';
 export { IdentityDocumentStatus, identityDocumentStatusDecoder, identityDocumentStatusEncoder, } from './identity_document_status';
 export { IdentityDocumentNote, identityDocumentNoteDecoder, identityDocumentNoteEncoder, } from './identity_document_note';
+export { ImageClassification, imageClassificationDecoder, imageClassificationEncoder, } from './image_classification';
+export { ImageTarget, imageTargetDecoder, imageTargetEncoder, } from './image_target';
 export { Occupation, occupationDecoder, occupationEncoder } from './occupation';
 export { Prefecture, prefectureDecoder, prefectureEncoder } from './prefecture';
 export { PayoutStatus, payoutStatusDecoder, payoutStatusEncoder, } from './payout_status';

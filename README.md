@@ -3,7 +3,7 @@
 > define enums and parsers for now project
 
 ## Installation
-`yarn add ssh://git@project.revoneo.com:2224/active/living-tech/now_enum_parser.git`
+`yarn add ssh://git@github.com:living-tech/now_enum_parser.git`
 
 ## Usage
 ```
