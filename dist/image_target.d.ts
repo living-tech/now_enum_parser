@@ -1,9 +1,16 @@
 export declare enum ImageTarget {
-    Room = "Room",
-    Kitchen = "Kitchen",
-    Toilet = "Toilet",
-    Entrance = "Entrance",
-    Other = "Other"
+    PrivateRoom = "PrivateRoom",
+    ShareRoom = "ShareRoom",
+    PrivateKitchen = "PrivateKitchen",
+    ShareKitchen = "ShareKitchen",
+    PrivateToilet = "PrivateToilet",
+    ShareToilet = "ShareToilet",
+    PrivateEntrance = "PrivateEntrance",
+    ShareEntrance = "ShareEntrance",
+    PrivateOther = "PrivateOther",
+    ShareOther = "ShareOther",
+    PrivateNone = "PrivateNone",
+    ShareNone = "ShareNone"
 }
 export declare const imageTargetEncoder: (raw: ImageTarget, lang: import(".").Language) => string;
 export declare const imageTargetDecoder: (text: string, lang: import(".").Language) => ImageTarget;
