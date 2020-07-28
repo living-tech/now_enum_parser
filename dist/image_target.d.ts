@@ -10,7 +10,9 @@ export declare enum ImageTarget {
     PrivateOther = "PrivateOther",
     ShareOther = "ShareOther",
     PrivateNone = "PrivateNone",
-    ShareNone = "ShareNone"
+    ShareNone = "ShareNone",
+    FloorPlan = "FloorPlan",
+    KeyVisual = "KeyVisual"
 }
 export declare const imageTargetEncoder: (raw: ImageTarget, lang: import(".").Language) => string;
 export declare const imageTargetDecoder: (text: string, lang: import(".").Language) => ImageTarget;
