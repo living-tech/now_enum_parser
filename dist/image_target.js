@@ -18,6 +18,8 @@ var ImageTarget;
     ImageTarget["ShareOther"] = "ShareOther";
     ImageTarget["PrivateNone"] = "PrivateNone";
     ImageTarget["ShareNone"] = "ShareNone";
+    ImageTarget["FloorPlan"] = "FloorPlan";
+    ImageTarget["KeyVisual"] = "KeyVisual";
 })(ImageTarget = exports.ImageTarget || (exports.ImageTarget = {}));
 // Edit contexts
 var translations = {
@@ -34,20 +36,24 @@ var translations = {
         _a[ImageTarget.ShareOther] = '共有部 - その他',
         _a[ImageTarget.PrivateNone] = '専有部 - 区分なし',
         _a[ImageTarget.ShareNone] = '共有部 - 区分なし',
+        _a[ImageTarget.FloorPlan] = '間取り',
+        _a[ImageTarget.KeyVisual] = 'KV',
         _a),
     en: (_b = {},
-        _b[ImageTarget.PrivateRoom] = '専有部 - Room',
-        _b[ImageTarget.ShareRoom] = '共有部 - Room',
-        _b[ImageTarget.PrivateKitchen] = '専有部 - Kitchen',
-        _b[ImageTarget.ShareKitchen] = '共有部 - Kitchen',
-        _b[ImageTarget.PrivateToilet] = '専有部 - Toilet, Bathroom, WashStand',
-        _b[ImageTarget.ShareToilet] = '共有部 - Toilet, Bathroom, WashStand',
-        _b[ImageTarget.PrivateEntrance] = '専有部 - Entrance, Balcony, Scenery',
-        _b[ImageTarget.ShareEntrance] = '共有部 - Entrance, Balcony, Scenery',
-        _b[ImageTarget.PrivateOther] = '専有部 - Other',
-        _b[ImageTarget.ShareOther] = '共有部 - Other',
-        _b[ImageTarget.PrivateNone] = '専有部 - None',
-        _b[ImageTarget.ShareNone] = '共有部 - None',
+        _b[ImageTarget.PrivateRoom] = 'Private - Room',
+        _b[ImageTarget.ShareRoom] = 'Public - Room',
+        _b[ImageTarget.PrivateKitchen] = 'Private - Kitchen',
+        _b[ImageTarget.ShareKitchen] = 'Public - Kitchen',
+        _b[ImageTarget.PrivateToilet] = 'Private - Toilet, Bathroom, WashStand',
+        _b[ImageTarget.ShareToilet] = 'Public - Toilet, Bathroom, WashStand',
+        _b[ImageTarget.PrivateEntrance] = 'Private - Entrance, Balcony, Scenery',
+        _b[ImageTarget.ShareEntrance] = 'Public - Entrance, Balcony, Scenery',
+        _b[ImageTarget.PrivateOther] = 'Private - Other',
+        _b[ImageTarget.ShareOther] = 'Public - Other',
+        _b[ImageTarget.PrivateNone] = 'Private - None',
+        _b[ImageTarget.ShareNone] = 'Public - None',
+        _b[ImageTarget.FloorPlan] = 'Floor Plan',
+        _b[ImageTarget.KeyVisual] = 'KV',
         _b),
 };
 // DO NOT EDIT
