@@ -33,3 +33,4 @@ export { ReserveStatus, reserveStatusDecoder, reserveStatusEncoder, } from './re
 export { MessageType, messageTypeDecoder, messageTypeEncoder, } from './message_type';
 export { PaymentTerm, paymentTermDecoder, paymentTermEncoder, } from './payment_term';
 export { Transportation, transportationDecoder, transportationEncoder, } from './transportation';
+export { JustBeforeDiscountThresholdDay, justBeforeDiscountThresholdDayDecoder, justBeforeDiscountThresholdDayEncoder, } from './just_before_discount_threshold_day';

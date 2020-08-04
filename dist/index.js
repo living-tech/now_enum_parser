@@ -140,4 +140,8 @@ var transportation_1 = require("./transportation");
 Object.defineProperty(exports, "Transportation", { enumerable: true, get: function () { return transportation_1.Transportation; } });
 Object.defineProperty(exports, "transportationDecoder", { enumerable: true, get: function () { return transportation_1.transportationDecoder; } });
 Object.defineProperty(exports, "transportationEncoder", { enumerable: true, get: function () { return transportation_1.transportationEncoder; } });
+var just_before_discount_threshold_day_1 = require("./just_before_discount_threshold_day");
+Object.defineProperty(exports, "JustBeforeDiscountThresholdDay", { enumerable: true, get: function () { return just_before_discount_threshold_day_1.JustBeforeDiscountThresholdDay; } });
+Object.defineProperty(exports, "justBeforeDiscountThresholdDayDecoder", { enumerable: true, get: function () { return just_before_discount_threshold_day_1.justBeforeDiscountThresholdDayDecoder; } });
+Object.defineProperty(exports, "justBeforeDiscountThresholdDayEncoder", { enumerable: true, get: function () { return just_before_discount_threshold_day_1.justBeforeDiscountThresholdDayEncoder; } });
 //# sourceMappingURL=index.js.map
