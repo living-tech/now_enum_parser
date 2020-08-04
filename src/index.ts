@@ -154,3 +154,8 @@ export {
   transportationDecoder,
   transportationEncoder,
 } from './transportation';
+export {
+  JustBeforeDiscountThresholdDay,
+  justBeforeDiscountThresholdDayDecoder,
+  justBeforeDiscountThresholdDayEncoder,
+} from './just_before_discount_threshold_day';
