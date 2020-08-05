@@ -159,3 +159,8 @@ export {
   justBeforeDiscountThresholdDayDecoder,
   justBeforeDiscountThresholdDayEncoder,
 } from './just_before_discount_threshold_day';
+export {
+  RentChargeDiscountType,
+  rentChargeDiscountTypeDecoder,
+  rentChargeDiscountTypeEncoder,
+} from './rent_charge_discount_type';
