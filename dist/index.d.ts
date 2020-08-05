@@ -34,3 +34,4 @@ export { MessageType, messageTypeDecoder, messageTypeEncoder, } from './message_
 export { PaymentTerm, paymentTermDecoder, paymentTermEncoder, } from './payment_term';
 export { Transportation, transportationDecoder, transportationEncoder, } from './transportation';
 export { JustBeforeDiscountThresholdDay, justBeforeDiscountThresholdDayDecoder, justBeforeDiscountThresholdDayEncoder, } from './just_before_discount_threshold_day';
+export { RentChargeDiscountType, rentChargeDiscountTypeDecoder, rentChargeDiscountTypeEncoder, } from './rent_charge_discount_type';

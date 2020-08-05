@@ -144,4 +144,8 @@ var just_before_discount_threshold_day_1 = require("./just_before_discount_thres
 Object.defineProperty(exports, "JustBeforeDiscountThresholdDay", { enumerable: true, get: function () { return just_before_discount_threshold_day_1.JustBeforeDiscountThresholdDay; } });
 Object.defineProperty(exports, "justBeforeDiscountThresholdDayDecoder", { enumerable: true, get: function () { return just_before_discount_threshold_day_1.justBeforeDiscountThresholdDayDecoder; } });
 Object.defineProperty(exports, "justBeforeDiscountThresholdDayEncoder", { enumerable: true, get: function () { return just_before_discount_threshold_day_1.justBeforeDiscountThresholdDayEncoder; } });
+var rent_charge_discount_type_1 = require("./rent_charge_discount_type");
+Object.defineProperty(exports, "RentChargeDiscountType", { enumerable: true, get: function () { return rent_charge_discount_type_1.RentChargeDiscountType; } });
+Object.defineProperty(exports, "rentChargeDiscountTypeDecoder", { enumerable: true, get: function () { return rent_charge_discount_type_1.rentChargeDiscountTypeDecoder; } });
+Object.defineProperty(exports, "rentChargeDiscountTypeEncoder", { enumerable: true, get: function () { return rent_charge_discount_type_1.rentChargeDiscountTypeEncoder; } });
 //# sourceMappingURL=index.js.map
