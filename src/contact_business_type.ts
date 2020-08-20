@@ -9,7 +9,7 @@ export enum ContactBusinessType {
   Rent = 'Rent', // 賃貸
   MonthlyRental = 'MonthlyRental', // マンスリー賃貸
   Hotel = 'Hotel', // ホテル
-  Ryokan = 'Ryokan', //旅館
+  Ryokan = 'Ryokan', // 旅館
   GuestHouse = 'GuestHouse', // ゲストハウス
   ShareHouse = 'ShareHouse', // シェアハウス
   Minpaku = 'Minpaku', // 民泊
