@@ -10,6 +10,7 @@ export { CertificateType, certificateTypeDecoder, certificateTypeEncoder, } from
 export { Classification, classificationDecoder, classificationEncoder, } from './classification';
 export { Gender, genderDecoder, genderEncoder } from './gender';
 export { ContactType, contactTypeDecoder, contactTypeEncoder, } from './contact_type';
+export { ContactBusinessType, contactBussinessTypeEncoder, contactBussinessTypeDecoder, } from './contact_business_type';
 export { IdentityDocumentStatus, identityDocumentStatusDecoder, identityDocumentStatusEncoder, } from './identity_document_status';
 export { IdentityDocumentNote, identityDocumentNoteDecoder, identityDocumentNoteEncoder, } from './identity_document_note';
 export { ImageTarget, imageTargetDecoder, imageTargetEncoder, } from './image_target';

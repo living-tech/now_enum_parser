@@ -9,7 +9,7 @@ import {
 export enum RentChargeDiscountType {
   Coupon = 'Amount',
   JustBefore = 'Rate',
-  None = 'None'
+  None = 'None',
 }
 
 // Edit contexts
@@ -30,7 +30,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const rentChargeDiscountTypeEncoder = generateEncoder<RentChargeDiscountType>(translations);
-export const rentChargeDiscountTypeDecoder = generateDecoder<RentChargeDiscountType>(
-  reverseTranslations,
-);
+export const rentChargeDiscountTypeEncoder = generateEncoder<
+  RentChargeDiscountType
+>(translations);
+export const rentChargeDiscountTypeDecoder = generateDecoder<
+  RentChargeDiscountType
+>(reverseTranslations);

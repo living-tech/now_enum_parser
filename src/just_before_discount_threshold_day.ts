@@ -27,9 +27,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const justBeforeDiscountThresholdDayEncoder = generateEncoder<JustBeforeDiscountThresholdDay>(
-  translations,
-);
-export const justBeforeDiscountThresholdDayDecoder = generateDecoder<JustBeforeDiscountThresholdDay>(
-  reverseTranslations,
-);
+export const justBeforeDiscountThresholdDayEncoder = generateEncoder<
+  JustBeforeDiscountThresholdDay
+>(translations);
+export const justBeforeDiscountThresholdDayDecoder = generateDecoder<
+  JustBeforeDiscountThresholdDay
+>(reverseTranslations);

@@ -48,6 +48,11 @@ export {
   contactTypeEncoder,
 } from './contact_type';
 export {
+  ContactBusinessType,
+  contactBussinessTypeEncoder,
+  contactBussinessTypeDecoder,
+} from './contact_business_type';
+export {
   IdentityDocumentStatus,
   identityDocumentStatusDecoder,
   identityDocumentStatusEncoder,

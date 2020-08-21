@@ -63,9 +63,7 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const imageTargetEncoder = generateEncoder<ImageTarget>(
-  translations,
-);
+export const imageTargetEncoder = generateEncoder<ImageTarget>(translations);
 export const imageTargetDecoder = generateDecoder<ImageTarget>(
   reverseTranslations,
 );
