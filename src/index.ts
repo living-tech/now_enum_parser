@@ -49,9 +49,14 @@ export {
 } from './contact_type';
 export {
   ContactBusinessType,
-  contactBussinessTypeEncoder,
   contactBussinessTypeDecoder,
+  contactBussinessTypeEncoder,
 } from './contact_business_type';
+export {
+  ContractType,
+  contractTypeDecoder,
+  contractTypeEncoder,
+} from './contract_type';
 export {
   IdentityDocumentStatus,
   identityDocumentStatusDecoder,
