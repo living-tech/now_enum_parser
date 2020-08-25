@@ -50,8 +50,12 @@ Object.defineProperty(exports, "contactTypeDecoder", { enumerable: true, get: fu
 Object.defineProperty(exports, "contactTypeEncoder", { enumerable: true, get: function () { return contact_type_1.contactTypeEncoder; } });
 var contact_business_type_1 = require("./contact_business_type");
 Object.defineProperty(exports, "ContactBusinessType", { enumerable: true, get: function () { return contact_business_type_1.ContactBusinessType; } });
-Object.defineProperty(exports, "contactBussinessTypeEncoder", { enumerable: true, get: function () { return contact_business_type_1.contactBussinessTypeEncoder; } });
 Object.defineProperty(exports, "contactBussinessTypeDecoder", { enumerable: true, get: function () { return contact_business_type_1.contactBussinessTypeDecoder; } });
+Object.defineProperty(exports, "contactBussinessTypeEncoder", { enumerable: true, get: function () { return contact_business_type_1.contactBussinessTypeEncoder; } });
+var contract_type_1 = require("./contract_type");
+Object.defineProperty(exports, "ContractType", { enumerable: true, get: function () { return contract_type_1.ContractType; } });
+Object.defineProperty(exports, "contractTypeDecoder", { enumerable: true, get: function () { return contract_type_1.contractTypeDecoder; } });
+Object.defineProperty(exports, "contractTypeEncoder", { enumerable: true, get: function () { return contract_type_1.contractTypeEncoder; } });
 var identity_document_status_1 = require("./identity_document_status");
 Object.defineProperty(exports, "IdentityDocumentStatus", { enumerable: true, get: function () { return identity_document_status_1.IdentityDocumentStatus; } });
 Object.defineProperty(exports, "identityDocumentStatusDecoder", { enumerable: true, get: function () { return identity_document_status_1.identityDocumentStatusDecoder; } });
