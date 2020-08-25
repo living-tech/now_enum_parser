@@ -174,3 +174,13 @@ export {
   rentChargeDiscountTypeDecoder,
   rentChargeDiscountTypeEncoder,
 } from './rent_charge_discount_type';
+export {
+  KeyDelivery,
+  keyDeliveryDecoder,
+  keyDeliveryEncoder,
+} from './key_delivery';
+export {
+  Orientation,
+  orientationDecoder,
+  orientationEncoder,
+} from './orientation';
