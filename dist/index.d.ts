@@ -4,6 +4,7 @@ export { BuildingChargeType, buildingChargeTypeDecoder, buildingChargeTypeEncode
 export { BuildingStructure, buildingStructureDecoder, buildingStructureEncoder, } from './building_structure';
 export { BuildingConstructedRange, buildingConstructedRangeDecoder, buildingConstructedRangeEncoder, } from './building_constructed_range';
 export { CardBrand, cardBrandDecoder, cardBrandEncoder } from './card_brand';
+export { CanselReasonReason, canselReasonReasonDecoder, canselReasonReasonEncoder, } from './cancel_reason';
 export { CertificateImageType, certificateImageTypeDecoder, certificateImageTypeEncoder, } from './certificate_image_type';
 export { CertificateRejectReason, certificateRejectReasonDecoder, certificateRejectReasonEncoder, } from './certificate_reject_reason';
 export { CertificateType, certificateTypeDecoder, certificateTypeEncoder, } from './certificate_type';

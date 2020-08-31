@@ -22,6 +22,11 @@ export {
 } from './building_constructed_range';
 export { CardBrand, cardBrandDecoder, cardBrandEncoder } from './card_brand';
 export {
+  CancelReason,
+  cancelReasonDecoder,
+  cancelReasonEncoder,
+} from './cancel_reason';
+export {
   CertificateImageType,
   certificateImageTypeDecoder,
   certificateImageTypeEncoder,
