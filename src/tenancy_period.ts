@@ -29,7 +29,6 @@ const translations: Translations = {
     [TenancyPeriod.ThreeToSevenMonths]: 'three to seven months',
     [TenancyPeriod.SevenMonthsToOneYear]: 'seven months to one year',
     [TenancyPeriod.MoreThanOneYear]: 'more than one year',
-
   },
 };
 
