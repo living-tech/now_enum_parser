@@ -22,6 +22,11 @@ export {
 } from './building_constructed_range';
 export { CardBrand, cardBrandDecoder, cardBrandEncoder } from './card_brand';
 export {
+  CancelReason,
+  cancelReasonDecoder,
+  cancelReasonEncoder,
+} from './cancel_reason';
+export {
   CertificateImageType,
   certificateImageTypeDecoder,
   certificateImageTypeEncoder,
@@ -189,3 +194,13 @@ export {
   tenancyPeriodDecoder,
   tenancyPeriodEncoder,
 } from './tenancy_period';
+export {
+  KeyDelivery,
+  keyDeliveryDecoder,
+  keyDeliveryEncoder,
+} from './key_delivery';
+export {
+  Orientation,
+  orientationDecoder,
+  orientationEncoder,
+} from './orientation';
