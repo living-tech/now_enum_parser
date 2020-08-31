@@ -40,6 +40,6 @@ export { JustBeforeDiscountThresholdDay, justBeforeDiscountThresholdDayDecoder, 
 export { RentChargeDiscountType, rentChargeDiscountTypeDecoder, rentChargeDiscountTypeEncoder, } from './rent_charge_discount_type';
 export { MapCardSize, mapCardSizeDecoder, mapCardSizeEncoder, } from './map_card_size';
 export { ListCardColumnLength, listCardColumnLengthDecoder, listCardColumnLengthEncoder, } from './list_card_column_length';
-export { TenancyPeriod, tenancyPeriodDecoder, tenancyPeriodEncoder, } from './tenancy_period';
+export { TenancyTerm, tenancyTermDecoder, tenancyTermEncoder, } from './tenancy_term';
 export { KeyDelivery, keyDeliveryDecoder, keyDeliveryEncoder, } from './key_delivery';
 export { Orientation, orientationDecoder, orientationEncoder, } from './orientation';
