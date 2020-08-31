@@ -25,9 +25,9 @@ Object.defineProperty(exports, "CardBrand", { enumerable: true, get: function ()
 Object.defineProperty(exports, "cardBrandDecoder", { enumerable: true, get: function () { return card_brand_1.cardBrandDecoder; } });
 Object.defineProperty(exports, "cardBrandEncoder", { enumerable: true, get: function () { return card_brand_1.cardBrandEncoder; } });
 var cancel_reason_1 = require("./cancel_reason");
-Object.defineProperty(exports, "CanselReasonReason", { enumerable: true, get: function () { return cancel_reason_1.CanselReasonReason; } });
-Object.defineProperty(exports, "canselReasonReasonDecoder", { enumerable: true, get: function () { return cancel_reason_1.canselReasonReasonDecoder; } });
-Object.defineProperty(exports, "canselReasonReasonEncoder", { enumerable: true, get: function () { return cancel_reason_1.canselReasonReasonEncoder; } });
+Object.defineProperty(exports, "CancelReason", { enumerable: true, get: function () { return cancel_reason_1.CancelReason; } });
+Object.defineProperty(exports, "cancelReasonDecoder", { enumerable: true, get: function () { return cancel_reason_1.cancelReasonDecoder; } });
+Object.defineProperty(exports, "cancelReasonEncoder", { enumerable: true, get: function () { return cancel_reason_1.cancelReasonEncoder; } });
 var certificate_image_type_1 = require("./certificate_image_type");
 Object.defineProperty(exports, "CertificateImageType", { enumerable: true, get: function () { return certificate_image_type_1.CertificateImageType; } });
 Object.defineProperty(exports, "certificateImageTypeDecoder", { enumerable: true, get: function () { return certificate_image_type_1.certificateImageTypeDecoder; } });

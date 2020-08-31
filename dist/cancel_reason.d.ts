@@ -1,9 +1,9 @@
-export declare enum CanselReason {
+export declare enum CancelReason {
     InventoryShortage = "InventoryShortage",
     BusinessDifficulties = "BusinessDifficulties",
     ConditionMismatch = "ConditionMismatch",
     PaymentNotPossible = "PaymentNotPossible",
     Other = "Other"
 }
-export declare const canselReasonEncoder: (raw: CanselReason, lang: import(".").Language) => string;
-export declare const canselReasonDecoder: (text: string, lang: import(".").Language) => CanselReason;
+export declare const cancelReasonEncoder: (raw: CancelReason, lang: import(".").Language) => string;
+export declare const cancelReasonDecoder: (text: string, lang: import(".").Language) => CancelReason;
