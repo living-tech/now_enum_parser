@@ -190,10 +190,10 @@ export {
   listCardColumnLengthEncoder,
 } from './list_card_column_length';
 export {
-  TenancyPeriod,
-  tenancyPeriodDecoder,
-  tenancyPeriodEncoder,
-} from './tenancy_period';
+  TenancyTerm,
+  tenancyTermDecoder,
+  tenancyTermEncoder,
+} from './tenancy_term';
 export {
   KeyDelivery,
   keyDeliveryDecoder,
