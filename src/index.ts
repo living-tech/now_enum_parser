@@ -204,3 +204,8 @@ export {
   orientationDecoder,
   orientationEncoder,
 } from './orientation';
+export {
+  PaymentType,
+  paymentTypeDecoder,
+  paymentTypeEncoder,
+} from './payment_type';
