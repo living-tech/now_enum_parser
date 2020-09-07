@@ -180,4 +180,8 @@ var orientation_1 = require("./orientation");
 Object.defineProperty(exports, "Orientation", { enumerable: true, get: function () { return orientation_1.Orientation; } });
 Object.defineProperty(exports, "orientationDecoder", { enumerable: true, get: function () { return orientation_1.orientationDecoder; } });
 Object.defineProperty(exports, "orientationEncoder", { enumerable: true, get: function () { return orientation_1.orientationEncoder; } });
+var payment_type_1 = require("./payment_type");
+Object.defineProperty(exports, "PaymentType", { enumerable: true, get: function () { return payment_type_1.PaymentType; } });
+Object.defineProperty(exports, "paymentTypeDecoder", { enumerable: true, get: function () { return payment_type_1.paymentTypeDecoder; } });
+Object.defineProperty(exports, "paymentTypeEncoder", { enumerable: true, get: function () { return payment_type_1.paymentTypeEncoder; } });
 //# sourceMappingURL=index.js.map

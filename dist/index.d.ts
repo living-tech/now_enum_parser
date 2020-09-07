@@ -43,3 +43,4 @@ export { ListCardColumnLength, listCardColumnLengthDecoder, listCardColumnLength
 export { TenancyTerm, tenancyTermDecoder, tenancyTermEncoder, } from './tenancy_term';
 export { KeyDelivery, keyDeliveryDecoder, keyDeliveryEncoder, } from './key_delivery';
 export { Orientation, orientationDecoder, orientationEncoder, } from './orientation';
+export { PaymentType, paymentTypeDecoder, paymentTypeEncoder, } from './payment_type';
