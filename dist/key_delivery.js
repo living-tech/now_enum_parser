@@ -7,20 +7,23 @@ var generators_1 = require("./lib/generators");
 var KeyDelivery;
 (function (KeyDelivery) {
     KeyDelivery["Direct"] = "Direct";
-    KeyDelivery["Self"] = "Self";
-    KeyDelivery["Unsupported"] = "Unsupported";
+    KeyDelivery["Noncontact"] = "Noncontact";
+    KeyDelivery["SmartLock"] = "SmartLock";
+    KeyDelivery["Other"] = "Other";
 })(KeyDelivery = exports.KeyDelivery || (exports.KeyDelivery = {}));
 // Edit contexts
 var translations = {
     ja: (_a = {},
-        _a[KeyDelivery.Direct] = '接客内見',
-        _a[KeyDelivery.Self] = 'セルフ内見',
-        _a[KeyDelivery.Unsupported] = '対応不可',
+        _a[KeyDelivery.Direct] = '直接お渡し',
+        _a[KeyDelivery.Noncontact] = '非接触受け渡し',
+        _a[KeyDelivery.SmartLock] = 'スマートロック',
+        _a[KeyDelivery.Other] = 'その他',
         _a),
     en: (_b = {},
         _b[KeyDelivery.Direct] = 'direct',
-        _b[KeyDelivery.Self] = 'self',
-        _b[KeyDelivery.Unsupported] = 'unsupported',
+        _b[KeyDelivery.Noncontact] = 'noncontact',
+        _b[KeyDelivery.SmartLock] = 'smart lock',
+        _b[KeyDelivery.Other] = 'other',
         _b),
 };
 // DO NOT EDIT
