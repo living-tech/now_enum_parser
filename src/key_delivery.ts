@@ -7,22 +7,25 @@ import {
 
 // Edit enum name and contents
 export enum KeyDelivery {
-  Direct = 'Direct', // 接客内見
-  Self = 'Self', // セルフ内見
-  Unsupported = 'Unsupported', // 対応不可
+  Direct = 'Direct',
+  Noncontact = 'Noncontact',
+  SmartLock = 'SmartLock',
+  Other = 'Other',
 }
 
 // Edit contexts
 const translations: Translations = {
   ja: {
-    [KeyDelivery.Direct]: '接客内見',
-    [KeyDelivery.Self]: 'セルフ内見',
-    [KeyDelivery.Unsupported]: '対応不可',
+    [KeyDelivery.Direct]: '直接お渡し',
+    [KeyDelivery.Noncontact]: '非接触受け渡し',
+    [KeyDelivery.SmartLock]: 'スマートロック',
+    [KeyDelivery.Other]: 'その他',
   },
   en: {
     [KeyDelivery.Direct]: 'direct',
-    [KeyDelivery.Self]: 'self',
-    [KeyDelivery.Unsupported]: 'unsupported',
+    [KeyDelivery.Noncontact]: 'noncontact',
+    [KeyDelivery.SmartLock]: 'smart lock',
+    [KeyDelivery.Other]: 'other',
   },
 };
 

@@ -19,6 +19,7 @@ export { ImageTarget, imageTargetDecoder, imageTargetEncoder, } from './image_ta
 export { Occupation, occupationDecoder, occupationEncoder } from './occupation';
 export { Prefecture, prefectureDecoder, prefectureEncoder } from './prefecture';
 export { PayoutStatus, payoutStatusDecoder, payoutStatusEncoder, } from './payout_status';
+export { PreviewGuide, previewGuideDecoder, previewGuideEncoder, } from './preview_guide';
 export { TransactionReserveStatus, transactionReserveStatusDecoder, transactionReserveStatusEncoder, } from './transaction_reserve_status';
 export { TransactionStatus, transactionStatusDecoder, transactionStatusEncoder, } from './transaction_status';
 export { TransactionType, transactionTypeDecoder, transactionTypeEncoder, } from './transaction_type';

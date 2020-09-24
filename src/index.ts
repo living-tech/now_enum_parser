@@ -85,6 +85,11 @@ export {
   payoutStatusEncoder,
 } from './payout_status';
 export {
+  PreviewGuide,
+  previewGuideDecoder,
+  previewGuideEncoder,
+} from './preview_guide';
+export {
   TransactionReserveStatus,
   transactionReserveStatusDecoder,
   transactionReserveStatusEncoder,
