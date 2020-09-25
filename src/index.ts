@@ -219,3 +219,8 @@ export {
   desireRentChargeRangeDecoder,
   desireRentChargeRangeEncoder,
 } from './desire_rent_charge_range';
+export {
+  TenancyPeriod,
+  tenancyPeriodDecoder,
+  tenancyPeriodEncoder,
+} from './tenancy_period';
