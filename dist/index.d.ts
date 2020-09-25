@@ -45,3 +45,4 @@ export { TenancyTerm, tenancyTermDecoder, tenancyTermEncoder, } from './tenancy_
 export { KeyDelivery, keyDeliveryDecoder, keyDeliveryEncoder, } from './key_delivery';
 export { Orientation, orientationDecoder, orientationEncoder, } from './orientation';
 export { PaymentType, paymentTypeDecoder, paymentTypeEncoder, } from './payment_type';
+export { DesireRentChargeRange, desireRentChargeRangeDecoder, desireRentChargeRangeEncoder, } from './desire_rent_charge_range';

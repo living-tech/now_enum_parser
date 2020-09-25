@@ -214,3 +214,8 @@ export {
   paymentTypeDecoder,
   paymentTypeEncoder,
 } from './payment_type';
+export {
+  DesireRentChargeRange,
+  desireRentChargeRangeDecoder,
+  desireRentChargeRangeEncoder,
+} from './desire_rent_charge_range';

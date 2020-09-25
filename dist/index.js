@@ -188,4 +188,8 @@ var payment_type_1 = require("./payment_type");
 Object.defineProperty(exports, "PaymentType", { enumerable: true, get: function () { return payment_type_1.PaymentType; } });
 Object.defineProperty(exports, "paymentTypeDecoder", { enumerable: true, get: function () { return payment_type_1.paymentTypeDecoder; } });
 Object.defineProperty(exports, "paymentTypeEncoder", { enumerable: true, get: function () { return payment_type_1.paymentTypeEncoder; } });
+var desire_rent_charge_range_1 = require("./desire_rent_charge_range");
+Object.defineProperty(exports, "DesireRentChargeRange", { enumerable: true, get: function () { return desire_rent_charge_range_1.DesireRentChargeRange; } });
+Object.defineProperty(exports, "desireRentChargeRangeDecoder", { enumerable: true, get: function () { return desire_rent_charge_range_1.desireRentChargeRangeDecoder; } });
+Object.defineProperty(exports, "desireRentChargeRangeEncoder", { enumerable: true, get: function () { return desire_rent_charge_range_1.desireRentChargeRangeEncoder; } });
 //# sourceMappingURL=index.js.map
