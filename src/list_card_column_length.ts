@@ -27,7 +27,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const listCardColumnLengthEncoder = generateEncoder<ListCardColumnLength>(translations);
-export const listCardColumnLengthDecoder = generateDecoder<ListCardColumnLength>(
-  reverseTranslations,
-);
+export const listCardColumnLengthEncoder = generateEncoder<
+  ListCardColumnLength
+>(translations);
+export const listCardColumnLengthDecoder = generateDecoder<
+  ListCardColumnLength
+>(reverseTranslations);

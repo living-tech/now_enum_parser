@@ -188,4 +188,12 @@ var payment_type_1 = require("./payment_type");
 Object.defineProperty(exports, "PaymentType", { enumerable: true, get: function () { return payment_type_1.PaymentType; } });
 Object.defineProperty(exports, "paymentTypeDecoder", { enumerable: true, get: function () { return payment_type_1.paymentTypeDecoder; } });
 Object.defineProperty(exports, "paymentTypeEncoder", { enumerable: true, get: function () { return payment_type_1.paymentTypeEncoder; } });
+var desire_rent_charge_range_1 = require("./desire_rent_charge_range");
+Object.defineProperty(exports, "DesireRentChargeRange", { enumerable: true, get: function () { return desire_rent_charge_range_1.DesireRentChargeRange; } });
+Object.defineProperty(exports, "desireRentChargeRangeDecoder", { enumerable: true, get: function () { return desire_rent_charge_range_1.desireRentChargeRangeDecoder; } });
+Object.defineProperty(exports, "desireRentChargeRangeEncoder", { enumerable: true, get: function () { return desire_rent_charge_range_1.desireRentChargeRangeEncoder; } });
+var tenancy_period_1 = require("./tenancy_period");
+Object.defineProperty(exports, "TenancyPeriod", { enumerable: true, get: function () { return tenancy_period_1.TenancyPeriod; } });
+Object.defineProperty(exports, "tenancyPeriodDecoder", { enumerable: true, get: function () { return tenancy_period_1.tenancyPeriodDecoder; } });
+Object.defineProperty(exports, "tenancyPeriodEncoder", { enumerable: true, get: function () { return tenancy_period_1.tenancyPeriodEncoder; } });
 //# sourceMappingURL=index.js.map
