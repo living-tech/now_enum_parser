@@ -13,6 +13,7 @@ export { Gender, genderDecoder, genderEncoder } from './gender';
 export { ContactType, contactTypeDecoder, contactTypeEncoder, } from './contact_type';
 export { ContactBusinessType, contactBussinessTypeDecoder, contactBussinessTypeEncoder, } from './contact_business_type';
 export { ContractType, contractTypeDecoder, contractTypeEncoder, } from './contract_type';
+export { ApplicationStatus, applicationStatusDecoder, applicationStatusEncoder, } from './application_status';
 export { IdentityDocumentStatus, identityDocumentStatusDecoder, identityDocumentStatusEncoder, } from './identity_document_status';
 export { IdentityDocumentNote, identityDocumentNoteDecoder, identityDocumentNoteEncoder, } from './identity_document_note';
 export { ImageTarget, imageTargetDecoder, imageTargetEncoder, } from './image_target';
