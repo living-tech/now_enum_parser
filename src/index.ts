@@ -63,6 +63,11 @@ export {
   contractTypeEncoder,
 } from './contract_type';
 export {
+  ApplicationStatus,
+  applicationStatusDecoder,
+  applicationStatusEncoder,
+} from './application_status';
+export {
   IdentityDocumentStatus,
   identityDocumentStatusDecoder,
   identityDocumentStatusEncoder,
