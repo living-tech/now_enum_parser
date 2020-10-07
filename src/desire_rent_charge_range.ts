@@ -7,7 +7,7 @@ import {
 
 // Edit enum name and contents
 export enum DesireRentChargeRange {
-  ThirtyThousandOrLess = 'LessThanThirtyThousand',
+  ThirtyThousandOrLess = 'ThirtyThousandOrLess',
   ThirtyThousandToThirtyFiveThousand = 'ThirtyThousandToThirtyFiveThousand',
   ThirtyFiveThousandToFourtyThousand = 'ThirtyFiveThousandToFourtyThousand',
   FourtyThousandToFourtyFiveThousand = 'FourtyThousandToFourtyFiveThousand',

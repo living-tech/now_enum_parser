@@ -6,7 +6,7 @@ var generators_1 = require("./lib/generators");
 // Edit enum name and contents
 var DesireRentChargeRange;
 (function (DesireRentChargeRange) {
-    DesireRentChargeRange["ThirtyThousandOrLess"] = "LessThanThirtyThousand";
+    DesireRentChargeRange["ThirtyThousandOrLess"] = "ThirtyThousandOrLess";
     DesireRentChargeRange["ThirtyThousandToThirtyFiveThousand"] = "ThirtyThousandToThirtyFiveThousand";
     DesireRentChargeRange["ThirtyFiveThousandToFourtyThousand"] = "ThirtyFiveThousandToFourtyThousand";
     DesireRentChargeRange["FourtyThousandToFourtyFiveThousand"] = "FourtyThousandToFourtyFiveThousand";

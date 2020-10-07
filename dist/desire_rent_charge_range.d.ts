@@ -1,5 +1,5 @@
 export declare enum DesireRentChargeRange {
-    ThirtyThousandOrLess = "LessThanThirtyThousand",
+    ThirtyThousandOrLess = "ThirtyThousandOrLess",
     ThirtyThousandToThirtyFiveThousand = "ThirtyThousandToThirtyFiveThousand",
     ThirtyFiveThousandToFourtyThousand = "ThirtyFiveThousandToFourtyThousand",
     FourtyThousandToFourtyFiveThousand = "FourtyThousandToFourtyFiveThousand",
