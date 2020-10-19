@@ -229,3 +229,8 @@ export {
   tenancyPeriodDecoder,
   tenancyPeriodEncoder,
 } from './tenancy_period';
+export {
+  PaymentMethod,
+  paymentMethodDecoder,
+  paymentMethodEncoder,
+} from './payment_method';
