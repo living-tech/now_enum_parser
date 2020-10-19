@@ -200,4 +200,8 @@ var tenancy_period_1 = require("./tenancy_period");
 Object.defineProperty(exports, "TenancyPeriod", { enumerable: true, get: function () { return tenancy_period_1.TenancyPeriod; } });
 Object.defineProperty(exports, "tenancyPeriodDecoder", { enumerable: true, get: function () { return tenancy_period_1.tenancyPeriodDecoder; } });
 Object.defineProperty(exports, "tenancyPeriodEncoder", { enumerable: true, get: function () { return tenancy_period_1.tenancyPeriodEncoder; } });
+var payment_method_1 = require("./payment_method");
+Object.defineProperty(exports, "PaymentMethod", { enumerable: true, get: function () { return payment_method_1.PaymentMethod; } });
+Object.defineProperty(exports, "paymentMethodDecoder", { enumerable: true, get: function () { return payment_method_1.paymentMethodDecoder; } });
+Object.defineProperty(exports, "paymentMethodEncoder", { enumerable: true, get: function () { return payment_method_1.paymentMethodEncoder; } });
 //# sourceMappingURL=index.js.map

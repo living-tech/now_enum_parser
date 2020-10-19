@@ -48,3 +48,4 @@ export { Orientation, orientationDecoder, orientationEncoder, } from './orientat
 export { PaymentType, paymentTypeDecoder, paymentTypeEncoder, } from './payment_type';
 export { DesireRentChargeRange, desireRentChargeRangeDecoder, desireRentChargeRangeEncoder, } from './desire_rent_charge_range';
 export { TenancyPeriod, tenancyPeriodDecoder, tenancyPeriodEncoder, } from './tenancy_period';
+export { PaymentMethod, paymentMethodDecoder, paymentMethodEncoder, } from './payment_method';
