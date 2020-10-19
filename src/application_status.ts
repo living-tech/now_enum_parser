@@ -33,9 +33,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const applicationStatusEncoder = generateEncoder<
-  ApplicationStatus
->(translations);
-export const applicationStatusDecoder = generateDecoder<
-  ApplicationStatus
->(reverseTranslations);
+export const applicationStatusEncoder = generateEncoder<ApplicationStatus>(
+  translations,
+);
+export const applicationStatusDecoder = generateDecoder<ApplicationStatus>(
+  reverseTranslations,
+);
