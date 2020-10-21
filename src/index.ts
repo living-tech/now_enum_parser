@@ -234,3 +234,8 @@ export {
   paymentMethodDecoder,
   paymentMethodEncoder,
 } from './payment_method';
+export {
+  IeloveVerificationType,
+  ieloveVerificationTypeDecoder,
+  ieloveVerificationTypeEncoder,
+} from './ielove_verification_type';

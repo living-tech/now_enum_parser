@@ -49,3 +49,4 @@ export { PaymentType, paymentTypeDecoder, paymentTypeEncoder, } from './payment_
 export { DesireRentChargeRange, desireRentChargeRangeDecoder, desireRentChargeRangeEncoder, } from './desire_rent_charge_range';
 export { TenancyPeriod, tenancyPeriodDecoder, tenancyPeriodEncoder, } from './tenancy_period';
 export { PaymentMethod, paymentMethodDecoder, paymentMethodEncoder, } from './payment_method';
+export { IeloveVerificationType, ieloveVerificationTypeDecoder, ieloveVerificationTypeEncoder, } from './ielove_verification_type';
