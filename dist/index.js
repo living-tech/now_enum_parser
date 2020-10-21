@@ -204,4 +204,8 @@ var payment_method_1 = require("./payment_method");
 Object.defineProperty(exports, "PaymentMethod", { enumerable: true, get: function () { return payment_method_1.PaymentMethod; } });
 Object.defineProperty(exports, "paymentMethodDecoder", { enumerable: true, get: function () { return payment_method_1.paymentMethodDecoder; } });
 Object.defineProperty(exports, "paymentMethodEncoder", { enumerable: true, get: function () { return payment_method_1.paymentMethodEncoder; } });
+var ielove_verification_type_1 = require("./ielove_verification_type");
+Object.defineProperty(exports, "IeloveVerificationType", { enumerable: true, get: function () { return ielove_verification_type_1.IeloveVerificationType; } });
+Object.defineProperty(exports, "ieloveVerificationTypeDecoder", { enumerable: true, get: function () { return ielove_verification_type_1.ieloveVerificationTypeDecoder; } });
+Object.defineProperty(exports, "ieloveVerificationTypeEncoder", { enumerable: true, get: function () { return ielove_verification_type_1.ieloveVerificationTypeEncoder; } });
 //# sourceMappingURL=index.js.map
