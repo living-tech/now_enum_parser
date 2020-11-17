@@ -50,3 +50,4 @@ export { DesireRentChargeRange, desireRentChargeRangeDecoder, desireRentChargeRa
 export { TenancyPeriod, tenancyPeriodDecoder, tenancyPeriodEncoder, } from './tenancy_period';
 export { PaymentMethod, paymentMethodDecoder, paymentMethodEncoder, } from './payment_method';
 export { IeloveVerificationType, ieloveVerificationTypeDecoder, ieloveVerificationTypeEncoder, } from './ielove_verification_type';
+export { Nationality, nationalityDecoder, nationalityEncoder } from './nationality';

@@ -208,4 +208,8 @@ var ielove_verification_type_1 = require("./ielove_verification_type");
 Object.defineProperty(exports, "IeloveVerificationType", { enumerable: true, get: function () { return ielove_verification_type_1.IeloveVerificationType; } });
 Object.defineProperty(exports, "ieloveVerificationTypeDecoder", { enumerable: true, get: function () { return ielove_verification_type_1.ieloveVerificationTypeDecoder; } });
 Object.defineProperty(exports, "ieloveVerificationTypeEncoder", { enumerable: true, get: function () { return ielove_verification_type_1.ieloveVerificationTypeEncoder; } });
+var nationality_1 = require("./nationality");
+Object.defineProperty(exports, "Nationality", { enumerable: true, get: function () { return nationality_1.Nationality; } });
+Object.defineProperty(exports, "nationalityDecoder", { enumerable: true, get: function () { return nationality_1.nationalityDecoder; } });
+Object.defineProperty(exports, "nationalityEncoder", { enumerable: true, get: function () { return nationality_1.nationalityEncoder; } });
 //# sourceMappingURL=index.js.map

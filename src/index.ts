@@ -239,3 +239,4 @@ export {
   ieloveVerificationTypeDecoder,
   ieloveVerificationTypeEncoder,
 } from './ielove_verification_type';
+export { Nationality, nationalityDecoder, nationalityEncoder } from './nationality';
