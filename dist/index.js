@@ -212,4 +212,8 @@ var nationality_1 = require("./nationality");
 Object.defineProperty(exports, "Nationality", { enumerable: true, get: function () { return nationality_1.Nationality; } });
 Object.defineProperty(exports, "nationalityDecoder", { enumerable: true, get: function () { return nationality_1.nationalityDecoder; } });
 Object.defineProperty(exports, "nationalityEncoder", { enumerable: true, get: function () { return nationality_1.nationalityEncoder; } });
+var employment_status_1 = require("./employment_status");
+Object.defineProperty(exports, "EmploymentStatus", { enumerable: true, get: function () { return employment_status_1.EmploymentStatus; } });
+Object.defineProperty(exports, "employmentStatusDecoder", { enumerable: true, get: function () { return employment_status_1.employmentStatusDecoder; } });
+Object.defineProperty(exports, "employmentStatusEncoder", { enumerable: true, get: function () { return employment_status_1.employmentStatusEncoder; } });
 //# sourceMappingURL=index.js.map

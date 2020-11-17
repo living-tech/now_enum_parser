@@ -51,3 +51,4 @@ export { TenancyPeriod, tenancyPeriodDecoder, tenancyPeriodEncoder, } from './te
 export { PaymentMethod, paymentMethodDecoder, paymentMethodEncoder, } from './payment_method';
 export { IeloveVerificationType, ieloveVerificationTypeDecoder, ieloveVerificationTypeEncoder, } from './ielove_verification_type';
 export { Nationality, nationalityDecoder, nationalityEncoder } from './nationality';
+export { EmploymentStatus, employmentStatusDecoder, employmentStatusEncoder, } from './employment_status';
