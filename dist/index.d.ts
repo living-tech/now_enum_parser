@@ -33,6 +33,7 @@ export { RegistrationStatus, registrationStatusDecoder, registrationStatusEncode
 export { RoomChargeType, roomChargeTypeDecoder, roomChargeTypeEncoder, } from './room_charge_type';
 export { RoomClassification, roomClassificationDecoder, roomClassificationEncoder, } from './room_classification';
 export { RoomFloorPlan, roomFloorPlanDecoder, roomFloorPlanEncoder, } from './room_floor_plan';
+export { RoomUsePurpose, roomUsePurposeDecoder, roomUsePurposeEncoder, } from './room_use_purpose';
 export { DiscountType, discountTypeDecoder, discountTypeEncoder, } from './discount_type';
 export { ReserveStatus, reserveStatusDecoder, reserveStatusEncoder, } from './reserve_status';
 export { MessageType, messageTypeDecoder, messageTypeEncoder, } from './message_type';
