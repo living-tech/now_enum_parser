@@ -155,10 +155,10 @@ export {
   roomFloorPlanEncoder,
 } from './room_floor_plan';
 export {
-  RoomUsePurpose,
-  roomUsePurposeDecoder,
-  roomUsePurposeEncoder,
-} from './room_use_purpose';
+  ReservePurpose,
+  reservePurposeDecoder,
+  reservePurposeEncoder,
+} from './reserve_purpose';
 export {
   DiscountType,
   discountTypeDecoder,
