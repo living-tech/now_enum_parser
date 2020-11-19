@@ -1,4 +1,4 @@
-export declare enum RoomUsePurpose {
+export declare enum ReservePurpose {
     RentReduction = "RentReduction",
     LivingAloneTrial = "LivingAloneTrial",
     Temporary = "Temporary",
@@ -15,5 +15,5 @@ export declare enum RoomUsePurpose {
     Separation = "Separation",
     Other = "Other"
 }
-export declare const roomUsePurposeEncoder: (raw: RoomUsePurpose, lang: import(".").Language) => string;
-export declare const roomUsePurposeDecoder: (text: string, lang: import(".").Language) => RoomUsePurpose;
+export declare const reservePurposeEncoder: (raw: ReservePurpose, lang: import(".").Language) => string;
+export declare const reservePurposeDecoder: (text: string, lang: import(".").Language) => ReservePurpose;
