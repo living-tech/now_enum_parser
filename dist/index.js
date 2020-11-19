@@ -220,4 +220,8 @@ var employment_status_1 = require("./employment_status");
 Object.defineProperty(exports, "EmploymentStatus", { enumerable: true, get: function () { return employment_status_1.EmploymentStatus; } });
 Object.defineProperty(exports, "employmentStatusDecoder", { enumerable: true, get: function () { return employment_status_1.employmentStatusDecoder; } });
 Object.defineProperty(exports, "employmentStatusEncoder", { enumerable: true, get: function () { return employment_status_1.employmentStatusEncoder; } });
+var emergency_contact_relationship_1 = require("./emergency_contact_relationship");
+Object.defineProperty(exports, "EmergencyContactRelationship", { enumerable: true, get: function () { return emergency_contact_relationship_1.EmergencyContactRelationship; } });
+Object.defineProperty(exports, "emergencyContactRelationshipDecoder", { enumerable: true, get: function () { return emergency_contact_relationship_1.emergencyContactRelationshipDecoder; } });
+Object.defineProperty(exports, "emergencyContactRelationshipEncoder", { enumerable: true, get: function () { return emergency_contact_relationship_1.emergencyContactRelationshipEncoder; } });
 //# sourceMappingURL=index.js.map
