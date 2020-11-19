@@ -250,3 +250,8 @@ export {
   employmentStatusDecoder,
   employmentStatusEncoder,
 } from './employment_status';
+export {
+  EmergencyContactRelationship,
+  emergencyContactRelationshipDecoder,
+  emergencyContactRelationshipEncoder,
+} from './emergency_contact_relationship';

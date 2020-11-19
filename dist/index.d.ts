@@ -53,3 +53,4 @@ export { PaymentMethod, paymentMethodDecoder, paymentMethodEncoder, } from './pa
 export { IeloveVerificationType, ieloveVerificationTypeDecoder, ieloveVerificationTypeEncoder, } from './ielove_verification_type';
 export { Nationality, nationalityDecoder, nationalityEncoder } from './nationality';
 export { EmploymentStatus, employmentStatusDecoder, employmentStatusEncoder, } from './employment_status';
+export { EmergencyContactRelationship, emergencyContactRelationshipDecoder, emergencyContactRelationshipEncoder, } from './emergency_contact_relationship';
