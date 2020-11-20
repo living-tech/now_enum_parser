@@ -8,7 +8,7 @@ import {
 // Edit enum name and contents
 export enum ReserveStatus {
   Requested = 'Requested', // 予約リクエスト
-  Approved = 'Approved', // 入居前
+  Approved = 'Approved', // 確定済み
   Occupied = 'Occupied', // 入居中
   Exited = 'Exited', // 退去済み
   Canceled = 'Canceled', // キャンセル
@@ -18,14 +18,14 @@ export enum ReserveStatus {
 const translations: Translations = {
   ja: {
     [ReserveStatus.Requested]: '予約リクエスト',
-    [ReserveStatus.Approved]: '入居前',
+    [ReserveStatus.Approved]: '確定済み',
     [ReserveStatus.Occupied]: '入居中',
     [ReserveStatus.Exited]: '退去済み',
     [ReserveStatus.Canceled]: 'キャンセル',
   },
   en: {
     [ReserveStatus.Requested]: 'Booking Request',
-    [ReserveStatus.Approved]: 'Before Move In',
+    [ReserveStatus.Approved]: 'Confirmed',
     [ReserveStatus.Occupied]: 'Moving In',
     [ReserveStatus.Exited]: 'Moved Out',
     [ReserveStatus.Canceled]: 'Cancelled',
