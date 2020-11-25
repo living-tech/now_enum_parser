@@ -155,6 +155,10 @@ export {
   roomFloorPlanEncoder,
 } from './room_floor_plan';
 export {
+  roomPlanDecoder,
+  roomPlanEncoder,
+} from './room_plan';
+export {
   ReservePurpose,
   reservePurposeDecoder,
   reservePurposeEncoder,
