@@ -6,6 +6,7 @@ var generators_1 = require("./lib/generators");
 // Edit enum name and contents
 var ReserveStatus;
 (function (ReserveStatus) {
+    ReserveStatus["IeloveRequested"] = "IeloveRequested";
     ReserveStatus["Requested"] = "Requested";
     ReserveStatus["Approved"] = "Approved";
     ReserveStatus["Occupied"] = "Occupied";
@@ -15,6 +16,7 @@ var ReserveStatus;
 // Edit contexts
 var translations = {
     ja: (_a = {},
+        _a[ReserveStatus.IeloveRequested] = '保証リクエスト',
         _a[ReserveStatus.Requested] = '予約リクエスト',
         _a[ReserveStatus.Approved] = '確定済み',
         _a[ReserveStatus.Occupied] = '入居中',
@@ -22,6 +24,7 @@ var translations = {
         _a[ReserveStatus.Canceled] = 'キャンセル',
         _a),
     en: (_b = {},
+        _b[ReserveStatus.IeloveRequested] = 'Guarantee Request',
         _b[ReserveStatus.Requested] = 'Booking Request',
         _b[ReserveStatus.Approved] = 'Confirmed',
         _b[ReserveStatus.Occupied] = 'Moving In',
