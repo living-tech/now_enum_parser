@@ -1,4 +1,5 @@
 export declare enum ReserveStatus {
+    IeloveRequested = "IeloveRequested",
     Requested = "Requested",
     Approved = "Approved",
     Occupied = "Occupied",
