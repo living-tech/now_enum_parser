@@ -1,4 +1,5 @@
 export declare enum PaymentTerm {
+    LastMonthEnd = "LastMonthEnd",
     NextMonthEnd = "NextMonthEnd",
     AfterNextMonthEnd = "AfterNextMonthEnd"
 }
