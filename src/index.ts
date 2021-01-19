@@ -174,6 +174,11 @@ export {
   reserveStatusEncoder,
 } from './reserve_status';
 export {
+  MessageThreadType,
+  messageThreadTypeDecoder,
+  messageThreadTypeEncoder,
+} from './message_thread_type';
+export {
   MessageType,
   messageTypeDecoder,
   messageTypeEncoder,

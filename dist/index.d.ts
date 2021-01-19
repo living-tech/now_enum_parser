@@ -37,6 +37,7 @@ export { roomPlanDecoder, roomPlanEncoder, } from './room_plan';
 export { ReservePurpose, reservePurposeDecoder, reservePurposeEncoder, } from './reserve_purpose';
 export { DiscountType, discountTypeDecoder, discountTypeEncoder, } from './discount_type';
 export { ReserveStatus, reserveStatusDecoder, reserveStatusEncoder, } from './reserve_status';
+export { MessageThreadType, messageThreadTypeDecoder, messageThreadTypeEncoder, } from './message_thread_type';
 export { MessageType, messageTypeDecoder, messageTypeEncoder, } from './message_type';
 export { PaymentTerm, paymentTermDecoder, paymentTermEncoder, } from './payment_term';
 export { Transportation, transportationDecoder, transportationEncoder, } from './transportation';
