@@ -154,10 +154,7 @@ export {
   roomFloorPlanDecoder,
   roomFloorPlanEncoder,
 } from './room_floor_plan';
-export {
-  roomPlanDecoder,
-  roomPlanEncoder,
-} from './room_plan';
+export { roomPlanDecoder, roomPlanEncoder } from './room_plan';
 export {
   ReservePurpose,
   reservePurposeDecoder,
@@ -253,7 +250,11 @@ export {
   ieloveVerificationTypeDecoder,
   ieloveVerificationTypeEncoder,
 } from './ielove_verification_type';
-export { Nationality, nationalityDecoder, nationalityEncoder } from './nationality';
+export {
+  Nationality,
+  nationalityDecoder,
+  nationalityEncoder,
+} from './nationality';
 export {
   EmploymentStatus,
   employmentStatusDecoder,

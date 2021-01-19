@@ -7,7 +7,7 @@ import {
 
 // Edit enum name and contents
 export enum MessageThreadType {
-  Offer   = 'Offer', // 価格交渉
+  Offer = 'Offer', // 価格交渉
   Preview = 'Preview', // 内見
   Contact = 'Contact', // お問い合わせ
   Reserve = 'Reserve', // 予約
@@ -33,7 +33,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const messageThreadTypeEncoder = generateEncoder<MessageThreadType>(translations);
+export const messageThreadTypeEncoder = generateEncoder<MessageThreadType>(
+  translations,
+);
 export const messageThreadTypeDecoder = generateDecoder<MessageThreadType>(
   reverseTranslations,
 );

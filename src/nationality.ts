@@ -28,4 +28,6 @@ const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
 export const nationalityEncoder = generateEncoder<Nationality>(translations);
-export const nationalityDecoder = generateDecoder<Nationality>(reverseTranslations);
+export const nationalityDecoder = generateDecoder<Nationality>(
+  reverseTranslations,
+);

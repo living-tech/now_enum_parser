@@ -112,7 +112,8 @@ const translations: Translations = {
     [EmergencyContactRelationship.MotherInLaw]: 'Mother-in-law',
     [EmergencyContactRelationship.ElderBrotherInLaw]: 'Elder-brother-in-law',
     [EmergencyContactRelationship.ElderSisterInLaw]: 'Elder-sister-in-law',
-    [EmergencyContactRelationship.YoungerBrotherInLaw]: 'Younger-brother-in-law',
+    [EmergencyContactRelationship.YoungerBrotherInLaw]:
+      'Younger-brother-in-law',
     [EmergencyContactRelationship.YoungerSisterInLaw]: 'Younger-sister-in-law',
     [EmergencyContactRelationship.OtherRelative]: 'Other relative',
     [EmergencyContactRelationship.Fiance]: 'Fiance',
@@ -124,7 +125,7 @@ const translations: Translations = {
     [EmergencyContactRelationship.Staff]: 'Staff',
     [EmergencyContactRelationship.YoungerBrother]: 'Younger-brother',
     [EmergencyContactRelationship.YoungerSister]: 'Younger-sister',
-    [EmergencyContactRelationship.StaffRelative]: 'Staff\'s relative',
+    [EmergencyContactRelationship.StaffRelative]: "Staff's relative",
     [EmergencyContactRelationship.StaffAcquaintance]: 'Staff acquaintance',
     [EmergencyContactRelationship.JointContractor]: 'Joint contractor',
     [EmergencyContactRelationship.JointContact]: 'Joint contact',
@@ -132,7 +133,8 @@ const translations: Translations = {
     [EmergencyContactRelationship.Niece]: 'Niece',
     [EmergencyContactRelationship.AdoptedChild]: 'Adopted child',
     [EmergencyContactRelationship.ChildInLaw]: 'Child-in-law',
-    [EmergencyContactRelationship.CompanyRepresentative]: 'Company representative',
+    [EmergencyContactRelationship.CompanyRepresentative]:
+      'Company representative',
     [EmergencyContactRelationship.Other]: 'Other',
   },
 };
@@ -141,5 +143,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const emergencyContactRelationshipEncoder = generateEncoder<EmergencyContactRelationship>(translations);
-export const emergencyContactRelationshipDecoder = generateDecoder<EmergencyContactRelationship>(reverseTranslations);
+export const emergencyContactRelationshipEncoder = generateEncoder<
+  EmergencyContactRelationship
+>(translations);
+export const emergencyContactRelationshipDecoder = generateDecoder<
+  EmergencyContactRelationship
+>(reverseTranslations);
