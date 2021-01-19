@@ -33,7 +33,7 @@ export { RegistrationStatus, registrationStatusDecoder, registrationStatusEncode
 export { RoomChargeType, roomChargeTypeDecoder, roomChargeTypeEncoder, } from './room_charge_type';
 export { RoomClassification, roomClassificationDecoder, roomClassificationEncoder, } from './room_classification';
 export { RoomFloorPlan, roomFloorPlanDecoder, roomFloorPlanEncoder, } from './room_floor_plan';
-export { roomPlanDecoder, roomPlanEncoder, } from './room_plan';
+export { roomPlanDecoder, roomPlanEncoder } from './room_plan';
 export { ReservePurpose, reservePurposeDecoder, reservePurposeEncoder, } from './reserve_purpose';
 export { DiscountType, discountTypeDecoder, discountTypeEncoder, } from './discount_type';
 export { ReserveStatus, reserveStatusDecoder, reserveStatusEncoder, } from './reserve_status';
@@ -53,6 +53,6 @@ export { DesireRentChargeRange, desireRentChargeRangeDecoder, desireRentChargeRa
 export { TenancyPeriod, tenancyPeriodDecoder, tenancyPeriodEncoder, } from './tenancy_period';
 export { PaymentMethod, paymentMethodDecoder, paymentMethodEncoder, } from './payment_method';
 export { IeloveVerificationType, ieloveVerificationTypeDecoder, ieloveVerificationTypeEncoder, } from './ielove_verification_type';
-export { Nationality, nationalityDecoder, nationalityEncoder } from './nationality';
+export { Nationality, nationalityDecoder, nationalityEncoder, } from './nationality';
 export { EmploymentStatus, employmentStatusDecoder, employmentStatusEncoder, } from './employment_status';
 export { EmergencyContactRelationship, emergencyContactRelationshipDecoder, emergencyContactRelationshipEncoder, } from './emergency_contact_relationship';

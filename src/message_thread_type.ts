@@ -9,7 +9,7 @@ import {
 export enum MessageThreadType {
   Offer = 'Offer', // 価格交渉
   Preview = 'Preview', // 内見
-  Contact = 'Contact', // お問い合わせ
+  Contact = 'Contact', // 空き室確認
   Reserve = 'Reserve', // 予約
 }
 
@@ -18,13 +18,13 @@ const translations: Translations = {
   ja: {
     [MessageThreadType.Offer]: '価格交渉',
     [MessageThreadType.Preview]: '内見',
-    [MessageThreadType.Contact]: 'お問い合わせ',
+    [MessageThreadType.Contact]: '空き室確認',
     [MessageThreadType.Reserve]: '予約',
   },
   en: {
     [MessageThreadType.Offer]: 'offer',
     [MessageThreadType.Preview]: 'room preview',
-    [MessageThreadType.Contact]: 'room contact',
+    [MessageThreadType.Contact]: 'Vacancy check',
     [MessageThreadType.Reserve]: 'reserve',
   },
 };
