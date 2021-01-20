@@ -14,15 +14,15 @@ var MessageThreadType;
 // Edit contexts
 var translations = {
     ja: (_a = {},
-        _a[MessageThreadType.Offer] = '価格交渉',
+        _a[MessageThreadType.Offer] = '家賃交渉',
         _a[MessageThreadType.Preview] = '内見',
-        _a[MessageThreadType.Contact] = '空き室確認',
+        _a[MessageThreadType.Contact] = '空室確認',
         _a[MessageThreadType.Reserve] = '予約',
         _a),
     en: (_b = {},
         _b[MessageThreadType.Offer] = 'offer',
         _b[MessageThreadType.Preview] = 'room preview',
-        _b[MessageThreadType.Contact] = 'Vacancy check',
+        _b[MessageThreadType.Contact] = 'vacancy check',
         _b[MessageThreadType.Reserve] = 'reserve',
         _b),
 };
