@@ -33,8 +33,10 @@ const translations: Translations = {
   },
   en: {
     [EmploymentStatus.SoloProprietorship]: 'Solo proprietorship',
-    [EmploymentStatus.ListedCompanyOfficeWorker]: 'Listed company office worker',
-    [EmploymentStatus.UnlistedCompanyOfficeWorker]: 'Unlisted company office worker',
+    [EmploymentStatus.ListedCompanyOfficeWorker]:
+      'Listed company office worker',
+    [EmploymentStatus.UnlistedCompanyOfficeWorker]:
+      'Unlisted company office worker',
     [EmploymentStatus.CompanyOwner]: 'Company owner',
     [EmploymentStatus.PartTimeJob]: 'Part-time job',
     [EmploymentStatus.Arbeit]: 'Arbeit',
@@ -48,5 +50,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const employmentStatusEncoder = generateEncoder<EmploymentStatus>(translations);
-export const employmentStatusDecoder = generateDecoder<EmploymentStatus>(reverseTranslations);
+export const employmentStatusEncoder = generateEncoder<EmploymentStatus>(
+  translations,
+);
+export const employmentStatusDecoder = generateDecoder<EmploymentStatus>(
+  reverseTranslations,
+);
