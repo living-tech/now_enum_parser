@@ -23,8 +23,8 @@ export enum ReservePurpose {
   CohabitationTrial = 'CohabitationTrial', // お試し同棲
   WorkBase = 'WorkBase', // 職場・学校近くの拠点
   RemoteWorkOrProductionBase = 'RemoteWorkOrProductionBase', // リモートワーク・作業用の拠点
-  Workation = 'Workation', // ワーケーション
-  MultipleResidence = 'MultipleResidence', // 多拠点居住（アドレスホッピングではない）
+  Workation = 'Workation', // ワーケーション・旅行
+  MultipleResidence = 'MultipleResidence', // 多拠点居住（アドレスホッピング以外）
   Temporary = 'Temporary', // 上京時の仮住まい
   EasyExamination = 'EasyExamination', // 審査が通過しやすい部屋探し
   Normal = 'Normal', // 通常の住まい
@@ -56,9 +56,8 @@ const translations: Translations = {
     [ReservePurpose.CohabitationTrial]: 'お試し同棲',
     [ReservePurpose.WorkBase]: '職場・学校近くの拠点',
     [ReservePurpose.RemoteWorkOrProductionBase]: 'リモートワーク・作業用の拠点',
-    [ReservePurpose.Workation]: 'ワーケーション',
-    [ReservePurpose.MultipleResidence]:
-      '多拠点居住（アドレスホッピングではない）',
+    [ReservePurpose.Workation]: 'ワーケーション・旅行',
+    [ReservePurpose.MultipleResidence]: '多拠点居住（アドレスホッピング以外）',
     [ReservePurpose.Temporary]: '上京時の仮住まい',
     [ReservePurpose.EasyExamination]: '審査が通過しやすい部屋探し',
     [ReservePurpose.Normal]: '通常の住まい',
@@ -87,7 +86,7 @@ const translations: Translations = {
     [ReservePurpose.CohabitationTrial]: 'Trial cohabitation.',
     [ReservePurpose.WorkBase]: 'Base near workplace / school.',
     [ReservePurpose.RemoteWorkOrProductionBase]: 'Base for remote work / work.',
-    [ReservePurpose.Workation]: 'Workation.',
+    [ReservePurpose.Workation]: 'Workation / travel.',
     [ReservePurpose.MultipleResidence]:
       'Multiple residences (not address hopping).',
     [ReservePurpose.Temporary]: 'Temporary housing when moving to Tokyo.',
