@@ -16,6 +16,12 @@ export enum EmploymentStatus {
   Student = 'Student',
   Unemployed = 'Unemployed',
   Other = 'Other',
+  GovernmentOfficial= 'GovernmentOfficial',
+  CompanyExecutive = 'CompanyExecutive',
+  StaffMemberOfAssociation = 'StaffMemberOfAssociation',
+  WelfarePaymentRecipient = 'WelfarePaymentRecipient',
+  Pensioner = 'Pensioner',
+  DispatchedEmployee = 'DispatchedEmployee',
 }
 
 // Edit contexts
@@ -30,6 +36,12 @@ const translations: Translations = {
     [EmploymentStatus.Student]: '学生',
     [EmploymentStatus.Unemployed]: '無職',
     [EmploymentStatus.Other]: 'その他',
+    [EmploymentStatus.GovernmentOfficial]: '公務員',
+    [EmploymentStatus.CompanyExecutive]: '会社役員',
+    [EmploymentStatus.StaffMemberOfAssociation]: '団体職員',
+    [EmploymentStatus.WelfarePaymentRecipient]: '生活保護',
+    [EmploymentStatus.Pensioner]: '年金受給',
+    [EmploymentStatus.DispatchedEmployee]: '派遣社員',
   },
   en: {
     [EmploymentStatus.SoloProprietorship]: 'Solo proprietorship',
@@ -43,6 +55,12 @@ const translations: Translations = {
     [EmploymentStatus.Student]: 'Student',
     [EmploymentStatus.Unemployed]: 'Unemployed',
     [EmploymentStatus.Other]: 'Other',
+    [EmploymentStatus.GovernmentOfficial]: 'Government Official',
+    [EmploymentStatus.CompanyExecutive]: 'Company Executive',
+    [EmploymentStatus.StaffMemberOfAssociation]: 'Staff member of association',
+    [EmploymentStatus.WelfarePaymentRecipient]: 'Welfare payment recipients',
+    [EmploymentStatus.Pensioner]: 'Pensioner',
+    [EmploymentStatus.DispatchedEmployee]: 'Dispatched employee',
   },
 };
 

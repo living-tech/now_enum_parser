@@ -7,7 +7,13 @@ export declare enum EmploymentStatus {
     Arbeit = "Arbeit",
     Student = "Student",
     Unemployed = "Unemployed",
-    Other = "Other"
+    Other = "Other",
+    GovernmentOfficial = "GovernmentOfficial",
+    CompanyExecutive = "CompanyExecutive",
+    StaffMemberOfAssociation = "StaffMemberOfAssociation",
+    WelfarePaymentRecipient = "WelfarePaymentRecipient",
+    Pensioner = "Pensioner",
+    DispatchedEmployee = "DispatchedEmployee"
 }
 export declare const employmentStatusEncoder: (raw: EmploymentStatus, lang: import(".").Language) => string;
 export declare const employmentStatusDecoder: (text: string, lang: import(".").Language) => EmploymentStatus;
