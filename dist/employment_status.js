@@ -15,6 +15,12 @@ var EmploymentStatus;
     EmploymentStatus["Student"] = "Student";
     EmploymentStatus["Unemployed"] = "Unemployed";
     EmploymentStatus["Other"] = "Other";
+    EmploymentStatus["GovernmentOfficial"] = "GovernmentOfficial";
+    EmploymentStatus["CompanyExecutive"] = "CompanyExecutive";
+    EmploymentStatus["StaffMemberOfAssociation"] = "StaffMemberOfAssociation";
+    EmploymentStatus["WelfarePaymentRecipient"] = "WelfarePaymentRecipient";
+    EmploymentStatus["Pensioner"] = "Pensioner";
+    EmploymentStatus["DispatchedEmployee"] = "DispatchedEmployee";
 })(EmploymentStatus = exports.EmploymentStatus || (exports.EmploymentStatus = {}));
 // Edit contexts
 var translations = {
@@ -28,6 +34,12 @@ var translations = {
         _a[EmploymentStatus.Student] = '学生',
         _a[EmploymentStatus.Unemployed] = '無職',
         _a[EmploymentStatus.Other] = 'その他',
+        _a[EmploymentStatus.GovernmentOfficial] = '公務員',
+        _a[EmploymentStatus.CompanyExecutive] = '会社役員',
+        _a[EmploymentStatus.StaffMemberOfAssociation] = '団体職員',
+        _a[EmploymentStatus.WelfarePaymentRecipient] = '生活保護',
+        _a[EmploymentStatus.Pensioner] = '年金受給',
+        _a[EmploymentStatus.DispatchedEmployee] = '派遣社員',
         _a),
     en: (_b = {},
         _b[EmploymentStatus.SoloProprietorship] = 'Solo proprietorship',
@@ -39,6 +51,12 @@ var translations = {
         _b[EmploymentStatus.Student] = 'Student',
         _b[EmploymentStatus.Unemployed] = 'Unemployed',
         _b[EmploymentStatus.Other] = 'Other',
+        _b[EmploymentStatus.GovernmentOfficial] = 'Government Official',
+        _b[EmploymentStatus.CompanyExecutive] = 'Company Executive',
+        _b[EmploymentStatus.StaffMemberOfAssociation] = 'Staff member of association',
+        _b[EmploymentStatus.WelfarePaymentRecipient] = 'Welfare payment recipients',
+        _b[EmploymentStatus.Pensioner] = 'Pensioner',
+        _b[EmploymentStatus.DispatchedEmployee] = 'Dispatched employee',
         _b),
 };
 // DO NOT EDIT
