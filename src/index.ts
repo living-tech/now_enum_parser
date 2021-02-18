@@ -20,6 +20,11 @@ export {
   buildingConstructedRangeDecoder,
   buildingConstructedRangeEncoder,
 } from './building_constructed_range';
+export {
+  BusinessDay,
+  businessDayDecoder,
+  businessDayEncoder
+} from './business_day'
 export { CardBrand, cardBrandDecoder, cardBrandEncoder } from './card_brand';
 export {
   CancelReason,
