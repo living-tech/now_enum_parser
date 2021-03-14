@@ -23,8 +23,8 @@ export {
 export {
   BusinessDay,
   businessDayDecoder,
-  businessDayEncoder
-} from './business_day'
+  businessDayEncoder,
+} from './business_day';
 export { CardBrand, cardBrandDecoder, cardBrandEncoder } from './card_brand';
 export {
   CancelReason,

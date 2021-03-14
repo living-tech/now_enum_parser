@@ -125,7 +125,7 @@ const translations: Translations = {
     [EmergencyContactRelationship.Staff]: 'Staff',
     [EmergencyContactRelationship.YoungerBrother]: 'Younger-brother',
     [EmergencyContactRelationship.YoungerSister]: 'Younger-sister',
-    [EmergencyContactRelationship.StaffRelative]: 'Staff\'s relative',
+    [EmergencyContactRelationship.StaffRelative]: "Staff's relative",
     [EmergencyContactRelationship.StaffAcquaintance]: 'Staff acquaintance',
     [EmergencyContactRelationship.JointContractor]: 'Joint contractor',
     [EmergencyContactRelationship.JointContact]: 'Joint contact',
