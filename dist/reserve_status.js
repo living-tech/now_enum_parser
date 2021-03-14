@@ -12,6 +12,7 @@ var ReserveStatus;
     ReserveStatus["Occupied"] = "Occupied";
     ReserveStatus["Exited"] = "Exited";
     ReserveStatus["Canceled"] = "Canceled";
+    ReserveStatus["Rejected"] = "Rejected";
 })(ReserveStatus = exports.ReserveStatus || (exports.ReserveStatus = {}));
 // Edit contexts
 var translations = {
@@ -22,6 +23,7 @@ var translations = {
         _a[ReserveStatus.Occupied] = '入居中',
         _a[ReserveStatus.Exited] = '退去済み',
         _a[ReserveStatus.Canceled] = 'キャンセル',
+        _a[ReserveStatus.Rejected] = '予約リクエスト却下',
         _a),
     en: (_b = {},
         _b[ReserveStatus.IeloveRequested] = 'Guarantee Request',
@@ -30,6 +32,7 @@ var translations = {
         _b[ReserveStatus.Occupied] = 'Moving In',
         _b[ReserveStatus.Exited] = 'Moved Out',
         _b[ReserveStatus.Canceled] = 'Cancelled',
+        _b[ReserveStatus.Rejected] = 'Rejected',
         _b),
 };
 // DO NOT EDIT

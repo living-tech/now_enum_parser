@@ -12,7 +12,8 @@ export enum ReserveStatus {
   Approved = 'Approved', // 確定済み
   Occupied = 'Occupied', // 入居中
   Exited = 'Exited', // 退去済み
-  Canceled = 'Canceled', // キャンセル
+  Canceled = 'Canceled', // ゲストからのキャンセル
+  Rejected = 'Rejected', // ホスト、管理者側からの予約リクエスト却下
 }
 
 // Edit contexts
@@ -24,6 +25,7 @@ const translations: Translations = {
     [ReserveStatus.Occupied]: '入居中',
     [ReserveStatus.Exited]: '退去済み',
     [ReserveStatus.Canceled]: 'キャンセル',
+    [ReserveStatus.Rejected]: '予約リクエスト却下',
   },
   en: {
     [ReserveStatus.IeloveRequested]: 'Guarantee Request',
@@ -32,6 +34,7 @@ const translations: Translations = {
     [ReserveStatus.Occupied]: 'Moving In',
     [ReserveStatus.Exited]: 'Moved Out',
     [ReserveStatus.Canceled]: 'Cancelled',
+    [ReserveStatus.Rejected]: 'Rejected',
   },
 };
 
