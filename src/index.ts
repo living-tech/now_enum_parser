@@ -275,3 +275,8 @@ export {
   sellStatusDecoder,
   sellStatusEncoder,
 } from './sell_status';
+export {
+  HomesType,
+  homesTypeDecoder,
+  homesTypeEncoder,
+} from './homes_type';
