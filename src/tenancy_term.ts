@@ -12,6 +12,7 @@ export enum TenancyTerm {
   ThreeToSevenMonths = 'ThreeToSevenMonths',
   SevenMonthsToOneYear = 'SevenMonthsToOneYear',
   MoreThanOneYear = 'MoreThanOneYear',
+  MoreThanTwoYear = 'MoreThanTwoYear',
 }
 
 // Edit contexts
@@ -22,6 +23,7 @@ const translations: Translations = {
     [TenancyTerm.ThreeToSevenMonths]: '3ヶ月以上～7ヶ月未満',
     [TenancyTerm.SevenMonthsToOneYear]: '7ヶ月以上～1年未満',
     [TenancyTerm.MoreThanOneYear]: '1年以上',
+    [TenancyTerm.MoreThanTwoYear]: '2年以上',
   },
   en: {
     [TenancyTerm.LessThanOneMonth]: 'one week to one month',
@@ -29,6 +31,7 @@ const translations: Translations = {
     [TenancyTerm.ThreeToSevenMonths]: 'three to seven months',
     [TenancyTerm.SevenMonthsToOneYear]: 'seven months to one year',
     [TenancyTerm.MoreThanOneYear]: 'more than one year',
+    [TenancyTerm.MoreThanTwoYear]: 'more than two year',
   },
 };
 
