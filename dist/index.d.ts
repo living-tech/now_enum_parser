@@ -57,3 +57,4 @@ export { IeloveVerificationType, ieloveVerificationTypeDecoder, ieloveVerificati
 export { Nationality, nationalityDecoder, nationalityEncoder, } from './nationality';
 export { EmploymentStatus, employmentStatusDecoder, employmentStatusEncoder, } from './employment_status';
 export { EmergencyContactRelationship, emergencyContactRelationshipDecoder, emergencyContactRelationshipEncoder, } from './emergency_contact_relationship';
+export { SellStatus, sellStatusDecoder, sellStatusEncoder, } from './sell_status';
