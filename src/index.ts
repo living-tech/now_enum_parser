@@ -270,3 +270,8 @@ export {
   emergencyContactRelationshipDecoder,
   emergencyContactRelationshipEncoder,
 } from './emergency_contact_relationship';
+export {
+  SellStatus,
+  sellStatusDecoder,
+  sellStatusEncoder,
+} from './sell_status';

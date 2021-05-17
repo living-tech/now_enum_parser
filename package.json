@@ -9,7 +9,7 @@
   "files": [
     "dist"
   ],
-  "repository": "ssh://git@project.revoneo.com:2224/active/living-tech/now_enum_parser.git",
+  "repository": "https://github.com/living-tech/now_enum_parser.git",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
