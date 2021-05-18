@@ -3,7 +3,8 @@ export declare enum TenancyTerm {
     OneToThreeMonths = "OneToThreeMonths",
     ThreeToSevenMonths = "ThreeToSevenMonths",
     SevenMonthsToOneYear = "SevenMonthsToOneYear",
-    MoreThanOneYear = "MoreThanOneYear"
+    MoreThanOneYear = "MoreThanOneYear",
+    MoreThanTwoYear = "MoreThanTwoYear"
 }
 export declare const roomPlanEncoder: (raw: TenancyTerm, lang: import(".").Language) => string;
 export declare const roomPlanDecoder: (text: string, lang: import(".").Language) => TenancyTerm;

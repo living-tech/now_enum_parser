@@ -11,6 +11,7 @@ var TenancyTerm;
     TenancyTerm["ThreeToSevenMonths"] = "ThreeToSevenMonths";
     TenancyTerm["SevenMonthsToOneYear"] = "SevenMonthsToOneYear";
     TenancyTerm["MoreThanOneYear"] = "MoreThanOneYear";
+    TenancyTerm["MoreThanTwoYear"] = "MoreThanTwoYear";
 })(TenancyTerm = exports.TenancyTerm || (exports.TenancyTerm = {}));
 // Edit contexts
 var translations = {
@@ -20,6 +21,7 @@ var translations = {
         _a[TenancyTerm.ThreeToSevenMonths] = 'ミドル',
         _a[TenancyTerm.SevenMonthsToOneYear] = 'ロング',
         _a[TenancyTerm.MoreThanOneYear] = 'スーパーロング',
+        _a[TenancyTerm.MoreThanTwoYear] = 'ウルトラロング',
         _a),
     en: (_b = {},
         _b[TenancyTerm.LessThanOneMonth] = 'super short',
@@ -27,6 +29,7 @@ var translations = {
         _b[TenancyTerm.ThreeToSevenMonths] = 'middle',
         _b[TenancyTerm.SevenMonthsToOneYear] = 'long',
         _b[TenancyTerm.MoreThanOneYear] = 'super long',
+        _b[TenancyTerm.MoreThanTwoYear] = 'ultra long',
         _b),
 };
 // DO NOT EDIT
