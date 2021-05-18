@@ -285,3 +285,8 @@ export {
   managerTypeDecoder,
   managerTypeEncoder,
 } from './manager_type';
+export {
+  ManageForm,
+  manageFormDecoder,
+  manageFormEncoder,
+} from './manage_form';
