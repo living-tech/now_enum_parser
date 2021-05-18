@@ -280,3 +280,8 @@ export {
   homesTypeDecoder,
   homesTypeEncoder,
 } from './homes_type';
+export {
+  ManagerType,
+  managerTypeDecoder,
+  managerTypeEncoder,
+} from './manager_type';

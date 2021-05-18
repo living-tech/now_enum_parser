@@ -59,3 +59,4 @@ export { EmploymentStatus, employmentStatusDecoder, employmentStatusEncoder, } f
 export { EmergencyContactRelationship, emergencyContactRelationshipDecoder, emergencyContactRelationshipEncoder, } from './emergency_contact_relationship';
 export { SellStatus, sellStatusDecoder, sellStatusEncoder, } from './sell_status';
 export { HomesType, homesTypeDecoder, homesTypeEncoder, } from './homes_type';
+export { ManagerType, managerTypeDecoder, managerTypeEncoder, } from './manager_type';
