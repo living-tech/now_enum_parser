@@ -10,7 +10,7 @@ export enum BuildingStructure {
   Wood = 'Wood', // 1,木造 // 【改REINS】1:木造 2:ブロック 3:鉄骨造 4:RC 5:SRC 6:PC 7:HPC 9:その他 10:軽量鉄骨 11:ALC 12:鉄筋ブロック 13:CFT(コンクリート充填鋼管)
   Stell = 'Stell', // 3, 鉄骨造
   Rc = 'Rc', // 4, 鉄筋コンクリート造
-  Src = 'Src', // 5, 鉄筋鉄骨コンクリート造
+  Src = 'Src', // 5, 鉄骨鉄筋コンクリート造
   Block = 'Block', // 2:ブロック
   PC = 'PC', // 6:PC
   HPC = 'HPC', // 7:HPC
@@ -48,7 +48,7 @@ const translations: Translations = {
     [BuildingStructure.Other]: 'Other',
     [BuildingStructure.LightStell]: 'Light Stell',
     [BuildingStructure.Alc]: 'ALC',
-    [BuildingStructure.RBlock]: 'Steel Block',
+    [BuildingStructure.RBlock]: 'Reinforced Block',
     [BuildingStructure.CFT]: 'CFT',
   },
 };
