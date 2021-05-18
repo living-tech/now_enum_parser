@@ -290,3 +290,8 @@ export {
   manageFormDecoder,
   manageFormEncoder,
 } from './manage_form';
+export {
+  FloorType,
+  floorTypeDecoder,
+  floorTypeEncoder,
+} from './floor_type';
