@@ -62,3 +62,4 @@ export { HomesType, homesTypeDecoder, homesTypeEncoder, } from './homes_type';
 export { ManagerType, managerTypeDecoder, managerTypeEncoder, } from './manager_type';
 export { ManageForm, manageFormDecoder, manageFormEncoder, } from './manage_form';
 export { FloorType, floorTypeDecoder, floorTypeEncoder, } from './floor_type';
+export { FloorPlan, floorPlanDecoder, floorPlanEncoder, } from './floor_plan';
