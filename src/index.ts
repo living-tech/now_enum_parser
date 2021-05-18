@@ -295,3 +295,8 @@ export {
   floorTypeDecoder,
   floorTypeEncoder,
 } from './floor_type';
+export {
+  FloorPlan,
+  floorPlanDecoder,
+  floorPlanEncoder,
+} from './floor_plan';
