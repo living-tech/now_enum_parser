@@ -46,7 +46,7 @@ var translations = {
         _b[BuildingStructure.Other] = 'Other',
         _b[BuildingStructure.LightStell] = 'Light Stell',
         _b[BuildingStructure.Alc] = 'ALC',
-        _b[BuildingStructure.RBlock] = 'Steel Block',
+        _b[BuildingStructure.RBlock] = 'Reinforced Block',
         _b[BuildingStructure.CFT] = 'CFT',
         _b),
 };
