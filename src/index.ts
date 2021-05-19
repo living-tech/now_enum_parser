@@ -300,3 +300,8 @@ export {
   floorPlanDecoder,
   floorPlanEncoder,
 } from './floor_plan';
+export {
+  ParkingType,
+  parkingTypeEncoder,
+  parkingTypeDecoder,
+} from './parking_type';
