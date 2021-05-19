@@ -330,3 +330,8 @@ export {
   guaranteeCompanyUsageEncoder,
   guaranteeCompanyUsageDecoder,
 } from './guarantee_company_usage';
+export {
+  TokuyuchinType,
+  tokuyuchinTypeEncoder,
+  tokuyuchinTypeDecoder,
+} from './tokuyuchin_type';
