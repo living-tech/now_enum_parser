@@ -67,3 +67,4 @@ export { ParkingType, parkingTypeEncoder, parkingTypeDecoder, } from './parking_
 export { CurrentStatus, currentStatusEncoder, currentStatusDecoder, } from './current_status';
 export { MoveInType, moveInTypeEncoder, moveInTypeDecoder, } from './move_in_type';
 export { MoveInM3, moveInM3Encoder, moveInM3Decoder, } from './move_in_m3';
+export { TransactionForm, transactionFormEncoder, transactionFormDecoder, } from './transaction_form';

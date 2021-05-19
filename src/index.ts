@@ -320,3 +320,8 @@ export {
   moveInM3Encoder,
   moveInM3Decoder,
 } from './move_in_m3';
+export {
+  TransactionForm,
+  transactionFormEncoder,
+  transactionFormDecoder,
+} from './transaction_form';
