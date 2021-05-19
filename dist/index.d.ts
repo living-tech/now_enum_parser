@@ -69,3 +69,4 @@ export { MoveInType, moveInTypeEncoder, moveInTypeDecoder, } from './move_in_typ
 export { MoveInM3, moveInM3Encoder, moveInM3Decoder, } from './move_in_m3';
 export { TransactionForm, transactionFormEncoder, transactionFormDecoder, } from './transaction_form';
 export { GuaranteeCompanyUsage, guaranteeCompanyUsageEncoder, guaranteeCompanyUsageDecoder, } from './guarantee_company_usage';
+export { TokuyuchinType, tokuyuchinTypeEncoder, tokuyuchinTypeDecoder, } from './tokuyuchin_type';
