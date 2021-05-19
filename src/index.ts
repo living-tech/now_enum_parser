@@ -325,3 +325,8 @@ export {
   transactionFormEncoder,
   transactionFormDecoder,
 } from './transaction_form';
+export {
+  GuaranteeCompanyUsage,
+  guaranteeCompanyUsageEncoder,
+  guaranteeCompanyUsageDecoder,
+} from './guarantee_company_usage';
