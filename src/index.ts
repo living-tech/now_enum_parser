@@ -310,3 +310,8 @@ export {
   currentStatusEncoder,
   currentStatusDecoder,
 } from './current_status';
+export {
+  MoveInType,
+  moveInTypeEncoder,
+  moveInTypeDecoder,
+} from './move_in_type';
