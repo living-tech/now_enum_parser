@@ -305,3 +305,8 @@ export {
   parkingTypeEncoder,
   parkingTypeDecoder,
 } from './parking_type';
+export {
+  CurrentStatus,
+  currentStatusEncoder,
+  currentStatusDecoder,
+} from './current_status';
