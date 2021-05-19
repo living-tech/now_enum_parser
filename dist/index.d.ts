@@ -66,3 +66,4 @@ export { FloorPlan, floorPlanDecoder, floorPlanEncoder, } from './floor_plan';
 export { ParkingType, parkingTypeEncoder, parkingTypeDecoder, } from './parking_type';
 export { CurrentStatus, currentStatusEncoder, currentStatusDecoder, } from './current_status';
 export { MoveInType, moveInTypeEncoder, moveInTypeDecoder, } from './move_in_type';
+export { MoveInM3, moveInM3Encoder, moveInM3Decoder, } from './move_in_m3';

@@ -315,3 +315,8 @@ export {
   moveInTypeEncoder,
   moveInTypeDecoder,
 } from './move_in_type';
+export {
+  MoveInM3,
+  moveInM3Encoder,
+  moveInM3Decoder,
+} from './move_in_m3';
