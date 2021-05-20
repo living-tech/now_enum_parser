@@ -335,3 +335,8 @@ export {
   tokuyuchinTypeEncoder,
   tokuyuchinTypeDecoder,
 } from './tokuyuchin_type';
+export {
+  ParkingContractFeeType,
+  parkingContractFeeTypeEncoder,
+  parkingContractFeeTypeDecoder,
+} from './parking_contract_fee_type';
