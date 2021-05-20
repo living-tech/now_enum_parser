@@ -71,3 +71,4 @@ export { TransactionForm, transactionFormEncoder, transactionFormDecoder, } from
 export { GuaranteeCompanyUsage, guaranteeCompanyUsageEncoder, guaranteeCompanyUsageDecoder, } from './guarantee_company_usage';
 export { TokuyuchinType, tokuyuchinTypeEncoder, tokuyuchinTypeDecoder, } from './tokuyuchin_type';
 export { ParkingContractFeeType, parkingContractFeeTypeEncoder, parkingContractFeeTypeDecoder, } from './parking_contract_fee_type';
+export { HomesproKeyDeliveryType, homesproKeyDeliveryTypeEncoder, homesproKeyDeliveryTypeDecoder, } from './homespro_key_delivery_type';
