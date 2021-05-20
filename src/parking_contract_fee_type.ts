@@ -6,7 +6,7 @@ import {
 } from './lib/generators';
 
 // Edit enum name and contents
-export enum ParkingContractFeeType { // 1:傾斜型 2:フラット型
+export enum ParkingContractFeeType { // 1:契約必須(賃料に含む) 2:契約必須（駐車場料金別)
   ContractRequiredFeeIncluded = 'ContractRequiredFeeIncluded',
   ContractRequiredFeeNotIncluded = 'ContractRequiredFeeNotIncluded',
 }
