@@ -345,3 +345,8 @@ export {
   homesproKeyDeliveryTypeEncoder,
   homesproKeyDeliveryTypeDecoder,
 } from './homespro_key_delivery_type';
+export {
+  StaffCommentType,
+  staffCommentTypeEncoder,
+  staffCommentTypeDecoder,
+} from './staff_comment_type';
