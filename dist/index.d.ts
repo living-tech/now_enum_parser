@@ -73,3 +73,6 @@ export { TokuyuchinType, tokuyuchinTypeEncoder, tokuyuchinTypeDecoder, } from '.
 export { ParkingContractFeeType, parkingContractFeeTypeEncoder, parkingContractFeeTypeDecoder, } from './parking_contract_fee_type';
 export { HomesproKeyDeliveryType, homesproKeyDeliveryTypeEncoder, homesproKeyDeliveryTypeDecoder, } from './homespro_key_delivery_type';
 export { StaffCommentType, staffCommentTypeEncoder, staffCommentTypeDecoder, } from './staff_comment_type';
+export { ReformWaterFacility, reformWaterFacilityEncoder, reformWaterFacilityDecoder, } from './reform_water_facility';
+export { ReformInsideFacility, reformInsideFacilityEncoder, reformInsideFacilityDecoder, } from './reform_inside_facility';
+export { ReformOutsideFacility, reformOutsideFacilityEncoder, reformOutsideFacilityDecoder, } from './reform_outside_facility';

@@ -350,3 +350,18 @@ export {
   staffCommentTypeEncoder,
   staffCommentTypeDecoder,
 } from './staff_comment_type';
+export {
+  ReformWaterFacility,
+  reformWaterFacilityEncoder,
+  reformWaterFacilityDecoder,
+} from './reform_water_facility';
+export {
+  ReformInsideFacility,
+  reformInsideFacilityEncoder,
+  reformInsideFacilityDecoder,
+} from './reform_inside_facility';
+export {
+  ReformOutsideFacility,
+  reformOutsideFacilityEncoder,
+  reformOutsideFacilityDecoder,
+} from './reform_outside_facility';
