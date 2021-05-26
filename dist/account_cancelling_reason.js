@@ -14,13 +14,13 @@ var translations = {
     ja: (_a = {},
         _a[AccountCancellingReason.DIDNT_LIKE_ROOMS] = '気に入った物件がなかった',
         _a[AccountCancellingReason.DIFFICULT_TO_USE] = '使い方がわからなかった',
-        _a[AccountCancellingReason.BAD_APPLICATION_UI] = 'アプリの操作感が悪かった',
+        _a[AccountCancellingReason.BAD_APPLICATION_UI] = 'サイト/アプリの操作感が悪かった',
         _a[AccountCancellingReason.Others] = 'その他',
         _a),
     en: (_b = {},
         _b[AccountCancellingReason.DIDNT_LIKE_ROOMS] = 'Did not like any of the rooms',
         _b[AccountCancellingReason.DIFFICULT_TO_USE] = 'Difficult to use',
-        _b[AccountCancellingReason.BAD_APPLICATION_UI] = 'Application UI is bad',
+        _b[AccountCancellingReason.BAD_APPLICATION_UI] = 'Website/Application UI is bad',
         _b[AccountCancellingReason.Others] = 'Others',
         _b)
 };
