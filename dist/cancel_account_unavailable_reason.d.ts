@@ -1,6 +1,6 @@
 export declare enum CancelAccountUnavailableReason {
-    ReserationExists = "ReservationExists",
+    ReservationExists = "ReservationExists",
     PaymentNotComplete = "PaymentNotComplete"
 }
-export declare const cancelReasonEncoder: (raw: CancelAccountUnavailableReason, lang: import(".").Language) => string;
-export declare const cancelReasonDecoder: (text: string, lang: import(".").Language) => CancelAccountUnavailableReason;
+export declare const cancelAccountUnavailableReasonEncoder: (raw: CancelAccountUnavailableReason, lang: import(".").Language) => string;
+export declare const cancelAccountUnavailableReasonDecoder: (text: string, lang: import(".").Language) => CancelAccountUnavailableReason;

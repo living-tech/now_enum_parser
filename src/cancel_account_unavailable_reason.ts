@@ -7,18 +7,18 @@ import {
 
 // Edit enum name and contents
 export enum CancelAccountUnavailableReason {
-   ReserationExists = 'ReservationExists',
+   ReservationExists = 'ReservationExists',
    PaymentNotComplete = 'PaymentNotComplete',
 }
 
 // Edit contexts
 const translations: Translations = {
   ja: {
-    [CancelAccountUnavailableReason.ReserationExists]: '予約中の物件があります',
+    [CancelAccountUnavailableReason.ReservationExists]: '予約中の物件があります',
     [CancelAccountUnavailableReason.PaymentNotComplete]: 'お支払いが完了していない物件があります'
   },
   en: {
-    [CancelAccountUnavailableReason.ReserationExists]: 'There exists a future reservation',
+    [CancelAccountUnavailableReason.ReservationExists]: 'There exists a future reservation',
     [CancelAccountUnavailableReason.PaymentNotComplete]: 'There is a reservation whose payment is not complete',
   },
 };
@@ -26,7 +26,7 @@ const translations: Translations = {
 // DO NOT EDIT
 const reverseTranslations = generateReverseTranslations(translations);
 // Edit constants name
-export const cancelReasonEncoder = generateEncoder<CancelAccountUnavailableReason>(translations);
-export const cancelReasonDecoder = generateDecoder<CancelAccountUnavailableReason>(
+export const cancelAccountUnavailableReasonEncoder = generateEncoder<CancelAccountUnavailableReason>(translations);
+export const cancelAccountUnavailableReasonDecoder = generateDecoder<CancelAccountUnavailableReason>(
   reverseTranslations,
 );
