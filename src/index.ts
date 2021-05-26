@@ -365,3 +365,9 @@ export {
   reformOutsideFacilityEncoder,
   reformOutsideFacilityDecoder,
 } from './reform_outside_facility';
+
+export {
+  AccountCancellingReason,
+  accountCancelReasonEncoder,
+  accountCancelReasonDecoder,
+} from './account_cancelling_reason';
