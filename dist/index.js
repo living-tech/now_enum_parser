@@ -315,4 +315,8 @@ var account_cancelling_reason_1 = require("./account_cancelling_reason");
 Object.defineProperty(exports, "AccountCancellingReason", { enumerable: true, get: function () { return account_cancelling_reason_1.AccountCancellingReason; } });
 Object.defineProperty(exports, "accountCancelReasonEncoder", { enumerable: true, get: function () { return account_cancelling_reason_1.accountCancelReasonEncoder; } });
 Object.defineProperty(exports, "accountCancelReasonDecoder", { enumerable: true, get: function () { return account_cancelling_reason_1.accountCancelReasonDecoder; } });
+var cancel_account_unavailable_reason_1 = require("./cancel_account_unavailable_reason");
+Object.defineProperty(exports, "CancelAccountUnavailableReason", { enumerable: true, get: function () { return cancel_account_unavailable_reason_1.CancelAccountUnavailableReason; } });
+Object.defineProperty(exports, "cancelAccountUnavailableReasonEncoder", { enumerable: true, get: function () { return cancel_account_unavailable_reason_1.cancelAccountUnavailableReasonEncoder; } });
+Object.defineProperty(exports, "cancelAccountUnavailableReasonDecoder", { enumerable: true, get: function () { return cancel_account_unavailable_reason_1.cancelAccountUnavailableReasonDecoder; } });
 //# sourceMappingURL=index.js.map

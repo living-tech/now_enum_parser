@@ -371,3 +371,9 @@ export {
   accountCancelReasonEncoder,
   accountCancelReasonDecoder,
 } from './account_cancelling_reason';
+
+export {
+  CancelAccountUnavailableReason,
+  cancelAccountUnavailableReasonEncoder,
+  cancelAccountUnavailableReasonDecoder,
+} from './cancel_account_unavailable_reason';
