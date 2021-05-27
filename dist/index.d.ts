@@ -77,3 +77,4 @@ export { ReformWaterFacility, reformWaterFacilityEncoder, reformWaterFacilityDec
 export { ReformInsideFacility, reformInsideFacilityEncoder, reformInsideFacilityDecoder, } from './reform_inside_facility';
 export { ReformOutsideFacility, reformOutsideFacilityEncoder, reformOutsideFacilityDecoder, } from './reform_outside_facility';
 export { AccountCancellingReason, accountCancelReasonEncoder, accountCancelReasonDecoder, } from './account_cancelling_reason';
+export { CancelAccountUnavailableReason, cancelAccountUnavailableReasonEncoder, cancelAccountUnavailableReasonDecoder, } from './cancel_account_unavailable_reason';
