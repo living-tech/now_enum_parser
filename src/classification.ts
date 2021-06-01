@@ -9,6 +9,7 @@ import {
 export enum Classification {
   User = 'User',
   Owner = 'Owner',
+  Agent = 'Agent',
   Admin = 'Admin',
 }
 
@@ -17,11 +18,13 @@ const translations: Translations = {
   ja: {
     [Classification.User]: 'ユーザー',
     [Classification.Owner]: 'オーナー',
+    [Classification.Agent]: '仲介者',
     [Classification.Admin]: '管理者',
   },
   en: {
     [Classification.User]: 'User',
     [Classification.Owner]: 'Owner',
+    [Classification.Agent]: 'Agent',
     [Classification.Admin]: 'Admin',
   },
 };
