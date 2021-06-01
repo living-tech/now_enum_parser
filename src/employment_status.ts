@@ -16,7 +16,7 @@ export enum EmploymentStatus {
   Student = 'Student',
   Unemployed = 'Unemployed',
   Other = 'Other',
-  GovernmentOfficial= 'GovernmentOfficial',
+  GovernmentOfficial = 'GovernmentOfficial',
   CompanyExecutive = 'CompanyExecutive',
   StaffMemberOfAssociation = 'StaffMemberOfAssociation',
   WelfarePaymentRecipient = 'WelfarePaymentRecipient',
