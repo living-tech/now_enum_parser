@@ -8,6 +8,7 @@ var Classification;
 (function (Classification) {
     Classification["User"] = "User";
     Classification["Owner"] = "Owner";
+    Classification["Agent"] = "Agent";
     Classification["Admin"] = "Admin";
 })(Classification = exports.Classification || (exports.Classification = {}));
 // Edit contexts
@@ -15,11 +16,13 @@ var translations = {
     ja: (_a = {},
         _a[Classification.User] = 'ユーザー',
         _a[Classification.Owner] = 'オーナー',
+        _a[Classification.Agent] = '仲介者',
         _a[Classification.Admin] = '管理者',
         _a),
     en: (_b = {},
         _b[Classification.User] = 'User',
         _b[Classification.Owner] = 'Owner',
+        _b[Classification.Agent] = 'Agent',
         _b[Classification.Admin] = 'Admin',
         _b),
 };
