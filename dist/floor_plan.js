@@ -5,8 +5,8 @@ exports.floorPlanDecoder = exports.floorPlanEncoder = exports.FloorPlan = void 0
 var generators_1 = require("./lib/generators");
 var FloorPlan;
 (function (FloorPlan) {
-    FloorPlan["JapaneseStyle"] = "Japanese Style";
-    FloorPlan["WesternStyle"] = "Western Style";
+    FloorPlan["JapaneseStyle"] = "JapaneseStyle";
+    FloorPlan["WesternStyle"] = "WesternStyle";
     FloorPlan["DK"] = "DK";
     FloorPlan["LDK"] = "LDK";
     FloorPlan["L"] = "L";

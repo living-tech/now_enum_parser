@@ -6,8 +6,8 @@ import {
 } from './lib/generators';
 
 export enum FloorPlan {
-  JapaneseStyle = 'Japanese Style', // 【改REINS】1:和室 2:洋室 3:DK 4:LDK 5:L 6:D 7:K 9:その他 21:LK 22:LD 23:S
-  WesternStyle = 'Western Style',
+  JapaneseStyle = 'JapaneseStyle', // 【改REINS】1:和室 2:洋室 3:DK 4:LDK 5:L 6:D 7:K 9:その他 21:LK 22:LD 23:S
+  WesternStyle = 'WesternStyle',
   DK = 'DK',
   LDK = 'LDK',
   L = 'L',

@@ -1,6 +1,6 @@
 export declare enum FloorPlan {
-    JapaneseStyle = "Japanese Style",
-    WesternStyle = "Western Style",
+    JapaneseStyle = "JapaneseStyle",
+    WesternStyle = "WesternStyle",
     DK = "DK",
     LDK = "LDK",
     L = "L",
