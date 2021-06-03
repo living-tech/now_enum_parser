@@ -39,7 +39,6 @@ export enum ImageTarget {
   Balcony = 'Balcony',
   Entrance = 'Entrance',
   ParkingLot = 'Parking lot',
-
 }
 
 // Edit contexts
@@ -59,7 +58,7 @@ const translations: Translations = {
     [ImageTarget.ShareNone]: '共有部 - 区分なし',
     [ImageTarget.FloorPlan]: '間取り',
     [ImageTarget.KeyVisual]: 'KV',
-    // 1:間取 2:外観 3:地図 4:周辺 5:内装 9:その他画像 10:玄関 11:居間  12:キッチン 13:寝室 14:子供部屋 
+    // 1:間取 2:外観 3:地図 4:周辺 5:内装 9:その他画像 10:玄関 11:居間  12:キッチン 13:寝室 14:子供部屋
     // 15:風呂 16:トイレ 17:洗面 18:収納 19:設備 20:バルコニー 21:エントランス 22:駐車場
     [ImageTarget.Exterior]: '外観',
     [ImageTarget.Map]: '地図',
@@ -95,8 +94,6 @@ const translations: Translations = {
     [ImageTarget.ShareNone]: 'Public - None',
     [ImageTarget.FloorPlan]: 'Floor Plan',
     [ImageTarget.KeyVisual]: 'KV',
-    // 1: Floor plan 2: Exterior 3: Map 4: Surroundings 5: Interior 9: Other image 10: Door 11: Living room 12: Kitchen 13: Bedroom 14: Children's room 
-    // 15: Bath 16: Toilet 17: Washbasin 18: Storage 19: Facilities 20: Balcony 21: Entrance 22: Parking lot
     [ImageTarget.Exterior]: 'Exterior',
     [ImageTarget.Map]: 'Map',
     [ImageTarget.Surroundings]: 'Surroundings',
@@ -115,8 +112,6 @@ const translations: Translations = {
     [ImageTarget.Balcony]: 'Balcony',
     [ImageTarget.Entrance]: 'Entrance',
     [ImageTarget.ParkingLot]: 'Parking lot',
-
-
   },
 };
 

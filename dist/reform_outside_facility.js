@@ -18,7 +18,7 @@ var translations = {
     en: (_b = {},
         _b[ReformOutsideFacility.Roof] = 'Roof',
         _b[ReformOutsideFacility.ExteriorWall] = 'Exterior wall',
-        _b)
+        _b),
 };
 // DO NOT EDIT
 var reverseTranslations = generators_1.generateReverseTranslations(translations);

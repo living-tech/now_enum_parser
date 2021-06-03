@@ -6,7 +6,7 @@ import {
 } from './lib/generators';
 
 // Edit enum name and contents
-export enum HomesproKeyDeliveryType { // 
+export enum HomesproKeyDeliveryType { //
   OurCompany = 'OurCompany',
   Deposit = 'Deposit',
   Local = 'Local',
@@ -36,7 +36,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const homesproKeyDeliveryTypeEncoder = generateEncoder<HomesproKeyDeliveryType>(translations);
-export const homesproKeyDeliveryTypeDecoder = generateDecoder<HomesproKeyDeliveryType>(
-  reverseTranslations,
-);
+export const homesproKeyDeliveryTypeEncoder = generateEncoder<
+  HomesproKeyDeliveryType
+>(translations);
+export const homesproKeyDeliveryTypeDecoder = generateDecoder<
+  HomesproKeyDeliveryType
+>(reverseTranslations);

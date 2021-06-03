@@ -18,7 +18,7 @@ export enum ReformWaterFacility { //  1:キッチン 2:浴室 3:トイレ 4:洗�
 // Edit contexts
 const translations: Translations = {
   ja: {
-    [ReformWaterFacility.Kitchen]: 'キッチン', //1:キッチン 2:浴室 3:トイレ 4:洗面所 5:給湯器 6:給排水管
+    [ReformWaterFacility.Kitchen]: 'キッチン', // 1:キッチン 2:浴室 3:トイレ 4:洗面所 5:給湯器 6:給排水管
     [ReformWaterFacility.Bathroom]: '浴室',
     [ReformWaterFacility.Toilet]: 'トイレ',
     [ReformWaterFacility.Washroom]: '洗面所',
@@ -32,14 +32,16 @@ const translations: Translations = {
     [ReformWaterFacility.Washroom]: 'Washroom',
     [ReformWaterFacility.WaterHeater]: 'Water heater',
     [ReformWaterFacility.WaterSupply]: 'Water supply and drainage pipe',
-  }
+  },
 };
 
 // DO NOT EDIT
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const reformWaterFacilityEncoder = generateEncoder<ReformWaterFacility>(translations);
+export const reformWaterFacilityEncoder = generateEncoder<ReformWaterFacility>(
+  translations,
+);
 export const reformWaterFacilityDecoder = generateDecoder<ReformWaterFacility>(
   reverseTranslations,
 );

@@ -21,7 +21,7 @@ var translations = {
         _b[StaffCommentType.PropertyInformation] = 'Property information',
         _b[StaffCommentType.StaffInformation] = 'Staff information',
         _b[StaffCommentType.CompanyInformation] = 'Company information',
-        _b)
+        _b),
 };
 // DO NOT EDIT
 var reverseTranslations = generators_1.generateReverseTranslations(translations);

@@ -9,7 +9,7 @@ var HomesType;
     HomesType["Apartment"] = "Apartment";
     HomesType["House"] = "House";
     HomesType["TerracedHouse"] = "TerracedHouse";
-    HomesType["Townhouse"] = "TownHouse";
+    HomesType["TownHouse"] = "TownHouse";
     HomesType["ShareHouse"] = "ShareHouse";
     HomesType["Dormitory"] = "Dormitory";
 })(HomesType = exports.HomesType || (exports.HomesType = {}));
@@ -20,7 +20,7 @@ var translations = {
         _a[HomesType.Apartment] = 'アパート',
         _a[HomesType.House] = '一戸建',
         _a[HomesType.TerracedHouse] = 'テラスハウス',
-        _a[HomesType.Townhouse] = 'タウンハウス',
+        _a[HomesType.TownHouse] = 'タウンハウス',
         _a[HomesType.ShareHouse] = 'シェアハウス',
         _a[HomesType.Dormitory] = '寮・下宿',
         _a),
@@ -29,7 +29,7 @@ var translations = {
         _b[HomesType.Apartment] = 'Apartment',
         _b[HomesType.House] = 'House',
         _b[HomesType.TerracedHouse] = 'Terraced House',
-        _b[HomesType.Townhouse] = 'Town House',
+        _b[HomesType.TownHouse] = 'Town House',
         _b[HomesType.ShareHouse] = 'Share House',
         _b[HomesType.Dormitory] = 'Dormitory',
         _b),

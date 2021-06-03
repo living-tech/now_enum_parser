@@ -30,7 +30,7 @@ var translations = {
         _b[ReformWaterFacility.Washroom] = 'Washroom',
         _b[ReformWaterFacility.WaterHeater] = 'Water heater',
         _b[ReformWaterFacility.WaterSupply] = 'Water supply and drainage pipe',
-        _b)
+        _b),
 };
 // DO NOT EDIT
 var reverseTranslations = generators_1.generateReverseTranslations(translations);

@@ -47,9 +47,5 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const floorTypeEncoder = generateEncoder<FloorType>(
-  translations,
-);
-export const floorTypeDecoder = generateDecoder<FloorType>(
-  reverseTranslations,
-);
+export const floorTypeEncoder = generateEncoder<FloorType>(translations);
+export const floorTypeDecoder = generateDecoder<FloorType>(reverseTranslations);

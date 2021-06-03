@@ -27,7 +27,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const tokuyuchinTypeEncoder = generateEncoder<TokuyuchinType>(translations);
+export const tokuyuchinTypeEncoder = generateEncoder<TokuyuchinType>(
+  translations,
+);
 export const tokuyuchinTypeDecoder = generateDecoder<TokuyuchinType>(
   reverseTranslations,
 );

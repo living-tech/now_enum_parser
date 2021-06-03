@@ -11,6 +11,7 @@ var TenancyPeriod;
     TenancyPeriod["ThreeToSevenMonths"] = "ThreeToSevenMonths";
     TenancyPeriod["SevenMonthsToOneYear"] = "SevenMonthsToOneYear";
     TenancyPeriod["MoreThanOneYear"] = "MoreThanOneYear";
+    TenancyPeriod["MoreThanTwoYear"] = "MoreThanTwoYear";
 })(TenancyPeriod = exports.TenancyPeriod || (exports.TenancyPeriod = {}));
 // Edit contexts
 var translations = {
@@ -20,6 +21,7 @@ var translations = {
         _a[TenancyPeriod.ThreeToSevenMonths] = '3ヶ月以上～7ヶ月未満',
         _a[TenancyPeriod.SevenMonthsToOneYear] = '7ヶ月以上～1年未満',
         _a[TenancyPeriod.MoreThanOneYear] = '1年以上',
+        _a[TenancyPeriod.MoreThanTwoYear] = '2年以上',
         _a),
     en: (_b = {},
         _b[TenancyPeriod.LessThanOneMonth] = 'less than one month',
@@ -27,6 +29,7 @@ var translations = {
         _b[TenancyPeriod.ThreeToSevenMonths] = 'three to seven months',
         _b[TenancyPeriod.SevenMonthsToOneYear] = 'seven months to one year',
         _b[TenancyPeriod.MoreThanOneYear] = 'more than one year',
+        _b[TenancyPeriod.MoreThanTwoYear] = 'more than two year',
         _b),
 };
 // DO NOT EDIT

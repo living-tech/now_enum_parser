@@ -23,14 +23,16 @@ const translations: Translations = {
     [StaffCommentType.PropertyInformation]: 'Property information', // 1: Property information, 2: Staff information, 3: Company information
     [StaffCommentType.StaffInformation]: 'Staff information',
     [StaffCommentType.CompanyInformation]: 'Company information',
-  }
+  },
 };
 
 // DO NOT EDIT
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const staffCommentTypeEncoder = generateEncoder<StaffCommentType>(translations);
+export const staffCommentTypeEncoder = generateEncoder<StaffCommentType>(
+  translations,
+);
 export const staffCommentTypeDecoder = generateDecoder<StaffCommentType>(
   reverseTranslations,
 );

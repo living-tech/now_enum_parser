@@ -35,9 +35,7 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const managerTypeEncoder = generateEncoder<ManagerType>(
-  translations,
-);
+export const managerTypeEncoder = generateEncoder<ManagerType>(translations);
 export const managerTypeDecoder = generateDecoder<ManagerType>(
   reverseTranslations,
 );

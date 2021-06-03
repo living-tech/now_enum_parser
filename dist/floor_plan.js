@@ -19,6 +19,7 @@ var FloorPlan;
 })(FloorPlan = exports.FloorPlan || (exports.FloorPlan = {}));
 // Edit contexts
 var translations = {
+    // 【改REINS】1:和室 2:洋室 3:DK 4:LDK 5:L 6:D 7:K 9:その他 21:LK 22:LD 23:S
     ja: (_a = {},
         _a[FloorPlan.JapaneseStyle] = '和室',
         _a[FloorPlan.WesternStyle] = '洋室',

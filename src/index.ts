@@ -275,11 +275,7 @@ export {
   sellStatusDecoder,
   sellStatusEncoder,
 } from './sell_status';
-export {
-  HomesType,
-  homesTypeDecoder,
-  homesTypeEncoder,
-} from './homes_type';
+export { HomesType, homesTypeDecoder, homesTypeEncoder } from './homes_type';
 export {
   ManagerType,
   managerTypeDecoder,
@@ -290,16 +286,8 @@ export {
   manageFormDecoder,
   manageFormEncoder,
 } from './manage_form';
-export {
-  FloorType,
-  floorTypeDecoder,
-  floorTypeEncoder,
-} from './floor_type';
-export {
-  FloorPlan,
-  floorPlanDecoder,
-  floorPlanEncoder,
-} from './floor_plan';
+export { FloorType, floorTypeDecoder, floorTypeEncoder } from './floor_type';
+export { FloorPlan, floorPlanDecoder, floorPlanEncoder } from './floor_plan';
 export {
   ParkingType,
   parkingTypeEncoder,
@@ -315,11 +303,7 @@ export {
   moveInTypeEncoder,
   moveInTypeDecoder,
 } from './move_in_type';
-export {
-  MoveInM3,
-  moveInM3Encoder,
-  moveInM3Decoder,
-} from './move_in_m3';
+export { MoveInM3, moveInM3Encoder, moveInM3Decoder } from './move_in_m3';
 export {
   TransactionForm,
   transactionFormEncoder,
