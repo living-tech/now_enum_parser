@@ -8,14 +8,14 @@ import {
 export enum FloorPlan {
   JapaneseStyle = 'JapaneseStyle', // 【改REINS】1:和室 2:洋室 3:DK 4:LDK 5:L 6:D 7:K 9:その他 21:LK 22:LD 23:S
   WesternStyle = 'WesternStyle',
-  Dk = 'DK',
-  Ldk = 'LDK',
+  Dk = 'Dk',
+  Ldk = 'Ldk',
   L = 'L',
   D = 'D',
   K = 'K',
   Other = 'Other',
-  Lk = 'LK',
-  Ld = 'LD',
+  Lk = 'Lk',
+  Ld = 'Ld',
   S = 'S',
 }
 

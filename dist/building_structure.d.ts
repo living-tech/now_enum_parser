@@ -4,13 +4,13 @@ export declare enum BuildingStructure {
     Rc = "Rc",
     Src = "Src",
     Block = "Block",
-    Pc = "PC",
-    Hpc = "HPC",
+    Pc = "Pc",
+    Hpc = "Hpc",
     Other = "Other",
     LightStell = "LightStell",
     Alc = "Alc",
     RBlock = "RBlock",
-    Cft = "CFT"
+    Cft = "Cft"
 }
 export declare const buildingStructureEncoder: (raw: BuildingStructure, lang: import(".").Language) => string;
 export declare const buildingStructureDecoder: (text: string, lang: import(".").Language) => BuildingStructure;

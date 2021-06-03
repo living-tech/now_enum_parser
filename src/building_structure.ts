@@ -12,13 +12,13 @@ export enum BuildingStructure {
   Rc = 'Rc', // 4, 鉄筋コンクリート造
   Src = 'Src', // 5, 鉄骨鉄筋コンクリート造
   Block = 'Block', // 2:ブロック
-  Pc = 'PC', // 6:PC
-  Hpc = 'HPC', // 7:HPC
+  Pc = 'Pc', // 6:PC
+  Hpc = 'Hpc', // 7:HPC
   Other = 'Other', // 9:その他
   LightStell = 'LightStell', // 10:軽量鉄骨
   Alc = 'Alc', // 11:ALC
   RBlock = 'RBlock', // 12:鉄筋ブロック
-  Cft = 'CFT', // 13:CFT(コンクリート充填鋼管)
+  Cft = 'Cft', // 13:CFT(コンクリート充填鋼管)
 }
 
 // Edit contexts

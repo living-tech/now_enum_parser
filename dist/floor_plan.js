@@ -7,14 +7,14 @@ var FloorPlan;
 (function (FloorPlan) {
     FloorPlan["JapaneseStyle"] = "JapaneseStyle";
     FloorPlan["WesternStyle"] = "WesternStyle";
-    FloorPlan["Dk"] = "DK";
-    FloorPlan["Ldk"] = "LDK";
+    FloorPlan["Dk"] = "Dk";
+    FloorPlan["Ldk"] = "Ldk";
     FloorPlan["L"] = "L";
     FloorPlan["D"] = "D";
     FloorPlan["K"] = "K";
     FloorPlan["Other"] = "Other";
-    FloorPlan["Lk"] = "LK";
-    FloorPlan["Ld"] = "LD";
+    FloorPlan["Lk"] = "Lk";
+    FloorPlan["Ld"] = "Ld";
     FloorPlan["S"] = "S";
 })(FloorPlan = exports.FloorPlan || (exports.FloorPlan = {}));
 // Edit contexts

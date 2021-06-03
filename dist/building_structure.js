@@ -11,13 +11,13 @@ var BuildingStructure;
     BuildingStructure["Rc"] = "Rc";
     BuildingStructure["Src"] = "Src";
     BuildingStructure["Block"] = "Block";
-    BuildingStructure["Pc"] = "PC";
-    BuildingStructure["Hpc"] = "HPC";
+    BuildingStructure["Pc"] = "Pc";
+    BuildingStructure["Hpc"] = "Hpc";
     BuildingStructure["Other"] = "Other";
     BuildingStructure["LightStell"] = "LightStell";
     BuildingStructure["Alc"] = "Alc";
     BuildingStructure["RBlock"] = "RBlock";
-    BuildingStructure["Cft"] = "CFT";
+    BuildingStructure["Cft"] = "Cft";
 })(BuildingStructure = exports.BuildingStructure || (exports.BuildingStructure = {}));
 // Edit contexts
 var translations = {

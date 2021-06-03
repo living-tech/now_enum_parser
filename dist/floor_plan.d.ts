@@ -1,14 +1,14 @@
 export declare enum FloorPlan {
     JapaneseStyle = "JapaneseStyle",
     WesternStyle = "WesternStyle",
-    Dk = "DK",
-    Ldk = "LDK",
+    Dk = "Dk",
+    Ldk = "Ldk",
     L = "L",
     D = "D",
     K = "K",
     Other = "Other",
-    Lk = "LK",
-    Ld = "LD",
+    Lk = "Lk",
+    Ld = "Ld",
     S = "S"
 }
 export declare const floorPlanEncoder: (raw: FloorPlan, lang: import(".").Language) => string;
