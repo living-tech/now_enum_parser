@@ -7,14 +7,14 @@ var FloorPlan;
 (function (FloorPlan) {
     FloorPlan["JapaneseStyle"] = "JapaneseStyle";
     FloorPlan["WesternStyle"] = "WesternStyle";
-    FloorPlan["DK"] = "DK";
-    FloorPlan["LDK"] = "LDK";
+    FloorPlan["Dk"] = "DK";
+    FloorPlan["Ldk"] = "LDK";
     FloorPlan["L"] = "L";
     FloorPlan["D"] = "D";
     FloorPlan["K"] = "K";
     FloorPlan["Other"] = "Other";
-    FloorPlan["LK"] = "LK";
-    FloorPlan["LD"] = "LD";
+    FloorPlan["Lk"] = "LK";
+    FloorPlan["Ld"] = "LD";
     FloorPlan["S"] = "S";
 })(FloorPlan = exports.FloorPlan || (exports.FloorPlan = {}));
 // Edit contexts
@@ -23,27 +23,27 @@ var translations = {
     ja: (_a = {},
         _a[FloorPlan.JapaneseStyle] = '和室',
         _a[FloorPlan.WesternStyle] = '洋室',
-        _a[FloorPlan.DK] = 'DK',
-        _a[FloorPlan.LDK] = 'LDK',
+        _a[FloorPlan.Dk] = 'DK',
+        _a[FloorPlan.Ldk] = 'LDK',
         _a[FloorPlan.L] = 'L',
         _a[FloorPlan.D] = 'D',
         _a[FloorPlan.K] = 'K',
         _a[FloorPlan.Other] = 'その他',
-        _a[FloorPlan.LK] = 'LK',
-        _a[FloorPlan.LD] = 'LD',
+        _a[FloorPlan.Lk] = 'LK',
+        _a[FloorPlan.Ld] = 'LD',
         _a[FloorPlan.S] = 'S',
         _a),
     en: (_b = {},
         _b[FloorPlan.JapaneseStyle] = 'Japanese-style',
         _b[FloorPlan.WesternStyle] = 'Western-style',
-        _b[FloorPlan.DK] = 'DK',
-        _b[FloorPlan.LDK] = 'LDK',
+        _b[FloorPlan.Dk] = 'DK',
+        _b[FloorPlan.Ldk] = 'LDK',
         _b[FloorPlan.L] = 'L',
         _b[FloorPlan.D] = 'D',
         _b[FloorPlan.K] = 'K',
         _b[FloorPlan.Other] = 'Other',
-        _b[FloorPlan.LK] = 'LK',
-        _b[FloorPlan.LD] = 'LD',
+        _b[FloorPlan.Lk] = 'LK',
+        _b[FloorPlan.Ld] = 'LD',
         _b[FloorPlan.S] = 'S',
         _b),
 };
