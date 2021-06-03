@@ -22,7 +22,7 @@ var translations = {
         _b[AccountCancellingReason.DIFFICULT_TO_USE] = 'Difficult to use',
         _b[AccountCancellingReason.BAD_APPLICATION_UI] = 'Website/Application UI is bad',
         _b[AccountCancellingReason.Others] = 'Others',
-        _b)
+        _b),
 };
 // DO NOT EDIT
 var reverseTranslations = generators_1.generateReverseTranslations(translations);

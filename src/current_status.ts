@@ -33,7 +33,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const currentStatusEncoder = generateEncoder<CurrentStatus>(translations);
+export const currentStatusEncoder = generateEncoder<CurrentStatus>(
+  translations,
+);
 export const currentStatusDecoder = generateDecoder<CurrentStatus>(
   reverseTranslations,
 );

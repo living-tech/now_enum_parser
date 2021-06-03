@@ -39,7 +39,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const transactionFormEncoder = generateEncoder<TransactionForm>(translations);
+export const transactionFormEncoder = generateEncoder<TransactionForm>(
+  translations,
+);
 export const transactionFormDecoder = generateDecoder<TransactionForm>(
   reverseTranslations,
 );

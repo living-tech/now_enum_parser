@@ -31,6 +31,4 @@ const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
 export const moveInM3Encoder = generateEncoder<MoveInM3>(translations);
-export const moveInM3Decoder = generateDecoder<MoveInM3>(
-  reverseTranslations,
-);
+export const moveInM3Decoder = generateDecoder<MoveInM3>(reverseTranslations);

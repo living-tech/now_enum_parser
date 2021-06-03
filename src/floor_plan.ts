@@ -20,7 +20,8 @@ export enum FloorPlan {
 }
 
 // Edit contexts
-const translations: Translations = { //【改REINS】1:和室 2:洋室 3:DK 4:LDK 5:L 6:D 7:K 9:その他 21:LK 22:LD 23:S
+const translations: Translations = {
+  // 【改REINS】1:和室 2:洋室 3:DK 4:LDK 5:L 6:D 7:K 9:その他 21:LK 22:LD 23:S
   ja: {
     [FloorPlan.JapaneseStyle]: '和室',
     [FloorPlan.WesternStyle]: '洋室',
@@ -53,9 +54,5 @@ const translations: Translations = { //【改REINS】1:和室 2:洋室 3:DK 4:LD
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const floorPlanEncoder = generateEncoder<FloorPlan>(
-  translations,
-);
-export const floorPlanDecoder = generateDecoder<FloorPlan>(
-  reverseTranslations,
-);
+export const floorPlanEncoder = generateEncoder<FloorPlan>(translations);
+export const floorPlanDecoder = generateDecoder<FloorPlan>(reverseTranslations);

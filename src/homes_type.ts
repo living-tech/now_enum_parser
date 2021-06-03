@@ -10,7 +10,7 @@ export enum HomesType {
   Apartment = 'Apartment', //
   House = 'House', //
   TerracedHouse = 'TerracedHouse', //
-  Townhouse = 'TownHouse', //
+  TownHouse = 'TownHouse', //
   ShareHouse = 'ShareHouse', //
   Dormitory = 'Dormitory', //
 }
@@ -22,7 +22,7 @@ const translations: Translations = {
     [HomesType.Apartment]: 'アパート',
     [HomesType.House]: '一戸建',
     [HomesType.TerracedHouse]: 'テラスハウス',
-    [HomesType.Townhouse]: 'タウンハウス',
+    [HomesType.TownHouse]: 'タウンハウス',
     [HomesType.ShareHouse]: 'シェアハウス',
     [HomesType.Dormitory]: '寮・下宿',
   },
@@ -31,7 +31,7 @@ const translations: Translations = {
     [HomesType.Apartment]: 'Apartment',
     [HomesType.House]: 'House',
     [HomesType.TerracedHouse]: 'Terraced House',
-    [HomesType.Townhouse]: 'Town House',
+    [HomesType.TownHouse]: 'Town House',
     [HomesType.ShareHouse]: 'Share House',
     [HomesType.Dormitory]: 'Dormitory',
   },
@@ -41,9 +41,5 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const homesTypeEncoder = generateEncoder<HomesType>(
-  translations,
-);
-export const homesTypeDecoder = generateDecoder<HomesType>(
-  reverseTranslations,
-);
+export const homesTypeEncoder = generateEncoder<HomesType>(translations);
+export const homesTypeDecoder = generateDecoder<HomesType>(reverseTranslations);

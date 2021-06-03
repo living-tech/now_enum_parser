@@ -30,7 +30,7 @@ var translations = {
         _b[ReformInsideFacility.Floor] = 'Floor',
         _b[ReformInsideFacility.Joinery] = 'Joinery',
         _b[ReformInsideFacility.Sash] = 'Sash',
-        _b)
+        _b),
 };
 // DO NOT EDIT
 var reverseTranslations = generators_1.generateReverseTranslations(translations);

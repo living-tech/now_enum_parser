@@ -3,7 +3,7 @@ export declare enum HomesType {
     Apartment = "Apartment",
     House = "House",
     TerracedHouse = "TerracedHouse",
-    Townhouse = "TownHouse",
+    TownHouse = "TownHouse",
     ShareHouse = "ShareHouse",
     Dormitory = "Dormitory"
 }

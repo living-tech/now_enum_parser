@@ -6,7 +6,7 @@ import {
 } from './lib/generators';
 
 // Edit enum name and contents
-export enum ParkingType { // 【改REINS】1:空有 2:空無 3:近隣 4:無 
+export enum ParkingType { // 【改REINS】1:空有 2:空無 3:近隣 4:無
   Available = 'Available',
   Unavailable = 'Unavailable',
   Nearby = 'Nearby',

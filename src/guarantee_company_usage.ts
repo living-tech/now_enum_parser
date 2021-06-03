@@ -30,7 +30,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const guaranteeCompanyUsageEncoder = generateEncoder<GuaranteeCompanyUsage>(translations);
-export const guaranteeCompanyUsageDecoder = generateDecoder<GuaranteeCompanyUsage>(
-  reverseTranslations,
-);
+export const guaranteeCompanyUsageEncoder = generateEncoder<
+  GuaranteeCompanyUsage
+>(translations);
+export const guaranteeCompanyUsageDecoder = generateDecoder<
+  GuaranteeCompanyUsage
+>(reverseTranslations);

@@ -20,14 +20,16 @@ const translations: Translations = {
   en: {
     [ReformOutsideFacility.Roof]: 'Roof', // 1: Roof 2: Exterior wall
     [ReformOutsideFacility.ExteriorWall]: 'Exterior wall',
-  }
+  },
 };
 
 // DO NOT EDIT
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const reformOutsideFacilityEncoder = generateEncoder<ReformOutsideFacility>(translations);
-export const reformOutsideFacilityDecoder = generateDecoder<ReformOutsideFacility>(
-  reverseTranslations,
-);
+export const reformOutsideFacilityEncoder = generateEncoder<
+  ReformOutsideFacility
+>(translations);
+export const reformOutsideFacilityDecoder = generateDecoder<
+  ReformOutsideFacility
+>(reverseTranslations);
