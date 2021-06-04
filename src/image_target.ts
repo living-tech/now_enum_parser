@@ -21,10 +21,6 @@ export enum ImageTarget {
   ShareNone = 'ShareNone',
   FloorPlan = 'FloorPlan',
   KeyVisual = 'KeyVisual',
-  ExteriorMapSurroundingsOther = 'ExteriorMapSurroundingsOther',
-  DoorBalcony = 'DoorBalcony',
-  ToiletBathWashbasin = 'ToiletBathWashbasin',
-  EntranceParkingLot = 'EntranceParkingLot',
 }
 
 // Edit contexts
@@ -44,12 +40,6 @@ const translations: Translations = {
     [ImageTarget.ShareNone]: '共有部 - 区分なし',
     [ImageTarget.FloorPlan]: '間取り',
     [ImageTarget.KeyVisual]: 'KV',
-    // 1:間取 2:外観 3:地図 4:周辺 5:内装 9:その他画像 10:玄関 11:居間  12:キッチン 13:寝室 14:子供部屋
-    // 15:風呂 16:トイレ 17:洗面 18:収納 19:設備 20:バルコニー 21:エントランス 22:駐車場
-    [ImageTarget.ExteriorMapSurroundingsOther]: '外観・地図・周辺・その他画像',
-    [ImageTarget.DoorBalcony]: '専有部 - 玄関・バルコニー', 
-    [ImageTarget.ToiletBathWashbasin]: '専有部 - トイレ・風呂・洗面',
-    [ImageTarget.EntranceParkingLot]: '共有部 - エントランス・駐車場',
   },
   en: {
     [ImageTarget.PrivateRoom]: 'Private - Room',
@@ -66,10 +56,6 @@ const translations: Translations = {
     [ImageTarget.ShareNone]: 'Public - None',
     [ImageTarget.FloorPlan]: 'Floor Plan',
     [ImageTarget.KeyVisual]: 'KV',
-    [ImageTarget.ExteriorMapSurroundingsOther]: 'Exterior, Map, Surroundings, Other',
-    [ImageTarget.DoorBalcony]: 'Private - Door, Balcony',
-    [ImageTarget.ToiletBathWashbasin]: 'Private - Toilet, Bath, Washbasin',
-    [ImageTarget.EntranceParkingLot]: 'Public - Entrance, Parking Lot',
   },
 };
 
