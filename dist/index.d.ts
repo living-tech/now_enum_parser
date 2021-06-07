@@ -78,3 +78,4 @@ export { ReformInsideFacility, reformInsideFacilityEncoder, reformInsideFacility
 export { ReformOutsideFacility, reformOutsideFacilityEncoder, reformOutsideFacilityDecoder, } from './reform_outside_facility';
 export { AccountCancellingReason, accountCancelReasonEncoder, accountCancelReasonDecoder, } from './account_cancelling_reason';
 export { CancelAccountUnavailableReason, cancelAccountUnavailableReasonEncoder, cancelAccountUnavailableReasonDecoder, } from './cancel_account_unavailable_reason';
+export { ShikibikiMoneyType, shikibikiMoneyTypeEncoder, shikibikiMoneyTypeDecoder, } from './shikibiki_money_type';

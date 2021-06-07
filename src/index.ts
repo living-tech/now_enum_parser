@@ -361,3 +361,9 @@ export {
   cancelAccountUnavailableReasonEncoder,
   cancelAccountUnavailableReasonDecoder,
 } from './cancel_account_unavailable_reason';
+
+export {
+  ShikibikiMoneyType,
+  shikibikiMoneyTypeEncoder,
+  shikibikiMoneyTypeDecoder,
+} from './shikibiki_money_type';
