@@ -367,3 +367,9 @@ export {
   shikibikiMoneyTypeEncoder,
   shikibikiMoneyTypeDecoder,
 } from './shikibiki_money_type';
+
+export {
+  SiteControllerChannel,
+  siteControllerChannelEncoder,
+  siteControllerChannelDecoder,
+} from './site_controller_channel';
