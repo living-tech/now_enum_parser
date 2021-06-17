@@ -6,8 +6,8 @@ var generators_1 = require("./lib/generators");
 // Edit enum name and contents
 var TaxIncludeType;
 (function (TaxIncludeType) {
-    TaxIncludeType["TaxIncluded"] = "Tax Included";
-    TaxIncludeType["TaxFree"] = "Tax Free";
+    TaxIncludeType["TaxIncluded"] = "TaxIncluded";
+    TaxIncludeType["TaxFree"] = "TaxFree";
 })(TaxIncludeType = exports.TaxIncludeType || (exports.TaxIncludeType = {}));
 // Edit contexts
 var translations = {

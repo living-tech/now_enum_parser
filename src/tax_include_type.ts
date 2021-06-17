@@ -7,8 +7,8 @@ import {
 
 // Edit enum name and contents
 export enum TaxIncludeType { // 2:税込み 3:税表示無し(税発生せず)
-  TaxIncluded = 'Tax Included',
-  TaxFree = 'Tax Free',
+  TaxIncluded = 'TaxIncluded',
+  TaxFree = 'TaxFree',
 }
 
 // Edit contexts
