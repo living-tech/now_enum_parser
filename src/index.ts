@@ -391,3 +391,9 @@ export {
   taxIncludeTypeEncoder,
   taxIncludeTypeDecoder,
 } from './tax_include_type';
+
+export {
+  ShortPlanMonthlyStatus,
+  shortPlanMonthlyStatusEncoder,
+  shortPlanMonthlyStatusDecoder,
+} from './short_plan_monthly_status';
