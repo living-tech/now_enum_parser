@@ -5,26 +5,26 @@ import {
   generateDecoder,
 } from './lib/generators';
 
+// NotSubmitted
 export enum AccountCancellingReason {
-  DIDNT_LIKE_ROOMS = 'DidntLikeRooms',
-  DIFFICULT_TO_USE = 'DifficultToUse',
-  BAD_APPLICATION_UI = 'BadApplicationUI',
+  DidntLikeRooms = 'DidntLikeRooms',
+  DifficultToUse = 'DifficultToUse',
+  BadApplicationUI = 'BadApplicationUI',
   Others = 'Others',
 }
 
 const translations: Translations = {
   ja: {
-    [AccountCancellingReason.DIDNT_LIKE_ROOMS]: '気に入った物件がなかった',
-    [AccountCancellingReason.DIFFICULT_TO_USE]: '使い方がわからなかった',
-    [AccountCancellingReason.BAD_APPLICATION_UI]:
+    [AccountCancellingReason.DidntLikeRooms]: '気に入った物件がなかった',
+    [AccountCancellingReason.DifficultToUse]: '使い方がわからなかった',
+    [AccountCancellingReason.BadApplicationUI]:
       'サイト/アプリの操作感が悪かった',
     [AccountCancellingReason.Others]: 'その他',
   },
   en: {
-    [AccountCancellingReason.DIDNT_LIKE_ROOMS]: 'Did not like any of the rooms',
-    [AccountCancellingReason.DIFFICULT_TO_USE]: 'Difficult to use',
-    [AccountCancellingReason.BAD_APPLICATION_UI]:
-      'Website/Application UI is bad',
+    [AccountCancellingReason.DidntLikeRooms]: 'Did not like any of the rooms',
+    [AccountCancellingReason.DifficultToUse]: 'Difficult to use',
+    [AccountCancellingReason.BadApplicationUI]: 'Website/Application UI is bad',
     [AccountCancellingReason.Others]: 'Others',
   },
 };

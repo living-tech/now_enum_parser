@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.generateDecoder = exports.generateEncoder = exports.generateReverseTranslations = void 0;
-var generateReverseTranslations = function (translations) {
+exports.generateReverseTranslations = function (translations) {
     var reverseTranslations = {};
     Object.keys(translations).forEach(function (lang) {
         var translation = translations[lang];
@@ -12,8 +12,7 @@ var generateReverseTranslations = function (translations) {
     });
     return reverseTranslations;
 };
-exports.generateReverseTranslations = generateReverseTranslations;
-var generateEncoder = function (translations) {
+exports.generateEncoder = function (translations) {
     return function (raw, lang) {
         if (typeof raw !== 'string') {
             throw new Error('Invalid enum.');
@@ -28,8 +27,7 @@ var generateEncoder = function (translations) {
         return translations[lang][raw];
     };
 };
-exports.generateEncoder = generateEncoder;
-var generateDecoder = function (reverseTranslations) {
+exports.generateDecoder = function (reverseTranslations) {
     return function (text, lang) {
         if (typeof text !== 'string') {
             throw new Error('Invalid text.');
@@ -44,5 +42,4 @@ var generateDecoder = function (reverseTranslations) {
         return reverseTranslations[lang][text];
     };
 };
-exports.generateDecoder = generateDecoder;
 //# sourceMappingURL=generators.js.map
