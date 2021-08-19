@@ -343,4 +343,8 @@ var short_plan_monthly_status_1 = require("./short_plan_monthly_status");
 Object.defineProperty(exports, "ShortPlanMonthlyStatus", { enumerable: true, get: function () { return short_plan_monthly_status_1.ShortPlanMonthlyStatus; } });
 Object.defineProperty(exports, "shortPlanMonthlyStatusEncoder", { enumerable: true, get: function () { return short_plan_monthly_status_1.shortPlanMonthlyStatusEncoder; } });
 Object.defineProperty(exports, "shortPlanMonthlyStatusDecoder", { enumerable: true, get: function () { return short_plan_monthly_status_1.shortPlanMonthlyStatusDecoder; } });
+var organization_type_1 = require("./organization_type");
+Object.defineProperty(exports, "OrganizationType", { enumerable: true, get: function () { return organization_type_1.OrganizationType; } });
+Object.defineProperty(exports, "organizationTypeEncoder", { enumerable: true, get: function () { return organization_type_1.organizationTypeEncoder; } });
+Object.defineProperty(exports, "organizationTypeDecoder", { enumerable: true, get: function () { return organization_type_1.organizationTypeDecoder; } });
 //# sourceMappingURL=index.js.map
