@@ -85,3 +85,4 @@ export { ContractPeriodType, contractPeriodTypeEncoder, contractPeriodTypeDecode
 export { TaxIncludeType, taxIncludeTypeEncoder, taxIncludeTypeDecoder, } from './tax_include_type';
 export { ShortPlanMonthlyStatus, shortPlanMonthlyStatusEncoder, shortPlanMonthlyStatusDecoder, } from './short_plan_monthly_status';
 export { OrganizationType, organizationTypeEncoder, organizationTypeDecoder } from './organization_type';
+export { TaskStatus, taskStatusEncoder, taskStatusDecoder, } from './task_status';
