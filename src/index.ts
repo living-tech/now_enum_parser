@@ -403,3 +403,9 @@ export {
   organizationTypeEncoder,
   organizationTypeDecoder
 } from './organization_type';
+
+export {
+  TaskStatus,
+  taskStatusEncoder,
+  taskStatusDecoder,
+} from './task_status'
