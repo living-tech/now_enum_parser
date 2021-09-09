@@ -374,11 +374,7 @@ export {
   siteControllerChannelDecoder,
 } from './site_controller_channel';
 
-export {
-  Placement,
-  placementEncoder,
-  placementDecoder,
-} from './placement';
+export { Placement, placementEncoder, placementDecoder } from './placement';
 
 export {
   ContractPeriodType,

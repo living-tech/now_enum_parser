@@ -30,7 +30,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const shortPlanMonthlyStatusEncoder = generateEncoder<ShortPlanMonthlyStatus>(translations);
-export const shortPlanMonthlyStatusDecoder = generateDecoder<ShortPlanMonthlyStatus>(
-  reverseTranslations,
-);
+export const shortPlanMonthlyStatusEncoder = generateEncoder<
+  ShortPlanMonthlyStatus
+>(translations);
+export const shortPlanMonthlyStatusDecoder = generateDecoder<
+  ShortPlanMonthlyStatus
+>(reverseTranslations);
