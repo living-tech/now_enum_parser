@@ -1,7 +1,7 @@
 export declare enum AccountCancellingReason {
-    DIDNT_LIKE_ROOMS = "DidntLikeRooms",
-    DIFFICULT_TO_USE = "DifficultToUse",
-    BAD_APPLICATION_UI = "BadApplicationUI",
+    DidntLikeRooms = "DidntLikeRooms",
+    DifficultToUse = "DifficultToUse",
+    BadApplicationUI = "BadApplicationUI",
     Others = "Others"
 }
 export declare const accountCancelReasonEncoder: (raw: AccountCancellingReason, lang: import(".").Language) => string;

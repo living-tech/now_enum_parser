@@ -23,7 +23,7 @@ var translations = {
         _b[Placement.PlacementNg] = 'Placement Not Allowed',
         _b[Placement.PlacementOkReprintNg] = 'Placement OK/Advertisement Reprint Not Allowed',
         _b[Placement.PlacementOkReprintOk] = 'Placement OK/Advertisement Reprint OK',
-        _b[Placement.PlacementOkReprintAllOk] = "Placement OK/Advertisement Reprint All OK",
+        _b[Placement.PlacementOkReprintAllOk] = 'Placement OK/Advertisement Reprint All OK',
         _b),
 };
 // DO NOT EDIT

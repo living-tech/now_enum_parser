@@ -12,6 +12,7 @@ var ShikibikiMoneyType;
 })(ShikibikiMoneyType = exports.ShikibikiMoneyType || (exports.ShikibikiMoneyType = {}));
 // Edit contexts
 var translations = {
+    // 1:退去時 2:毎年 3:更新時
     ja: (_a = {},
         _a[ShikibikiMoneyType.WhenMovingOut] = '退去時',
         _a[ShikibikiMoneyType.EveryYear] = '毎年',
