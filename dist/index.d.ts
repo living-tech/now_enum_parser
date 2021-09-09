@@ -84,5 +84,6 @@ export { Placement, placementEncoder, placementDecoder } from './placement';
 export { ContractPeriodType, contractPeriodTypeEncoder, contractPeriodTypeDecoder, } from './contract_period_type';
 export { TaxIncludeType, taxIncludeTypeEncoder, taxIncludeTypeDecoder, } from './tax_include_type';
 export { ShortPlanMonthlyStatus, shortPlanMonthlyStatusEncoder, shortPlanMonthlyStatusDecoder, } from './short_plan_monthly_status';
-export { OrganizationType, organizationTypeEncoder, organizationTypeDecoder } from './organization_type';
+export { OrganizationType, organizationTypeEncoder, organizationTypeDecoder, } from './organization_type';
 export { TaskStatus, taskStatusEncoder, taskStatusDecoder, } from './task_status';
+export { RoomTypesSortType, roomTypesSortTypeDecoder, roomTypesSortTypeEncoder, } from './room_types_sort_type';

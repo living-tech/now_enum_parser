@@ -351,4 +351,8 @@ var task_status_1 = require("./task_status");
 Object.defineProperty(exports, "TaskStatus", { enumerable: true, get: function () { return task_status_1.TaskStatus; } });
 Object.defineProperty(exports, "taskStatusEncoder", { enumerable: true, get: function () { return task_status_1.taskStatusEncoder; } });
 Object.defineProperty(exports, "taskStatusDecoder", { enumerable: true, get: function () { return task_status_1.taskStatusDecoder; } });
+var room_types_sort_type_1 = require("./room_types_sort_type");
+Object.defineProperty(exports, "RoomTypesSortType", { enumerable: true, get: function () { return room_types_sort_type_1.RoomTypesSortType; } });
+Object.defineProperty(exports, "roomTypesSortTypeDecoder", { enumerable: true, get: function () { return room_types_sort_type_1.roomTypesSortTypeDecoder; } });
+Object.defineProperty(exports, "roomTypesSortTypeEncoder", { enumerable: true, get: function () { return room_types_sort_type_1.roomTypesSortTypeEncoder; } });
 //# sourceMappingURL=index.js.map

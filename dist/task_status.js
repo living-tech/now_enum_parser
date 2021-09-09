@@ -21,7 +21,7 @@ var translations = {
         _b[TaskStatus.Todo] = 'Todo',
         _b[TaskStatus.InProgress] = 'In Progress',
         _b[TaskStatus.Completed] = 'Completed',
-        _b)
+        _b),
 };
 // DO NOT EDIT
 var reverseTranslations = generators_1.generateReverseTranslations(translations);
