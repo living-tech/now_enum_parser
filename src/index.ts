@@ -374,11 +374,7 @@ export {
   siteControllerChannelDecoder,
 } from './site_controller_channel';
 
-export {
-  Placement,
-  placementEncoder,
-  placementDecoder,
-} from './placement';
+export { Placement, placementEncoder, placementDecoder } from './placement';
 
 export {
   ContractPeriodType,
@@ -401,11 +397,11 @@ export {
 export {
   OrganizationType,
   organizationTypeEncoder,
-  organizationTypeDecoder
+  organizationTypeDecoder,
 } from './organization_type';
 
 export {
   TaskStatus,
   taskStatusEncoder,
   taskStatusDecoder,
-} from './task_status'
+} from './task_status';

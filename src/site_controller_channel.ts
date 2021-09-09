@@ -26,5 +26,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const siteControllerChannelEncoder = generateEncoder<SiteControllerChannel>(translations);
-export const siteControllerChannelDecoder = generateDecoder<SiteControllerChannel>(reverseTranslations);
+export const siteControllerChannelEncoder = generateEncoder<
+  SiteControllerChannel
+>(translations);
+export const siteControllerChannelDecoder = generateDecoder<
+  SiteControllerChannel
+>(reverseTranslations);

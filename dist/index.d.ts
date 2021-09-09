@@ -80,7 +80,7 @@ export { AccountCancellingReason, accountCancelReasonEncoder, accountCancelReaso
 export { CancelAccountUnavailableReason, cancelAccountUnavailableReasonEncoder, cancelAccountUnavailableReasonDecoder, } from './cancel_account_unavailable_reason';
 export { ShikibikiMoneyType, shikibikiMoneyTypeEncoder, shikibikiMoneyTypeDecoder, } from './shikibiki_money_type';
 export { SiteControllerChannel, siteControllerChannelEncoder, siteControllerChannelDecoder, } from './site_controller_channel';
-export { Placement, placementEncoder, placementDecoder, } from './placement';
+export { Placement, placementEncoder, placementDecoder } from './placement';
 export { ContractPeriodType, contractPeriodTypeEncoder, contractPeriodTypeDecoder, } from './contract_period_type';
 export { TaxIncludeType, taxIncludeTypeEncoder, taxIncludeTypeDecoder, } from './tax_include_type';
 export { ShortPlanMonthlyStatus, shortPlanMonthlyStatusEncoder, shortPlanMonthlyStatusDecoder, } from './short_plan_monthly_status';

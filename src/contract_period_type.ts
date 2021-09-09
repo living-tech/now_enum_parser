@@ -27,7 +27,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const contractPeriodTypeEncoder = generateEncoder<ContractPeriodType>(translations);
+export const contractPeriodTypeEncoder = generateEncoder<ContractPeriodType>(
+  translations,
+);
 export const contractPeriodTypeDecoder = generateDecoder<ContractPeriodType>(
   reverseTranslations,
 );

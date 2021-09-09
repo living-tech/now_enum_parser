@@ -27,7 +27,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const taxIncludeTypeEncoder = generateEncoder<TaxIncludeType>(translations);
+export const taxIncludeTypeEncoder = generateEncoder<TaxIncludeType>(
+  translations,
+);
 export const taxIncludeTypeDecoder = generateDecoder<TaxIncludeType>(
   reverseTranslations,
 );

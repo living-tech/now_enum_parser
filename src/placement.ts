@@ -19,13 +19,16 @@ const translations: Translations = {
     [Placement.PlacementNg]: '客付け不可',
     [Placement.PlacementOkReprintNg]: '客付け可/広告転載不可(店頭紹介のみ可)',
     [Placement.PlacementOkReprintOk]: '客付け可/他社HPへの広告店転載可',
-    [Placement.PlacementOkReprintAllOk]: "客付け可/LIFULL HOME'S、他社HPへの広告転載可",
+    [Placement.PlacementOkReprintAllOk]:
+      "客付け可/LIFULL HOME'S、他社HPへの広告転載可",
   },
   en: {
     [Placement.PlacementNg]: 'Placement Not Allowed',
-    [Placement.PlacementOkReprintNg]: 'Placement OK/Advertisement Reprint Not Allowed',
+    [Placement.PlacementOkReprintNg]:
+      'Placement OK/Advertisement Reprint Not Allowed',
     [Placement.PlacementOkReprintOk]: 'Placement OK/Advertisement Reprint OK',
-    [Placement.PlacementOkReprintAllOk]: "Placement OK/Advertisement Reprint All OK",
+    [Placement.PlacementOkReprintAllOk]:
+      'Placement OK/Advertisement Reprint All OK',
   },
 };
 
@@ -33,9 +36,5 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const placementEncoder = generateEncoder<Placement>(
-  translations,
-);
-export const placementDecoder = generateDecoder<Placement>(
-  reverseTranslations,
-);
+export const placementEncoder = generateEncoder<Placement>(translations);
+export const placementDecoder = generateDecoder<Placement>(reverseTranslations);
