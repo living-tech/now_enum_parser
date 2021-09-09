@@ -405,3 +405,9 @@ export {
   taskStatusEncoder,
   taskStatusDecoder,
 } from './task_status';
+
+export {
+  RoomTypesSortType,
+  roomTypesSortTypeDecoder,
+  roomTypesSortTypeEncoder,
+} from './room_types_sort_type';
