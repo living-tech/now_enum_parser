@@ -87,3 +87,4 @@ export { ShortPlanMonthlyStatus, shortPlanMonthlyStatusEncoder, shortPlanMonthly
 export { OrganizationType, organizationTypeEncoder, organizationTypeDecoder, } from './organization_type';
 export { TaskStatus, taskStatusEncoder, taskStatusDecoder, } from './task_status';
 export { RoomTypesSortType, roomTypesSortTypeDecoder, roomTypesSortTypeEncoder, } from './room_types_sort_type';
+export { Equipments, equipmentsEncoder, equipmentsDecoder, } from "./equipments";
