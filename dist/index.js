@@ -355,8 +355,8 @@ var room_types_sort_type_1 = require("./room_types_sort_type");
 Object.defineProperty(exports, "RoomTypesSortType", { enumerable: true, get: function () { return room_types_sort_type_1.RoomTypesSortType; } });
 Object.defineProperty(exports, "roomTypesSortTypeDecoder", { enumerable: true, get: function () { return room_types_sort_type_1.roomTypesSortTypeDecoder; } });
 Object.defineProperty(exports, "roomTypesSortTypeEncoder", { enumerable: true, get: function () { return room_types_sort_type_1.roomTypesSortTypeEncoder; } });
-var equipments_1 = require("./equipments");
-Object.defineProperty(exports, "Equipments", { enumerable: true, get: function () { return equipments_1.Equipments; } });
-Object.defineProperty(exports, "equipmentsEncoder", { enumerable: true, get: function () { return equipments_1.equipmentsEncoder; } });
-Object.defineProperty(exports, "equipmentsDecoder", { enumerable: true, get: function () { return equipments_1.equipmentsDecoder; } });
+var equipment_type_1 = require("./equipment_type");
+Object.defineProperty(exports, "EquipmentType", { enumerable: true, get: function () { return equipment_type_1.EquipmentType; } });
+Object.defineProperty(exports, "equipmentTypeEncoder", { enumerable: true, get: function () { return equipment_type_1.equipmentTypeEncoder; } });
+Object.defineProperty(exports, "equipmentTypeDecoder", { enumerable: true, get: function () { return equipment_type_1.equipmentTypeDecoder; } });
 //# sourceMappingURL=index.js.map

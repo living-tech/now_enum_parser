@@ -413,7 +413,7 @@ export {
 } from './room_types_sort_type';
 
 export {
-  Equipments,
-  equipmentsEncoder,
-  equipmentsDecoder,
-} from "./equipments"
+  EquipmentType,
+  equipmentTypeEncoder,
+  equipmentTypeDecoder,
+} from "./equipment_type"
