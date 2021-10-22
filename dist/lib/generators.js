@@ -22,7 +22,7 @@ var generateEncoder = function (translations) {
             throw new Error('No language.');
         }
         if (!translations[lang][raw]) {
-            console.error('No translation');
+            // console.error('No translation');
             return raw;
         }
         return translations[lang][raw];
@@ -38,7 +38,7 @@ var generateDecoder = function (reverseTranslations) {
             throw new Error('No language');
         }
         if (!reverseTranslations[lang][text]) {
-            console.error('No translation');
+            // console.error('No translation');
             return text;
         }
         return reverseTranslations[lang][text];

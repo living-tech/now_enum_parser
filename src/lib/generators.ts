@@ -26,7 +26,7 @@ export const generateEncoder = <T>(
       throw new Error('No language.');
     }
     if (!translations[lang][raw]) {
-      console.error('No translation');
+      // console.error('No translation');
       return raw as string;
     }
     return translations[lang][raw];
@@ -44,7 +44,7 @@ export const generateDecoder = <T>(
       throw new Error('No language');
     }
     if (!reverseTranslations[lang][text]) {
-      console.error('No translation');
+      // console.error('No translation');
       return (text as unknown) as T;
     }
     return (reverseTranslations[lang][text] as unknown) as T;
