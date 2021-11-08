@@ -416,4 +416,10 @@ export {
   EquipmentType,
   equipmentTypeEncoder,
   equipmentTypeDecoder,
-} from "./equipment_type"
+} from "./equipment_type";
+
+export {
+  ViaPointType,
+  viaPointTypeEncoder,
+  viaPointTypeDecoder,
+} from "./via_point_type";

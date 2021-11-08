@@ -6,7 +6,7 @@ var Language;
     Language["ja"] = "ja";
     Language["en"] = "en";
 })(Language = exports.Language || (exports.Language = {}));
-var languageEncoder = function (lang) {
+exports.languageEncoder = function (lang) {
     switch (lang) {
         case Language.ja:
             return '日本語';
@@ -16,8 +16,7 @@ var languageEncoder = function (lang) {
             throw new Error('Invalid language');
     }
 };
-exports.languageEncoder = languageEncoder;
-var languageDecoder = function (lang) {
+exports.languageDecoder = function (lang) {
     switch (lang) {
         case '日本語':
             return Language.ja;
@@ -27,5 +26,4 @@ var languageDecoder = function (lang) {
             throw new Error('Invalid language');
     }
 };
-exports.languageDecoder = languageDecoder;
 //# sourceMappingURL=language.js.map
