@@ -39,7 +39,7 @@ export var ReservePurpose;
 // Edit contexts
 var translations = {
     ja: (_a = {},
-        _a[ReservePurpose.LivingAloneTrialOrCohabitation] = '追加, お試し一人暮らし・お試し同棲',
+        _a[ReservePurpose.LivingAloneTrialOrCohabitation] = 'お試し一人暮らし・お試し同棲',
         _a[ReservePurpose.AddressHopping] = 'アドレスホッピング',
         _a[ReservePurpose.BusinessTrip] = '長期出張/派遣/単身赴任の滞在先',
         _a[ReservePurpose.RemodelingOrBeforeMovingBase] = '家のリフォーム、急な異動/引っ越し、通院や付き添い等による仮住まい',
