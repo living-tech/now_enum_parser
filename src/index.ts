@@ -411,3 +411,15 @@ export {
   roomTypesSortTypeDecoder,
   roomTypesSortTypeEncoder,
 } from './room_types_sort_type';
+
+export {
+  EquipmentType,
+  equipmentTypeEncoder,
+  equipmentTypeDecoder,
+} from "./equipment_type";
+
+export {
+  ViaPointType,
+  viaPointTypeEncoder,
+  viaPointTypeDecoder,
+} from "./via_point_type";

@@ -355,4 +355,12 @@ var room_types_sort_type_1 = require("./room_types_sort_type");
 Object.defineProperty(exports, "RoomTypesSortType", { enumerable: true, get: function () { return room_types_sort_type_1.RoomTypesSortType; } });
 Object.defineProperty(exports, "roomTypesSortTypeDecoder", { enumerable: true, get: function () { return room_types_sort_type_1.roomTypesSortTypeDecoder; } });
 Object.defineProperty(exports, "roomTypesSortTypeEncoder", { enumerable: true, get: function () { return room_types_sort_type_1.roomTypesSortTypeEncoder; } });
+var equipment_type_1 = require("./equipment_type");
+Object.defineProperty(exports, "EquipmentType", { enumerable: true, get: function () { return equipment_type_1.EquipmentType; } });
+Object.defineProperty(exports, "equipmentTypeEncoder", { enumerable: true, get: function () { return equipment_type_1.equipmentTypeEncoder; } });
+Object.defineProperty(exports, "equipmentTypeDecoder", { enumerable: true, get: function () { return equipment_type_1.equipmentTypeDecoder; } });
+var via_point_type_1 = require("./via_point_type");
+Object.defineProperty(exports, "ViaPointType", { enumerable: true, get: function () { return via_point_type_1.ViaPointType; } });
+Object.defineProperty(exports, "viaPointTypeEncoder", { enumerable: true, get: function () { return via_point_type_1.viaPointTypeEncoder; } });
+Object.defineProperty(exports, "viaPointTypeDecoder", { enumerable: true, get: function () { return via_point_type_1.viaPointTypeDecoder; } });
 //# sourceMappingURL=index.js.map
