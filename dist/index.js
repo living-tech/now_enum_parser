@@ -363,4 +363,8 @@ var via_point_type_1 = require("./via_point_type");
 Object.defineProperty(exports, "ViaPointType", { enumerable: true, get: function () { return via_point_type_1.ViaPointType; } });
 Object.defineProperty(exports, "viaPointTypeEncoder", { enumerable: true, get: function () { return via_point_type_1.viaPointTypeEncoder; } });
 Object.defineProperty(exports, "viaPointTypeDecoder", { enumerable: true, get: function () { return via_point_type_1.viaPointTypeDecoder; } });
+var sign_in_provider_1 = require("./sign_in_provider");
+Object.defineProperty(exports, "SignInProvider", { enumerable: true, get: function () { return sign_in_provider_1.SignInProvider; } });
+Object.defineProperty(exports, "signInProviderEncoder", { enumerable: true, get: function () { return sign_in_provider_1.signInProviderEncoder; } });
+Object.defineProperty(exports, "signInProviderDecoder", { enumerable: true, get: function () { return sign_in_provider_1.signInProviderDecoder; } });
 //# sourceMappingURL=index.js.map
