@@ -1,0 +1,31 @@
+var _a, _b;
+import { generateReverseTranslations, generateEncoder, generateDecoder, } from './lib/generators';
+// Edit enum name and contents
+export var RegistrationStatus;
+(function (RegistrationStatus) {
+    RegistrationStatus["NotYet"] = "NotYet";
+    RegistrationStatus["InProgress"] = "InProgress";
+    RegistrationStatus["Approved"] = "Approved";
+    RegistrationStatus["Rejected"] = "Rejected";
+})(RegistrationStatus || (RegistrationStatus = {}));
+// Edit contexts
+var translations = {
+    ja: (_a = {},
+        _a[RegistrationStatus.NotYet] = '未承認',
+        _a[RegistrationStatus.InProgress] = '承認待',
+        _a[RegistrationStatus.Approved] = '承認済',
+        _a[RegistrationStatus.Rejected] = '却下',
+        _a),
+    en: (_b = {},
+        _b[RegistrationStatus.NotYet] = 'Yet to be Approved',
+        _b[RegistrationStatus.InProgress] = 'Waiting for Approval',
+        _b[RegistrationStatus.Approved] = 'Approved',
+        _b[RegistrationStatus.Rejected] = 'Not Approved',
+        _b),
+};
+// DO NOT EDIT
+var reverseTranslations = generateReverseTranslations(translations);
+// Edit constants name
+export var registrationStatusEncoder = generateEncoder(translations);
+export var registrationStatusDecoder = generateDecoder(reverseTranslations);
+//# sourceMappingURL=registration_status.js.map
