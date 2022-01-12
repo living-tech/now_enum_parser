@@ -45,7 +45,8 @@ export enum ReservePurpose {
 // Edit contexts
 const translations: Translations = {
   ja: {
-    [ReservePurpose.LivingAloneTrialOrCohabitation]: 'お試し一人暮らし・お試し同棲',
+    [ReservePurpose.LivingAloneTrialOrCohabitation]:
+      'お試し一人暮らし・お試し同棲',
     [ReservePurpose.AddressHopping]: 'アドレスホッピング',
     [ReservePurpose.BusinessTrip]: '長期出張/派遣/単身赴任の滞在先',
     [ReservePurpose.RemodelingOrBeforeMovingBase]:
@@ -80,10 +81,10 @@ const translations: Translations = {
     [ReservePurpose.RemoteWorkBase]: 'リモートワーク拠点',
     [ReservePurpose.Interaction]: '交流',
     [ReservePurpose.Separation]: '別居',
-    
   },
   en: {
-    [ReservePurpose.LivingAloneTrialOrCohabitation]: 'Trial living alone・Cohabitation',
+    [ReservePurpose.LivingAloneTrialOrCohabitation]:
+      'Trial living alone・Cohabitation',
     [ReservePurpose.AddressHopping]: 'Address hopping.',
     [ReservePurpose.BusinessTrip]: 'Business trip.',
     [ReservePurpose.RemodelingOrBeforeMovingBase]:
