@@ -395,6 +395,12 @@ export {
 } from './short_plan_monthly_status';
 
 export {
+  OrdinanceDesignatedCity,
+  ordinanceDesignatedCityEncoder,
+  ordinanceDesignatedCityDecoder,
+} from './ordinance_designated_city';
+
+export {
   OrganizationType,
   organizationTypeEncoder,
   organizationTypeDecoder,
