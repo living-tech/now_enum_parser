@@ -82,6 +82,13 @@ export {
   identityDocumentNoteDecoder,
   identityDocumentNoteEncoder,
 } from './identity_document_note';
+
+export {
+  IeloveUseType,
+  ieloveUseTypeDecoder,
+  ieloveUseTypeEncoder,
+} from './ielove_use_type';
+
 export {
   ImageTarget,
   imageTargetDecoder,

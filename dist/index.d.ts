@@ -17,6 +17,7 @@ export { ContractType, contractTypeDecoder, contractTypeEncoder, } from './contr
 export { ApplicationStatus, applicationStatusDecoder, applicationStatusEncoder, } from './application_status';
 export { IdentityDocumentStatus, identityDocumentStatusDecoder, identityDocumentStatusEncoder, } from './identity_document_status';
 export { IdentityDocumentNote, identityDocumentNoteDecoder, identityDocumentNoteEncoder, } from './identity_document_note';
+export { IeloveUseType, ieloveUseTypeDecoder, ieloveUseTypeEncoder, } from './ielove_use_type';
 export { ImageTarget, imageTargetDecoder, imageTargetEncoder, } from './image_target';
 export { Occupation, occupationDecoder, occupationEncoder } from './occupation';
 export { Prefecture, prefectureDecoder, prefectureEncoder } from './prefecture';
