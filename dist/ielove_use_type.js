@@ -8,16 +8,19 @@ var IeloveUseType;
 (function (IeloveUseType) {
     IeloveUseType["ResidentialUseWithGuarantee"] = "ResidentialUseWithGuarantee";
     IeloveUseType["Other"] = "Other";
+    IeloveUseType["None"] = "None";
 })(IeloveUseType = exports.IeloveUseType || (exports.IeloveUseType = {}));
 // Edit contexts
 var translations = {
     ja: (_a = {},
         _a[IeloveUseType.ResidentialUseWithGuarantee] = '住居用（保険付）',
         _a[IeloveUseType.Other] = 'その他',
+        _a[IeloveUseType.None] = 'なし',
         _a),
     en: (_b = {},
         _b[IeloveUseType.ResidentialUseWithGuarantee] = 'Residential Use with Guarantee',
         _b[IeloveUseType.Other] = 'Other',
+        _b[IeloveUseType.None] = 'None',
         _b),
 };
 // DO NOT EDIT
