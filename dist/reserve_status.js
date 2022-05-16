@@ -12,6 +12,8 @@ var ReserveStatus;
     ReserveStatus["Occupied"] = "Occupied";
     ReserveStatus["Exited"] = "Exited";
     ReserveStatus["Canceled"] = "Canceled";
+    ReserveStatus["Unpaid"] = "Unpaid";
+    ReserveStatus["Completed"] = "Completed";
 })(ReserveStatus = exports.ReserveStatus || (exports.ReserveStatus = {}));
 // Edit contexts
 var translations = {
@@ -22,6 +24,8 @@ var translations = {
         _a[ReserveStatus.Occupied] = '入居中',
         _a[ReserveStatus.Exited] = '退去済み',
         _a[ReserveStatus.Canceled] = 'キャンセル',
+        _a[ReserveStatus.Unpaid] = '入金待ち',
+        _a[ReserveStatus.Completed] = '予約完了',
         _a),
     en: (_b = {},
         _b[ReserveStatus.IeloveRequested] = 'Guarantee Request',
@@ -30,6 +34,8 @@ var translations = {
         _b[ReserveStatus.Occupied] = 'Moving In',
         _b[ReserveStatus.Exited] = 'Moved Out',
         _b[ReserveStatus.Canceled] = 'Cancelled',
+        _b[ReserveStatus.Unpaid] = 'Unpaid',
+        _b[ReserveStatus.Completed] = 'Completed',
         _b),
 };
 // DO NOT EDIT
