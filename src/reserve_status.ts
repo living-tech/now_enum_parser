@@ -13,6 +13,8 @@ export enum ReserveStatus {
   Occupied = 'Occupied', // 入居中
   Exited = 'Exited', // 退去済み
   Canceled = 'Canceled', // キャンセル
+  Unpaid = 'Unpaid', // 入金待ち
+  Completed = 'Completed', // 予約完了
 }
 
 // Edit contexts
@@ -24,6 +26,8 @@ const translations: Translations = {
     [ReserveStatus.Occupied]: '入居中',
     [ReserveStatus.Exited]: '退去済み',
     [ReserveStatus.Canceled]: 'キャンセル',
+    [ReserveStatus.Unpaid]: '入金待ち',
+    [ReserveStatus.Completed]: '予約完了',
   },
   en: {
     [ReserveStatus.IeloveRequested]: 'Guarantee Request',
@@ -32,6 +36,8 @@ const translations: Translations = {
     [ReserveStatus.Occupied]: 'Moving In',
     [ReserveStatus.Exited]: 'Moved Out',
     [ReserveStatus.Canceled]: 'Cancelled',
+    [ReserveStatus.Unpaid]: 'Unpaid',
+    [ReserveStatus.Completed]: 'Completed',
   },
 };
 

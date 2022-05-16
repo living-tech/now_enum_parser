@@ -81,7 +81,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const ordinanceDesignatedCityEncoder = generateEncoder<OrdinanceDesignatedCity>(translations);
-export const ordinanceDesignatedCityDecoder = generateDecoder<OrdinanceDesignatedCity>(
-  reverseTranslations,
-);
+export const ordinanceDesignatedCityEncoder = generateEncoder<
+  OrdinanceDesignatedCity
+>(translations);
+export const ordinanceDesignatedCityDecoder = generateDecoder<
+  OrdinanceDesignatedCity
+>(reverseTranslations);
