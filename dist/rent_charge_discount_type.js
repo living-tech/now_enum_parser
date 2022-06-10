@@ -24,8 +24,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.rentChargeDiscountTypeEncoder = generators_1.generateEncoder(translations);
-exports.rentChargeDiscountTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.rentChargeDiscountTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.rentChargeDiscountTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=rent_charge_discount_type.js.map

@@ -21,8 +21,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.cancelAccountUnavailableReasonEncoder = generators_1.generateEncoder(translations);
-exports.cancelAccountUnavailableReasonDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.cancelAccountUnavailableReasonEncoder = (0, generators_1.generateEncoder)(translations);
+exports.cancelAccountUnavailableReasonDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=cancel_account_unavailable_reason.js.map

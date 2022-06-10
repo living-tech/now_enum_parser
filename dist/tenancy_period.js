@@ -33,8 +33,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.tenancyPeriodEncoder = generators_1.generateEncoder(translations);
-exports.tenancyPeriodDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.tenancyPeriodEncoder = (0, generators_1.generateEncoder)(translations);
+exports.tenancyPeriodDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=tenancy_period.js.map

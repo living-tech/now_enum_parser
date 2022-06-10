@@ -36,8 +36,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.businessDayEncoder = generators_1.generateEncoder(translations);
-exports.businessDayDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.businessDayEncoder = (0, generators_1.generateEncoder)(translations);
+exports.businessDayDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=business_day.js.map

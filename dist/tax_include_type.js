@@ -21,8 +21,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.taxIncludeTypeEncoder = generators_1.generateEncoder(translations);
-exports.taxIncludeTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.taxIncludeTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.taxIncludeTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=tax_include_type.js.map

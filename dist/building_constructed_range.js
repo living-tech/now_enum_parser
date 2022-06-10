@@ -39,8 +39,8 @@ var translations = {
         _b[BuildingConstructedRange.ThirtyYear] = 'Within Thirty years',
         _b),
 };
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.buildingConstructedRangeEncoder = generators_1.generateEncoder(translations);
-exports.buildingConstructedRangeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.buildingConstructedRangeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.buildingConstructedRangeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=building_constructed_range.js.map

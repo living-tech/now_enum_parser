@@ -42,8 +42,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.identityDocumentStatusEncoder = generators_1.generateEncoder(translations);
-exports.identityDocumentStatusDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.identityDocumentStatusEncoder = (0, generators_1.generateEncoder)(translations);
+exports.identityDocumentStatusDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=identity_document_status.js.map

@@ -27,8 +27,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.placementEncoder = generators_1.generateEncoder(translations);
-exports.placementDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.placementEncoder = (0, generators_1.generateEncoder)(translations);
+exports.placementDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=placement.js.map

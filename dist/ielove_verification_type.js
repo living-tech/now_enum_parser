@@ -39,8 +39,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.ieloveVerificationTypeEncoder = generators_1.generateEncoder(translations);
-exports.ieloveVerificationTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.ieloveVerificationTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.ieloveVerificationTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=ielove_verification_type.js.map

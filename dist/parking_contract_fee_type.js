@@ -21,8 +21,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.parkingContractFeeTypeEncoder = generators_1.generateEncoder(translations);
-exports.parkingContractFeeTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.parkingContractFeeTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.parkingContractFeeTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=parking_contract_fee_type.js.map

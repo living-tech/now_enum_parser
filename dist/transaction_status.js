@@ -27,8 +27,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.transactionStatusEncoder = generators_1.generateEncoder(translations);
-exports.transactionStatusDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.transactionStatusEncoder = (0, generators_1.generateEncoder)(translations);
+exports.transactionStatusDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=transaction_status.js.map

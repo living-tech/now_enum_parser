@@ -27,8 +27,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.classificationEncoder = generators_1.generateEncoder(translations);
-exports.classificationDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.classificationEncoder = (0, generators_1.generateEncoder)(translations);
+exports.classificationDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=classification.js.map

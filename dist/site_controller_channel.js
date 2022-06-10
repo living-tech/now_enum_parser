@@ -23,8 +23,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.siteControllerChannelEncoder = generators_1.generateEncoder(translations);
-exports.siteControllerChannelDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.siteControllerChannelEncoder = (0, generators_1.generateEncoder)(translations);
+exports.siteControllerChannelDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=site_controller_channel.js.map

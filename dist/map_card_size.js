@@ -21,8 +21,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.mapCardSizeEncoder = generators_1.generateEncoder(translations);
-exports.mapCardSizeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.mapCardSizeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.mapCardSizeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=map_card_size.js.map

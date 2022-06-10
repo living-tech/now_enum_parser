@@ -21,8 +21,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.tokuyuchinTypeEncoder = generators_1.generateEncoder(translations);
-exports.tokuyuchinTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.tokuyuchinTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.tokuyuchinTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=tokuyuchin_type.js.map

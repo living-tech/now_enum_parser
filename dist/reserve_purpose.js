@@ -111,8 +111,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.reservePurposeEncoder = generators_1.generateEncoder(translations);
-exports.reservePurposeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.reservePurposeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.reservePurposeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=reserve_purpose.js.map

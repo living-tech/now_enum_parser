@@ -26,8 +26,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.buildingChargeTypeEncoder = generators_1.generateEncoder(translations);
-exports.buildingChargeTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.buildingChargeTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.buildingChargeTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=building_charge_type.js.map

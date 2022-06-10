@@ -20,8 +20,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.bankAccountTypeEncoder = generators_1.generateEncoder(translations);
-exports.bankAccountTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.bankAccountTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.bankAccountTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=bank_account_type.js.map

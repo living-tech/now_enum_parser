@@ -21,8 +21,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var payoutTranslations = generators_1.generateReverseTranslations(translations);
+var payoutTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.payoutStatusEncoder = generators_1.generateEncoder(translations);
-exports.payoutStatusDecoder = generators_1.generateDecoder(payoutTranslations);
+exports.payoutStatusEncoder = (0, generators_1.generateEncoder)(translations);
+exports.payoutStatusDecoder = (0, generators_1.generateDecoder)(payoutTranslations);
 //# sourceMappingURL=payout_status.js.map

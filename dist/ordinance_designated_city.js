@@ -75,8 +75,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.ordinanceDesignatedCityEncoder = generators_1.generateEncoder(translations);
-exports.ordinanceDesignatedCityDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.ordinanceDesignatedCityEncoder = (0, generators_1.generateEncoder)(translations);
+exports.ordinanceDesignatedCityDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=ordinance_designated_city.js.map

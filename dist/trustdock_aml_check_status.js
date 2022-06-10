@@ -21,8 +21,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.trustdockAmlCheckStatusEncoder = generators_1.generateEncoder(translations);
-exports.trustdockAmlCheckStatusDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.trustdockAmlCheckStatusEncoder = (0, generators_1.generateEncoder)(translations);
+exports.trustdockAmlCheckStatusDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=trustdock_aml_check_status.js.map

@@ -30,8 +30,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.homesproKeyDeliveryTypeEncoder = generators_1.generateEncoder(translations);
-exports.homesproKeyDeliveryTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.homesproKeyDeliveryTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.homesproKeyDeliveryTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=homespro_key_delivery_type.js.map

@@ -21,8 +21,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.roomClassificationEncoder = generators_1.generateEncoder(translations);
-exports.roomClassificationDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.roomClassificationEncoder = (0, generators_1.generateEncoder)(translations);
+exports.roomClassificationDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=room_classification.js.map

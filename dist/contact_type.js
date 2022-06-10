@@ -39,8 +39,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.contactTypeEncoder = generators_1.generateEncoder(translations);
-exports.contactTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.contactTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.contactTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=contact_type.js.map

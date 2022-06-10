@@ -33,8 +33,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.roomPlanEncoder = generators_1.generateEncoder(translations);
-exports.roomPlanDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.roomPlanEncoder = (0, generators_1.generateEncoder)(translations);
+exports.roomPlanDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=room_plan.js.map

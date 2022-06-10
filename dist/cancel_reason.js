@@ -30,8 +30,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.cancelReasonEncoder = generators_1.generateEncoder(translations);
-exports.cancelReasonDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.cancelReasonEncoder = (0, generators_1.generateEncoder)(translations);
+exports.cancelReasonDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=cancel_reason.js.map

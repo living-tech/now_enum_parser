@@ -21,8 +21,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.contractPeriodTypeEncoder = generators_1.generateEncoder(translations);
-exports.contractPeriodTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.contractPeriodTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.contractPeriodTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=contract_period_type.js.map

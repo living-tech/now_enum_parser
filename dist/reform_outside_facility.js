@@ -21,8 +21,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.reformOutsideFacilityEncoder = generators_1.generateEncoder(translations);
-exports.reformOutsideFacilityDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.reformOutsideFacilityEncoder = (0, generators_1.generateEncoder)(translations);
+exports.reformOutsideFacilityDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=reform_outside_facility.js.map

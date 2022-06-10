@@ -21,8 +21,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.justBeforeDiscountThresholdDayEncoder = generators_1.generateEncoder(translations);
-exports.justBeforeDiscountThresholdDayDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.justBeforeDiscountThresholdDayEncoder = (0, generators_1.generateEncoder)(translations);
+exports.justBeforeDiscountThresholdDayDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=just_before_discount_threshold_day.js.map

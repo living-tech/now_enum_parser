@@ -41,8 +41,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.floorTypeEncoder = generators_1.generateEncoder(translations);
-exports.floorTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.floorTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.floorTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=floor_type.js.map

@@ -33,8 +33,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.certificateRejectReasonEncoder = generators_1.generateEncoder(translations);
-exports.certificateRejectReasonDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.certificateRejectReasonEncoder = (0, generators_1.generateEncoder)(translations);
+exports.certificateRejectReasonDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=certificate_reject_reason.js.map

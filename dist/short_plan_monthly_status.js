@@ -24,8 +24,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.shortPlanMonthlyStatusEncoder = generators_1.generateEncoder(translations);
-exports.shortPlanMonthlyStatusDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.shortPlanMonthlyStatusEncoder = (0, generators_1.generateEncoder)(translations);
+exports.shortPlanMonthlyStatusDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=short_plan_monthly_status.js.map

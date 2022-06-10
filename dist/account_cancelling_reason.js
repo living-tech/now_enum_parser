@@ -26,8 +26,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.accountCancelReasonEncoder = generators_1.generateEncoder(translations);
-exports.accountCancelReasonDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.accountCancelReasonEncoder = (0, generators_1.generateEncoder)(translations);
+exports.accountCancelReasonDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=account_cancelling_reason.js.map

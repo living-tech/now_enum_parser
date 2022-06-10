@@ -36,8 +36,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.trustdockVerificationTypeEncoder = generators_1.generateEncoder(translations);
-exports.trustdockVerificationTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.trustdockVerificationTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.trustdockVerificationTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=trustdock_verification_type.js.map

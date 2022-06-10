@@ -21,8 +21,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.paymentTypeEncoder = generators_1.generateEncoder(translations);
-exports.paymentTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.paymentTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.paymentTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=payment_type.js.map

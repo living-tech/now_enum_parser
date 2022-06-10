@@ -24,8 +24,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.staffCommentTypeEncoder = generators_1.generateEncoder(translations);
-exports.staffCommentTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.staffCommentTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.staffCommentTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=staff_comment_type.js.map

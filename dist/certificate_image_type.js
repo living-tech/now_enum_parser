@@ -39,8 +39,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.certificateImageTypeEncoder = generators_1.generateEncoder(translations);
-exports.certificateImageTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.certificateImageTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.certificateImageTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=certificate_image_type.js.map

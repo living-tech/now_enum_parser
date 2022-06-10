@@ -60,8 +60,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.employmentStatusEncoder = generators_1.generateEncoder(translations);
-exports.employmentStatusDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.employmentStatusEncoder = (0, generators_1.generateEncoder)(translations);
+exports.employmentStatusDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=employment_status.js.map

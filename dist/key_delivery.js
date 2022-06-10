@@ -27,8 +27,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.keyDeliveryEncoder = generators_1.generateEncoder(translations);
-exports.keyDeliveryDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.keyDeliveryEncoder = (0, generators_1.generateEncoder)(translations);
+exports.keyDeliveryDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=key_delivery.js.map

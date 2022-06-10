@@ -39,8 +39,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.cardBrandEncoder = generators_1.generateEncoder(translations);
-exports.cardBrandDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.cardBrandEncoder = (0, generators_1.generateEncoder)(translations);
+exports.cardBrandDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=card_brand.js.map

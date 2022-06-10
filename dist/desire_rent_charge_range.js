@@ -168,8 +168,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.desireRentChargeRangeEncoder = generators_1.generateEncoder(translations);
-exports.desireRentChargeRangeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.desireRentChargeRangeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.desireRentChargeRangeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=desire_rent_charge_range.js.map

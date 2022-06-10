@@ -21,8 +21,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.listCardColumnLengthEncoder = generators_1.generateEncoder(translations);
-exports.listCardColumnLengthDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.listCardColumnLengthEncoder = (0, generators_1.generateEncoder)(translations);
+exports.listCardColumnLengthDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=list_card_column_length.js.map

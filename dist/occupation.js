@@ -54,8 +54,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.occupationEncoder = generators_1.generateEncoder(translations);
-exports.occupationDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.occupationEncoder = (0, generators_1.generateEncoder)(translations);
+exports.occupationDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=occupation.js.map

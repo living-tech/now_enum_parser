@@ -22,8 +22,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.roomTypesSortTypeEncoder = generators_1.generateEncoder(translations);
-exports.roomTypesSortTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.roomTypesSortTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.roomTypesSortTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=room_types_sort_type.js.map

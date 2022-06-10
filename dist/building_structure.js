@@ -51,8 +51,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.buildingStructureEncoder = generators_1.generateEncoder(translations);
-exports.buildingStructureDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.buildingStructureEncoder = (0, generators_1.generateEncoder)(translations);
+exports.buildingStructureDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=building_structure.js.map

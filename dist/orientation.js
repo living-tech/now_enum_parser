@@ -39,8 +39,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.orientationEncoder = generators_1.generateEncoder(translations);
-exports.orientationDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.orientationEncoder = (0, generators_1.generateEncoder)(translations);
+exports.orientationDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=orientation.js.map

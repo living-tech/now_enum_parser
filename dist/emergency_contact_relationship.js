@@ -135,8 +135,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.emergencyContactRelationshipEncoder = generators_1.generateEncoder(translations);
-exports.emergencyContactRelationshipDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.emergencyContactRelationshipEncoder = (0, generators_1.generateEncoder)(translations);
+exports.emergencyContactRelationshipDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=emergency_contact_relationship.js.map

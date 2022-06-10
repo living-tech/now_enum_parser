@@ -156,8 +156,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.prefectureEncoder = generators_1.generateEncoder(translations);
-exports.prefectureDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.prefectureEncoder = (0, generators_1.generateEncoder)(translations);
+exports.prefectureDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=prefecture.js.map

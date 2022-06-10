@@ -24,8 +24,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.moveInM3Encoder = generators_1.generateEncoder(translations);
-exports.moveInM3Decoder = generators_1.generateDecoder(reverseTranslations);
+exports.moveInM3Encoder = (0, generators_1.generateEncoder)(translations);
+exports.moveInM3Decoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=move_in_m3.js.map

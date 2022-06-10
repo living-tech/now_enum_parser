@@ -33,8 +33,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.transactionFormEncoder = generators_1.generateEncoder(translations);
-exports.transactionFormDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.transactionFormEncoder = (0, generators_1.generateEncoder)(translations);
+exports.transactionFormDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=transaction_form.js.map

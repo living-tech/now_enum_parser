@@ -25,8 +25,8 @@ var translations = {
         _b),
 };
 // DO NOT EDIT
-var reverseTranslations = generators_1.generateReverseTranslations(translations);
+var reverseTranslations = (0, generators_1.generateReverseTranslations)(translations);
 // Edit constants name
-exports.shikibikiMoneyTypeEncoder = generators_1.generateEncoder(translations);
-exports.shikibikiMoneyTypeDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.shikibikiMoneyTypeEncoder = (0, generators_1.generateEncoder)(translations);
+exports.shikibikiMoneyTypeDecoder = (0, generators_1.generateDecoder)(reverseTranslations);
 //# sourceMappingURL=shikibiki_money_type.js.map
