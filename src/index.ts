@@ -435,3 +435,9 @@ export {
   signInProviderEncoder,
   signInProviderDecoder,
 } from './sign_in_provider';
+
+export {
+  RegularHoliday,
+  regularHolidayEncoder,
+  regularHolidayDecoder,
+} from './regular_holiday';
