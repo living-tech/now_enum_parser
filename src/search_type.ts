@@ -6,9 +6,10 @@ import {
 } from './lib/generators';
 
 export enum SearchType {
-  SearchByCity = 'SearchByCity',
-  SearchByRailway = 'SearchByRailway',
-  SearchByTime = 'SearchByTime',
+  SearchByCity = "SearchByCity",
+  SearchByRailway = "SearchByRailway",
+  SearchByTime = "SearchByTime",
+  SearchByDistance = "SearchByDistance",
 }
 
 // Edit contexts
@@ -16,12 +17,14 @@ const translations: Translations = {
   ja: {
     [SearchType.SearchByCity]: '市区町村から探す',
     [SearchType.SearchByRailway]: '沿線・駅から探す',
-    [SearchType.SearchByTime]: '通勤時間・通勤距離から探す',
+    [SearchType.SearchByTime]: '通勤時間から探す',
+    [SearchType.SearchByDistance]: '通勤距離から探す',
   },
   en: {
     [SearchType.SearchByCity]: 'SearchByCity',
     [SearchType.SearchByRailway]: 'SearchByRailway',
     [SearchType.SearchByTime]: 'SearchByTime',
+    [SearchType.SearchByDistance]: 'SearchByDistance',
   },
 };
 
