@@ -8,5 +8,5 @@ export declare enum RegularHoliday {
     Saturday = "Saturday",
     NationalHoliday = "NationalHoliday"
 }
-export declare const businessDayEncoder: (raw: RegularHoliday, lang: import(".").Language) => string;
-export declare const businessDayDecoder: (text: string, lang: import(".").Language) => RegularHoliday;
+export declare const regularHolidayEncoder: (raw: RegularHoliday, lang: import(".").Language) => string;
+export declare const regularHolidayDecoder: (text: string, lang: import(".").Language) => RegularHoliday;

@@ -45,7 +45,9 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const businessDayEncoder = generateEncoder<RegularHoliday>(translations);
-export const businessDayDecoder = generateDecoder<RegularHoliday>(
+export const regularHolidayEncoder = generateEncoder<RegularHoliday>(
+  translations,
+);
+export const regularHolidayDecoder = generateDecoder<RegularHoliday>(
   reverseTranslations,
 );

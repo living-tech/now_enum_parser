@@ -1,7 +1,7 @@
 "use strict";
 var _a, _b;
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.businessDayDecoder = exports.businessDayEncoder = exports.RegularHoliday = void 0;
+exports.regularHolidayDecoder = exports.regularHolidayEncoder = exports.RegularHoliday = void 0;
 var generators_1 = require("./lib/generators");
 // Edit enum name and contents
 var RegularHoliday;
@@ -41,6 +41,6 @@ var translations = {
 // DO NOT EDIT
 var reverseTranslations = generators_1.generateReverseTranslations(translations);
 // Edit constants name
-exports.businessDayEncoder = generators_1.generateEncoder(translations);
-exports.businessDayDecoder = generators_1.generateDecoder(reverseTranslations);
+exports.regularHolidayEncoder = generators_1.generateEncoder(translations);
+exports.regularHolidayDecoder = generators_1.generateDecoder(reverseTranslations);
 //# sourceMappingURL=regular_holiday.js.map
