@@ -25,7 +25,7 @@ var translations = {
         _a[RegularHoliday.Thursday] = '木曜日',
         _a[RegularHoliday.Friday] = '金曜日',
         _a[RegularHoliday.Saturday] = '土曜日',
-        _a[RegularHoliday.Saturday] = '祝日',
+        _a[RegularHoliday.NationalHoliday] = '祝日',
         _a),
     en: (_b = {},
         _b[RegularHoliday.Sunday] = 'sunday',
@@ -35,7 +35,7 @@ var translations = {
         _b[RegularHoliday.Thursday] = 'thursday',
         _b[RegularHoliday.Friday] = 'firday',
         _b[RegularHoliday.Saturday] = 'saturday',
-        _b[RegularHoliday.Saturday] = 'nationalholiday',
+        _b[RegularHoliday.NationalHoliday] = 'nationalholiday',
         _b),
 };
 // DO NOT EDIT

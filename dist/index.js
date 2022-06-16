@@ -371,4 +371,8 @@ var sign_in_provider_1 = require("./sign_in_provider");
 Object.defineProperty(exports, "SignInProvider", { enumerable: true, get: function () { return sign_in_provider_1.SignInProvider; } });
 Object.defineProperty(exports, "signInProviderEncoder", { enumerable: true, get: function () { return sign_in_provider_1.signInProviderEncoder; } });
 Object.defineProperty(exports, "signInProviderDecoder", { enumerable: true, get: function () { return sign_in_provider_1.signInProviderDecoder; } });
+var regular_holiday_1 = require("./regular_holiday");
+Object.defineProperty(exports, "RegularHoliday", { enumerable: true, get: function () { return regular_holiday_1.RegularHoliday; } });
+Object.defineProperty(exports, "regularHolidayEncoder", { enumerable: true, get: function () { return regular_holiday_1.regularHolidayEncoder; } });
+Object.defineProperty(exports, "regularHolidayDecoder", { enumerable: true, get: function () { return regular_holiday_1.regularHolidayDecoder; } });
 //# sourceMappingURL=index.js.map
