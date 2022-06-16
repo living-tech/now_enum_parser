@@ -27,7 +27,7 @@ const translations: Translations = {
     [RegularHoliday.Thursday]: '木曜日',
     [RegularHoliday.Friday]: '金曜日',
     [RegularHoliday.Saturday]: '土曜日',
-    [RegularHoliday.Saturday]: '祝日',
+    [RegularHoliday.NationalHoliday]: '祝日',
   },
   en: {
     [RegularHoliday.Sunday]: 'sunday',
@@ -37,7 +37,7 @@ const translations: Translations = {
     [RegularHoliday.Thursday]: 'thursday',
     [RegularHoliday.Friday]: 'firday',
     [RegularHoliday.Saturday]: 'saturday',
-    [RegularHoliday.Saturday]: 'nationalholiday',
+    [RegularHoliday.NationalHoliday]: 'nationalholiday',
   },
 };
 
