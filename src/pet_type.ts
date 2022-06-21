@@ -35,7 +35,7 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const petTypeEncoder = generateEncoder<Translations>(translations);
-export const petTypeDecoder = generateDecoder<Translations>(
+export const petTypeEncoder = generateEncoder<PetType>(translations);
+export const petTypeDecoder = generateDecoder<PetType>(
   reverseTranslations,
 );

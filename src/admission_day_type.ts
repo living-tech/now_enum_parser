@@ -32,7 +32,7 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const admissionDayTypeEncoder = generateEncoder<Translations>(translations);
-export const admissionDayTypeDecoder = generateDecoder<Translations>(
+export const admissionDayTypeEncoder = generateEncoder<AdmissionDayType>(translations);
+export const admissionDayTypeDecoder = generateDecoder<AdmissionDayType>(
   reverseTranslations,
 );
