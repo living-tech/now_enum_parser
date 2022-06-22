@@ -6,7 +6,6 @@ var generators_1 = require("./lib/generators");
 var CommuteType;
 (function (CommuteType) {
     CommuteType["Railway"] = "Railway";
-    CommuteType["Bus"] = "Bus";
     CommuteType["Walk"] = "Walk";
     CommuteType["Car"] = "Car";
     CommuteType["Bicycle"] = "Bicycle";
@@ -15,14 +14,12 @@ var CommuteType;
 var translations = {
     ja: (_a = {},
         _a[CommuteType.Railway] = '電車',
-        _a[CommuteType.Bus] = 'バス',
         _a[CommuteType.Walk] = '徒歩',
         _a[CommuteType.Car] = '車',
         _a[CommuteType.Bicycle] = '自転車',
         _a),
     en: (_b = {},
         _b[CommuteType.Railway] = 'Railway',
-        _b[CommuteType.Bus] = 'Bus',
         _b[CommuteType.Walk] = 'Walk',
         _b[CommuteType.Car] = 'Car',
         _b[CommuteType.Bicycle] = 'Bicycle',

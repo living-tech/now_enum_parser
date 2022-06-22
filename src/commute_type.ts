@@ -7,7 +7,6 @@ import {
 
 export enum CommuteType {
   Railway = 'Railway',
-  Bus = 'Bus',
   Walk = 'Walk',
   Car = 'Car',
   Bicycle = 'Bicycle',
@@ -17,14 +16,12 @@ export enum CommuteType {
 const translations: Translations = {
   ja: {
     [CommuteType.Railway]: '電車',
-    [CommuteType.Bus]: 'バス',
     [CommuteType.Walk]: '徒歩',
     [CommuteType.Car]: '車',
     [CommuteType.Bicycle]: '自転車',
   },
   en: {
     [CommuteType.Railway]: 'Railway',
-    [CommuteType.Bus]: 'Bus',
     [CommuteType.Walk]: 'Walk',
     [CommuteType.Car]: 'Car',
     [CommuteType.Bicycle]: 'Bicycle',
