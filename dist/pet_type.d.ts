@@ -1,4 +1,3 @@
-import { Translations } from './lib/interfaces';
 export declare enum PetType {
     SmallDog = "SmallDog",
     MiddleDog = "MiddleDog",
@@ -6,5 +5,5 @@ export declare enum PetType {
     Cat = "Cat",
     Other = "Other"
 }
-export declare const petTypeEncoder: (raw: Translations, lang: import(".").Language) => string;
-export declare const petTypeDecoder: (text: string, lang: import(".").Language) => Translations;
+export declare const petTypeEncoder: (raw: PetType, lang: import(".").Language) => string;
+export declare const petTypeDecoder: (text: string, lang: import(".").Language) => PetType;

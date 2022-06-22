@@ -29,7 +29,7 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const japaneseLevelEncoder = generateEncoder<Translations>(translations);
-export const japaneseLevelDecoder = generateDecoder<Translations>(
+export const japaneseLevelEncoder = generateEncoder<JapaneseLevel>(translations);
+export const japaneseLevelDecoder = generateDecoder<JapaneseLevel>(
   reverseTranslations,
 );

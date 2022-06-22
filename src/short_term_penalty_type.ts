@@ -29,7 +29,7 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const shortTermPenaltyTypeEncoder = generateEncoder<Translations>(translations);
-export const shortTermPenaltyTypeDecoder = generateDecoder<Translations>(
+export const shortTermPenaltyTypeEncoder = generateEncoder<ShortTermPenaltyType>(translations);
+export const shortTermPenaltyTypeDecoder = generateDecoder<ShortTermPenaltyType>(
   reverseTranslations,
 );

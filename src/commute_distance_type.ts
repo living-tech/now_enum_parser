@@ -26,7 +26,7 @@ const translations: Translations = {
 const reverseTranslations = generateReverseTranslations(translations);
 
 // Edit constants name
-export const commuteDistanceTypeEncoder = generateEncoder<Translations>(translations);
-export const commuteDistanceTypeDecoder = generateDecoder<Translations>(
+export const commuteDistanceTypeEncoder = generateEncoder<CommuteDistanceType>(translations);
+export const commuteDistanceTypeDecoder = generateDecoder<CommuteDistanceType>(
   reverseTranslations,
 );
