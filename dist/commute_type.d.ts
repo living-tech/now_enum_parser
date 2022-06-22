@@ -1,6 +1,5 @@
 export declare enum CommuteType {
     Railway = "Railway",
-    Bus = "Bus",
     Walk = "Walk",
     Car = "Car",
     Bicycle = "Bicycle"
