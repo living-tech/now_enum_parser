@@ -442,11 +442,7 @@ export {
   admissionDayTypeDecoder,
 } from './admission_day_type';
 
-export {
-  PetType,
-  petTypeEncoder,
-  petTypeDecoder,
-} from './pet_type';
+export { PetType, petTypeEncoder, petTypeDecoder } from './pet_type';
 
 export {
   JapaneseLevel,
@@ -477,3 +473,9 @@ export {
   commuteDistanceTypeEncoder,
   commuteDistanceTypeDecoder,
 } from './commute_distance_type';
+
+export {
+  RegularHoliday,
+  regularHolidayEncoder,
+  regularHolidayDecoder,
+} from './regular_holiday';

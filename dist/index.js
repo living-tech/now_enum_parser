@@ -399,4 +399,8 @@ var commute_distance_type_1 = require("./commute_distance_type");
 Object.defineProperty(exports, "CommuteDistanceType", { enumerable: true, get: function () { return commute_distance_type_1.CommuteDistanceType; } });
 Object.defineProperty(exports, "commuteDistanceTypeEncoder", { enumerable: true, get: function () { return commute_distance_type_1.commuteDistanceTypeEncoder; } });
 Object.defineProperty(exports, "commuteDistanceTypeDecoder", { enumerable: true, get: function () { return commute_distance_type_1.commuteDistanceTypeDecoder; } });
+var regular_holiday_1 = require("./regular_holiday");
+Object.defineProperty(exports, "RegularHoliday", { enumerable: true, get: function () { return regular_holiday_1.RegularHoliday; } });
+Object.defineProperty(exports, "regularHolidayEncoder", { enumerable: true, get: function () { return regular_holiday_1.regularHolidayEncoder; } });
+Object.defineProperty(exports, "regularHolidayDecoder", { enumerable: true, get: function () { return regular_holiday_1.regularHolidayDecoder; } });
 //# sourceMappingURL=index.js.map
