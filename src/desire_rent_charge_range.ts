@@ -165,106 +165,106 @@ const translations: Translations = {
     [DesireRentChargeRange.OneMillionOrMore]: '100万円以上',
   },
   en: {
-    [DesireRentChargeRange.ThirtyThousandOrLess]: 'thirty thousand or less yen',
+    [DesireRentChargeRange.ThirtyThousandOrLess]: '30,000 or less yen',
     [DesireRentChargeRange.ThirtyThousandToThirtyFiveThousand]:
-      'thirty thousand to thirty five thousand yen',
+      '30,000 to 35,000 yen',
     [DesireRentChargeRange.ThirtyFiveThousandToFourtyThousand]:
-      'thirty five thousand to fourty thousand yen',
+      '35,000 to 40,000 yen',
     [DesireRentChargeRange.FourtyThousandToFourtyFiveThousand]:
-      'fourty thousand to fourty five thousand yen',
+      '40,000 to 45,000 yen',
     [DesireRentChargeRange.FourtyFiveThousandToFiftyThousand]:
-      'fourty five thousand to fifty thousand yen',
+      '45,000 to 50,000 yen',
     [DesireRentChargeRange.FiftyThousandToFiftyFiveThousand]:
-      'fifty thousand to fifty five thousand yen',
+      '50,000 to 55,000 yen',
     [DesireRentChargeRange.FiftyFiveThousandToSixtyThousand]:
-      'fifty five thousand to sixty thousand yen',
+      '55,000 to 60,000 yen',
     [DesireRentChargeRange.SixtyThousandToSixtyFiveThousand]:
-      'sixty thousand to sixty five thousand yen',
+      '60,000 to 65,000 yen',
     [DesireRentChargeRange.SixtyFiveThousandToSeventyThousand]:
-      'sixty five thousand to seventy thousand yen',
+      '65,000 to 70,000 yen',
     [DesireRentChargeRange.SeventyThousandToSeventyFiveThousand]:
-      'seventy thousand to seventy five thousand yen',
+      '70,000 to 75,000 yen',
     [DesireRentChargeRange.SeventyFiveThousandToEightyThousand]:
-      'seventy five thousand to eighty thousand yen',
+      '75,000 to 80,000 yen',
     [DesireRentChargeRange.EightyThousandToEightyFiveThousand]:
-      'eighty thousand to eighty five thousand yen',
+      '80,000 to 85,000 yen',
     [DesireRentChargeRange.EightyFiveThousandToNinetyThousand]:
-      'eighty five thousand to ninety thousand yen',
+      '85,000 to 90,000 yen',
     [DesireRentChargeRange.NinetyThousandToNinetyFiveThousand]:
-      'ninety thousand to ninety five thousand yen',
+      '90,000 to 95,000 yen',
     [DesireRentChargeRange.NinetyFiveThousandToOneHundredThousand]:
-      'ninety five thousand to one hundred thousand yen',
+      '95,000 to 100,000 yen',
     [DesireRentChargeRange.OneHundredThousandToOneHundredFiveThousand]:
-      'one hundred thousand to one hundred five thousand yen',
+      '100,000 to 105,000 yen',
     [DesireRentChargeRange.OneHundredFiveThousandToOneHundredTenThousand]:
-      'one hundred five thousand to one hundred ten thousand yen',
+      '105,000 to 110,000 yen',
     [DesireRentChargeRange.OneHundredTenThousandToOneHundredTenFiveThousand]:
-      'one hundred ten thousand to one hundred ten five thousand yen',
+      '110,000 to 115,000 yen',
     [DesireRentChargeRange.OneHundredTenFiveThousandToOneHundredTwentyThousand]:
-      'one hundred ten five thousand to one hundred twenty thousand yen',
+      '115,000 to 120,000 yen',
     [DesireRentChargeRange.OneHundredTwentyThousandToOneHundredTwentyFiveThousand]:
-      'one hundred twenty thousand to one hundred twenty five thousand yen',
+      '120,000 to 125,000 yen',
     [DesireRentChargeRange.OneHundredTwentyFiveThousandToOneHundredThirtyThousand]:
-      'one hundred twenty five thousand to one hundred thirty thousand yen',
+      '125,000 to 130,000 yen',
     [DesireRentChargeRange.OneHundredThirtyThousandToOneHundredThirtyFiveThousand]:
-      'one hundred thirty thousand to one hundred thirty five thousand yen',
+      '130,000 to 135,000 yen',
     [DesireRentChargeRange.OneHundredThirtyFiveThousandToOneHundredFourtyThousand]:
-      'one hundred thirty five thousand to one hundred fourty thousand yen',
+      '135,000 to 140,000 yen',
     [DesireRentChargeRange.OneHundredFourtyThousandToOneHundredFourtyFiveThousand]:
-      'one hundred fourty thousand to one hundred fourty five thousand yen',
+      '140,000 to 145,000 yen',
     [DesireRentChargeRange.OneHundredFourtyFiveThousandToOneHundredFiftyThousand]:
-      'one hundred fourty five thousand to one hundred fifty thousand yen',
+      '145,000 to 150,000 yen',
     [DesireRentChargeRange.OneHundredFiftyThousandToOneHundredFiftyFiveThousand]:
-      'one hundred fifty thousand to one hundred fifty five thousand yen',
+      '150,000 to 155,000 yen',
     [DesireRentChargeRange.OneHundredFiftyFiveThousandToOneHundredSixtyThousand]:
-      'one hundred fifty five thousand to one hundred sixty thousand yen',
+      '155,000 to 160,000 yen',
     [DesireRentChargeRange.OneHundredSixtyThousandToOneHundredSixtyFiveThousand]:
-      'one hundred sixty thousand to one hundred sixty five thousand yen',
+      '160,000 to 165,000 yen',
     [DesireRentChargeRange.OneHundredSixtyFiveThousandToOneHundredSeventyThousand]:
-      'one hundred sixty five thousand to one hundred seventy thousand yen',
+      '165,000 to 170,000 yen',
     [DesireRentChargeRange.OneHundredSeventyThousandToOneHundredSeventyFiveThousand]:
-      'one hundred seventy thousand to one hundred seventy five thousand yen',
+      '170,000 to 175,000 yen',
     [DesireRentChargeRange.OneHundredSeventyFiveThousandToOneHundredEightyThousand]:
-      'one hundred seventy five thousand to one hundred eighty thousand yen',
+      '175,000 to 180,000 yen',
     [DesireRentChargeRange.OneHundredEightyThousandToOneHundredEightyFiveThousand]:
-      'one hundred eighty thousand to one hundred eighty five thousand yen',
+      '180,000 to 185,000 yen',
     [DesireRentChargeRange.OneHundredEightyFiveThousandToOneHundredNinetyThousand]:
-      'one hundred eighty five thousand to one hundred ninety thousand yen',
+      '185,000 to 190,000 yen',
     [DesireRentChargeRange.OneHundredNinetyThousandToOneHundredNinetyFiveThousand]:
-      'one hundred ninety thousand to one hundred ninety five thousand yen',
+      '190,000 to 195,000 yen',
     [DesireRentChargeRange.OneHundredNinetyFiveThousandToTwentyHundredThousand]:
-      'one hundred ninety five thousand to twenty hundred thousand yen',
+      '195,000 to 200,000 yen',
     [DesireRentChargeRange.TwentyHundredThousandToTwentyHundredTenThousand]:
-      'twenty hundred thousand to twenty hundred ten thousand yen',
+      '200,000 to 210,000 yen',
     [DesireRentChargeRange.TwentyHundredTenThousandToTwentyHundredTwentyThousand]:
-      'twenty hundred ten thousand to twenty hundred twenty thousand yen',
+      '210,000 to 220,000 yen',
     [DesireRentChargeRange.TwentyHundredTwentyThousandToTwentyHundredThirtyThousand]:
-      'twenty hundred twenty thousand to twenty hundred thirty thousand yen',
+      '220,000 to 230,000 yen',
     [DesireRentChargeRange.TwentyHundredThirtyThousandToTwentyHundredFourtyThousand]:
-      'twenty hundred thirty thousand to twenty hundred fourty thousand yen',
+      '230,000 to 240,000 yen',
     [DesireRentChargeRange.TwentyHundredFourtyThousandToTwentyHundredFiftyThousand]:
-      'twenty hundred fourty thousand to twenty hundred fifty thousand yen',
+      '240,000 to 250,000 yen',
     [DesireRentChargeRange.TwentyHundredFiftyThousandToTwentyHundredSixtyThousand]:
-      'twenty hundred fifty thousand to twenty hundred sixty thousand yen',
+      '250,000 to 260,000 yen',
     [DesireRentChargeRange.TwentyHundredSixtyThousandToTwentyHundredSeventyThousand]:
-      'twenty hundred sixty thousand to twenty hundred seventy thousand yen',
+      '260,000 to 270,000 yen',
     [DesireRentChargeRange.TwentyHundredSeventyThousandToTwentyHundredEightyThousand]:
-      'twenty hundred seventy thousand to twenty hundred eighty thousand yen',
+      '270,000 to 280,000 yen',
     [DesireRentChargeRange.TwentyHundredEightyThousandToTwentyHundredNinetyThousand]:
-      'twenty hundred eighty thousand to twenty hundred ninety thousand yen',
+      '280,000 to 290,000 yen',
     [DesireRentChargeRange.TwentyHundredNinetyThousandToThirtyHundredThousand]:
-      'twenty hundred ninety thousand to thirty hundred thousand yen',
+      '290,000 to 300,000 yen',
     [DesireRentChargeRange.ThirtyHundredThousandToThirtyHundredFiftyThousand]:
-      'thirty hundred thousand to thirty hundred fifty thousand yen',
+      '300,000 to 350,000 yen',
     [DesireRentChargeRange.ThirtyHundredFiftyThousandToFourtyHundredThousand]:
-      'thirty hundred fifty thousand to fourty hundred thousand yen',
+      '350,000 to 400,000 yen',
     [DesireRentChargeRange.FourtyHundredThousandToFourtyHundredFiftyThousand]:
-      'fourty hundred thousand to fourty hundred fifty thousand yen',
+      '400,000 to 450,000 yen',
     [DesireRentChargeRange.FourtyHundredFiftyThousandToFiftyHundredThousand]:
-      'fourty hundred fifty thousand to fifty hundred thousand yen',
+      '450,000 to 500,000 yen',
     [DesireRentChargeRange.FiftyHundredThousandToOneMillion]:
-      'fifty hundred thousand to one million yen',
-    [DesireRentChargeRange.OneMillionOrMore]: 'one million or more yen',
+      '500,000 to 1,000,000 yen',
+    [DesireRentChargeRange.OneMillionOrMore]: '1,000,000 or more yen',
   },
 };
 
