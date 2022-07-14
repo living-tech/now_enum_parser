@@ -16,23 +16,25 @@ export enum EquipmentType {
   ParkingLotIncluded = 'ParkingLotIncluded',
   DeliveryBox = 'DeliveryBox',
   Pet = 'Pet',
+  PetConsultation = 'PetConsultation',
 }
 
 // Edit contexts
 const translations: Translations = {
   ja: {
-    [EquipmentType.Internet]: 'インターネット',
+    [EquipmentType.Internet]: 'ネット無料',
     [EquipmentType.AutoLock]: 'オートロック',
-    [EquipmentType.AirConditioner]: 'エアコン',
+    [EquipmentType.AirConditioner]: '冷暖房',
     [EquipmentType.Closet]: 'クローゼット',
     [EquipmentType.SeparateBathroomAndToilet]: 'バス・トイレ別',
     [EquipmentType.IndependentWashBasin]: '洗面所独立',
     [EquipmentType.ParkingLotIncluded]: '駐車場',
     [EquipmentType.DeliveryBox]: '宅配ボックス',
-    [EquipmentType.Pet]: 'ペット',
+    [EquipmentType.Pet]: 'ペット可能',
+    [EquipmentType.PetConsultation]: 'ペット相談',
   },
   en: {
-    [EquipmentType.Internet]: 'Internet',
+    [EquipmentType.Internet]: 'FreeInternet',
     [EquipmentType.AutoLock]: 'AutoLock',
     [EquipmentType.AirConditioner]: 'AirConditioner',
     [EquipmentType.Closet]: 'Closet',
@@ -40,7 +42,8 @@ const translations: Translations = {
     [EquipmentType.IndependentWashBasin]: 'IndependentWashBasin',
     [EquipmentType.ParkingLotIncluded]: 'ParkingLotIncluded',
     [EquipmentType.DeliveryBox]: 'DeliveryBox',
-    [EquipmentType.Pet]: 'Pet',
+    [EquipmentType.Pet]: 'PetOK',
+    [EquipmentType.PetConsultation]: 'PetConsultation',
   },
 };
 
