@@ -8,7 +8,8 @@ export declare enum EquipmentType {
     IndependentWashBasin = "IndependentWashBasin",
     ParkingLotIncluded = "ParkingLotIncluded",
     DeliveryBox = "DeliveryBox",
-    Pet = "Pet"
+    Pet = "Pet",
+    PetConsultation = "PetConsultation"
 }
 export declare const equipmentTypeEncoder: (raw: Translations, lang: import(".").Language) => string;
 export declare const equipmentTypeDecoder: (text: string, lang: import(".").Language) => Translations;
