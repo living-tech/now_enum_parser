@@ -7,19 +7,16 @@ var SiteControllerChannel;
 (function (SiteControllerChannel) {
     SiteControllerChannel["None"] = "None";
     SiteControllerChannel["Temairazu"] = "Temairazu";
-    SiteControllerChannel["Tllincoln"] = "Tllincoln";
 })(SiteControllerChannel = exports.SiteControllerChannel || (exports.SiteControllerChannel = {}));
 // Edit contexts
 var translations = {
     ja: (_a = {},
         _a[SiteControllerChannel.None] = '利用しない',
         _a[SiteControllerChannel.Temairazu] = '手間いらず',
-        _a[SiteControllerChannel.Tllincoln] = 'TLリンカーン',
         _a),
     en: (_b = {},
         _b[SiteControllerChannel.None] = 'None',
         _b[SiteControllerChannel.Temairazu] = 'Temairazu',
-        _b[SiteControllerChannel.Tllincoln] = 'TL-Lincoln',
         _b),
 };
 // DO NOT EDIT
