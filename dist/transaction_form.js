@@ -16,7 +16,8 @@ var TransactionForm;
 // Edit contexts
 var translations = {
     ja: (_a = {},
-        _a[TransactionForm.SellerLender] = '売主/貸主',
+        // 大東の部屋詳細表示修正
+        _a[TransactionForm.SellerLender] = '貸主',
         _a[TransactionForm.Deputy] = '代理',
         _a[TransactionForm.DedicatedExclusiveMedia] = '専属専任媒介',
         _a[TransactionForm.DedicatedMedia] = '専任媒介',

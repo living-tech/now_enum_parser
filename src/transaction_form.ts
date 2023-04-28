@@ -18,7 +18,8 @@ export enum TransactionForm { // 【改REINS】1:売主/貸主 2:代理 3:専属
 // Edit contexts
 const translations: Translations = {
   ja: {
-    [TransactionForm.SellerLender]: '売主/貸主',
+    // 大東の部屋詳細表示修正
+    [TransactionForm.SellerLender]: '貸主',
     [TransactionForm.Deputy]: '代理',
     [TransactionForm.DedicatedExclusiveMedia]: '専属専任媒介',
     [TransactionForm.DedicatedMedia]: '専任媒介',
